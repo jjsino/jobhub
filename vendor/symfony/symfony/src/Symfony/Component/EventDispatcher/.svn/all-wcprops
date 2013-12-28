@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher
+END
+ContainerAwareEventDispatcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/ContainerAwareEventDispatcher.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/LICENSE
+END
+GenericEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/GenericEvent.php
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/CHANGELOG.md
+END
+Event.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Event.php
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/phpunit.xml.dist
+END
+EventSubscriberInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/EventSubscriberInterface.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/README.md
+END
+EventDispatcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/EventDispatcher.php
+END
+ImmutableEventDispatcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/ImmutableEventDispatcher.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/composer.json
+END
+EventDispatcherInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/EventDispatcherInterface.php
+END

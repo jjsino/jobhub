@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Tests/Http/RememberMe
+END
+AbstractRememberMeServicesTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Tests/Http/RememberMe/AbstractRememberMeServicesTest.php
+END
+TokenBasedRememberMeServicesTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Tests/Http/RememberMe/TokenBasedRememberMeServicesTest.php
+END
+ResponseListenerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Tests/Http/RememberMe/ResponseListenerTest.php
+END
+PersistentTokenBasedRememberMeServicesTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Tests/Http/RememberMe/PersistentTokenBasedRememberMeServicesTest.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views/Configurator
+END
+check.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views/Configurator/check.html.twig
+END
+layout.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views/Configurator/layout.html.twig
+END
+steps.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views/Configurator/steps.html.twig
+END
+form.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views/Configurator/form.html.twig
+END
+final.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/views/Configurator/final.html.twig
+END

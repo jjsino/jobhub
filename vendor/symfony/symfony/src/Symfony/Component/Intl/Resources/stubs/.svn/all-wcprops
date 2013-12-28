@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/stubs
+END
+NumberFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/stubs/NumberFormatter.php
+END
+Locale.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/stubs/Locale.php
+END
+Collator.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/stubs/Collator.php
+END
+functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/stubs/functions.php
+END
+IntlDateFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Intl/Resources/stubs/IntlDateFormatter.php
+END

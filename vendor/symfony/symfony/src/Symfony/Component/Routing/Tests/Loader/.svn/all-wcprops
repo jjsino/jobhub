@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Loader
+END
+PhpFileLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Loader/PhpFileLoaderTest.php
+END
+AnnotationFileLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Loader/AnnotationFileLoaderTest.php
+END
+ClosureLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Loader/ClosureLoaderTest.php
+END
+AbstractAnnotationLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Loader/AbstractAnnotationLoaderTest.php
+END
+AnnotationDirectoryLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Loader/AnnotationDirectoryLoaderTest.php
+END
+AnnotationClassLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Loader/AnnotationClassLoaderTest.php
+END
+XmlFileLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Loader/XmlFileLoaderTest.php
+END
+YamlFileLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Loader/YamlFileLoaderTest.php
+END

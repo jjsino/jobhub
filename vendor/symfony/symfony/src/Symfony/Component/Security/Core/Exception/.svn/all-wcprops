@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception
+END
+AuthenticationServiceException.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/AuthenticationServiceException.php
+END
+AccountStatusException.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/AccountStatusException.php
+END
+LockedException.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/LockedException.php
+END
+BadCredentialsException.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/BadCredentialsException.php
+END
+CookieTheftException.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/CookieTheftException.php
+END
+InvalidCsrfTokenException.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/InvalidCsrfTokenException.php
+END
+ProviderNotFoundException.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/ProviderNotFoundException.php
+END
+DisabledException.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/DisabledException.php
+END
+LogoutException.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/LogoutException.php
+END
+AuthenticationCredentialsNotFoundException.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/AuthenticationCredentialsNotFoundException.php
+END
+AccessDeniedException.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/AccessDeniedException.php
+END
+AccountExpiredException.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/AccountExpiredException.php
+END
+CredentialsExpiredException.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/CredentialsExpiredException.php
+END
+AuthenticationException.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/AuthenticationException.php
+END
+NonceExpiredException.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/NonceExpiredException.php
+END
+InsufficientAuthenticationException.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/InsufficientAuthenticationException.php
+END
+UnsupportedUserException.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/UnsupportedUserException.php
+END
+SessionUnavailableException.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/SessionUnavailableException.php
+END
+UsernameNotFoundException.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/UsernameNotFoundException.php
+END
+TokenNotFoundException.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Exception/TokenNotFoundException.php
+END

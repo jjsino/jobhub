@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Export
+END
+ClassMetadataExporter.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Export/ClassMetadataExporter.php
+END
+ExportException.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Export/ExportException.php
+END

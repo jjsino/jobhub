@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms
+END
+OraclePlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/OraclePlatform.php
+END
+MySqlPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/MySqlPlatform.php
+END
+SQLAzurePlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLAzurePlatform.php
+END
+SQLServerPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServerPlatform.php
+END
+DB2Platform.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/DB2Platform.php
+END
+SQLServer2005Platform.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServer2005Platform.php
+END
+SQLServer2008Platform.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SQLServer2008Platform.php
+END
+SqlitePlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/SqlitePlatform.php
+END
+DrizzlePlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/DrizzlePlatform.php
+END
+AbstractPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/AbstractPlatform.php
+END
+PostgreSqlPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/PostgreSqlPlatform.php
+END

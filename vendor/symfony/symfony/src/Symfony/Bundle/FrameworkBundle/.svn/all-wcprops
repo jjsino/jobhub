@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/composer.json
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Client.php
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/CHANGELOG.md
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/phpunit.xml.dist
+END
+FrameworkBundle.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/FrameworkBundle.php
+END

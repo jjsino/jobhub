@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Role
+END
+RoleHierarchy.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Role/RoleHierarchy.php
+END
+Role.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Role/Role.php
+END
+RoleHierarchyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Role/RoleHierarchyInterface.php
+END
+SwitchUserRole.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Role/SwitchUserRole.php
+END
+RoleInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Role/RoleInterface.php
+END

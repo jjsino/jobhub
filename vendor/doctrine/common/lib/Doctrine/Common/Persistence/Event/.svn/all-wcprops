@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Event
+END
+LifecycleEventArgs.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Event/LifecycleEventArgs.php
+END
+OnClearEventArgs.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Event/OnClearEventArgs.php
+END
+LoadClassMetadataEventArgs.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Event/LoadClassMetadataEventArgs.php
+END
+PreUpdateEventArgs.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Event/PreUpdateEventArgs.php
+END
+ManagerEventArgs.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Event/ManagerEventArgs.php
+END

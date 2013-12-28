@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures
+END
+NamespaceAndClassCommentedOut.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/NamespaceAndClassCommentedOut.php
+END
+DifferentNamespacesPerFileWithClassAsFirst.php
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/DifferentNamespacesPerFileWithClassAsFirst.php
+END
+InvalidAnnotationUsageClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/InvalidAnnotationUsageClass.php
+END
+ClassDDC1660.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassDDC1660.php
+END
+ClassWithClosure.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithClosure.php
+END
+TestInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/TestInterface.php
+END
+NonNamespacedClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/NonNamespacedClass.php
+END
+MultipleImportsInUseStatement.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/MultipleImportsInUseStatement.php
+END
+AnnotationWithConstants.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithConstants.php
+END
+NoAnnotation.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/NoAnnotation.php
+END
+IntefaceWithConstants.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/IntefaceWithConstants.php
+END
+Api.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/Api.php
+END
+AnnotationEnumLiteral.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationEnumLiteral.php
+END
+AnnotationWithRequiredAttributes.php
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithRequiredAttributes.php
+END
+AnnotationWithVarType.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithVarType.php
+END
+ClassWithValidAnnotationTarget.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithValidAnnotationTarget.php
+END
+Controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/Controller.php
+END
+ClassWithInvalidAnnotationTargetAtClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithInvalidAnnotationTargetAtClass.php
+END
+NamespacedSingleClassLOC1000.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/NamespacedSingleClassLOC1000.php
+END
+AnnotationTargetPropertyMethod.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationTargetPropertyMethod.php
+END
+NamespaceWithClosureDeclaration.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/NamespaceWithClosureDeclaration.php
+END
+EqualNamespacesPerFileWithClassAsFirst.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/EqualNamespacesPerFileWithClassAsFirst.php
+END
+ClassWithConstants.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithConstants.php
+END
+ClassWithRequire.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithRequire.php
+END
+AnnotationWithTargetSyntaxError.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithTargetSyntaxError.php
+END
+AnnotationEnum.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationEnum.php
+END
+ClassWithInvalidAnnotationTargetAtMethod.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithInvalidAnnotationTargetAtMethod.php
+END
+MultipleClassesInFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/MultipleClassesInFile.php
+END
+GlobalNamespacesPerFileWithClassAsLast.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/GlobalNamespacesPerFileWithClassAsLast.php
+END
+ClassWithAnnotationWithVarType.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithAnnotationWithVarType.php
+END
+ClassWithInvalidAnnotationTargetAtProperty.php
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithInvalidAnnotationTargetAtProperty.php
+END
+AnnotationEnumInvalid.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationEnumInvalid.php
+END
+SingleClassLOC1000.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/SingleClassLOC1000.php
+END
+AnnotationTargetClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationTargetClass.php
+END
+DifferentNamespacesPerFileWithClassAsLast.php
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/DifferentNamespacesPerFileWithClassAsLast.php
+END
+EqualNamespacesPerFileWithClassAsLast.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/EqualNamespacesPerFileWithClassAsLast.php
+END
+AnnotationTargetAll.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationTargetAll.php
+END
+AnnotationTargetAnnotation.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationTargetAnnotation.php
+END
+AnnotationWithAttributes.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithAttributes.php
+END
+InvalidAnnotationUsageButIgnoredClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/InvalidAnnotationUsageButIgnoredClass.php
+END
+ClassWithAnnotationWithTargetSyntaxError.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithAnnotationWithTargetSyntaxError.php
+END
+ClassWithAnnotationEnum.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithAnnotationEnum.php
+END
+AnnotationTargetMethod.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationTargetMethod.php
+END
+AnnotationEnumLiteralInvalid.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationEnumLiteralInvalid.php
+END
+AnnotationWithRequiredAttributesWithoutContructor.php
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithRequiredAttributesWithoutContructor.php
+END
+GlobalNamespacesPerFileWithClassAsFirst.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/GlobalNamespacesPerFileWithClassAsFirst.php
+END
+ClassWithFullyQualifiedUseStatements.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithFullyQualifiedUseStatements.php
+END

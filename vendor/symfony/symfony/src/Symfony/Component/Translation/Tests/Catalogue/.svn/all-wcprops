@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/Catalogue
+END
+DiffOperationTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/Catalogue/DiffOperationTest.php
+END
+MergeOperationTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/Catalogue/MergeOperationTest.php
+END
+AbstractOperationTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Translation/Tests/Catalogue/AbstractOperationTest.php
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit
+END
+CookieJar.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/CookieJar.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/README.md
+END
+Request.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/Request.php
+END
+Cookie.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/Cookie.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/LICENSE
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/Client.php
+END
+Response.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/Response.php
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/CHANGELOG.md
+END
+History.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/History.php
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/BrowserKit/phpunit.xml.dist
+END

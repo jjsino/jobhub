@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/RememberMe
+END
+TokenBasedRememberMeServices.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/RememberMe/TokenBasedRememberMeServices.php
+END
+ResponseListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/RememberMe/ResponseListener.php
+END
+PersistentTokenBasedRememberMeServices.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/RememberMe/PersistentTokenBasedRememberMeServices.php
+END
+RememberMeServicesInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/RememberMe/RememberMeServicesInterface.php
+END
+AbstractRememberMeServices.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/RememberMe/AbstractRememberMeServices.php
+END

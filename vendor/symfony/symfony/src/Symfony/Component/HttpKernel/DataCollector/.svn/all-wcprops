@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector
+END
+ConfigDataCollector.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/ConfigDataCollector.php
+END
+RequestDataCollector.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/RequestDataCollector.php
+END
+MemoryDataCollector.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/MemoryDataCollector.php
+END
+ExceptionDataCollector.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/ExceptionDataCollector.php
+END
+TimeDataCollector.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/TimeDataCollector.php
+END
+LoggerDataCollector.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/LoggerDataCollector.php
+END
+DataCollector.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/DataCollector.php
+END
+DataCollectorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/DataCollectorInterface.php
+END
+RouterDataCollector.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/RouterDataCollector.php
+END
+EventDataCollector.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/EventDataCollector.php
+END

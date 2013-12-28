@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Tests/Core/Role
+END
+RoleHierarchyTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Tests/Core/Role/RoleHierarchyTest.php
+END
+RoleTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Tests/Core/Role/RoleTest.php
+END
+SwitchUserRoleTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Tests/Core/Role/SwitchUserRoleTest.php
+END

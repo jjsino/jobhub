@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating
+END
+DebuggerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/DebuggerInterface.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/README.md
+END
+EngineInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/EngineInterface.php
+END
+DelegatingEngine.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/DelegatingEngine.php
+END
+TemplateNameParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/TemplateNameParser.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/composer.json
+END
+TemplateReference.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/TemplateReference.php
+END
+TemplateNameParserInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/TemplateNameParserInterface.php
+END
+TemplateReferenceInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/TemplateReferenceInterface.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/LICENSE
+END
+PhpEngine.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/PhpEngine.php
+END
+StreamingEngineInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/StreamingEngineInterface.php
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/CHANGELOG.md
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Templating/phpunit.xml.dist
+END

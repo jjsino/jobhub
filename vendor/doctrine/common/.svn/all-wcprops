@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/.travis.yml
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/phpunit.xml.dist
+END
+UPGRADE_TO_2_1
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/UPGRADE_TO_2_1
+END
+UPGRADE_TO_2_2
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/UPGRADE_TO_2_2
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/README.md
+END
+composer.lock
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/composer.lock
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/LICENSE
+END

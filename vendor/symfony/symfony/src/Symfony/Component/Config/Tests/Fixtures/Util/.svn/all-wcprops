@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Util
+END
+invalid_schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Util/invalid_schema.xml
+END
+invalid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Util/invalid.xml
+END
+schema.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Util/schema.xsd
+END
+document_type.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Util/document_type.xml
+END
+valid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Util/valid.xml
+END

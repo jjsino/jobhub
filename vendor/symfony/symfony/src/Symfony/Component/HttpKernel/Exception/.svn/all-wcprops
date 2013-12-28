@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception
+END
+AccessDeniedHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/AccessDeniedHttpException.php
+END
+HttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/HttpException.php
+END
+UnauthorizedHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/UnauthorizedHttpException.php
+END
+TooManyRequestsHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/TooManyRequestsHttpException.php
+END
+LengthRequiredHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/LengthRequiredHttpException.php
+END
+GoneHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/GoneHttpException.php
+END
+UnsupportedMediaTypeHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/UnsupportedMediaTypeHttpException.php
+END
+NotFoundHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/NotFoundHttpException.php
+END
+FlattenException.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/FlattenException.php
+END
+PreconditionRequiredHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/PreconditionRequiredHttpException.php
+END
+BadRequestHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/BadRequestHttpException.php
+END
+HttpExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/HttpExceptionInterface.php
+END
+FatalErrorException.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/FatalErrorException.php
+END
+ConflictHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/ConflictHttpException.php
+END
+PreconditionFailedHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/PreconditionFailedHttpException.php
+END
+ServiceUnavailableHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/ServiceUnavailableHttpException.php
+END
+NotAcceptableHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/NotAcceptableHttpException.php
+END
+MethodNotAllowedHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/MethodNotAllowedHttpException.php
+END

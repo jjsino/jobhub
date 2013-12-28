@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL
+END
+Driver.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver.php
+END
+SQLParserUtilsException.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/SQLParserUtilsException.php
+END
+SQLParserUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/SQLParserUtils.php
+END
+LockMode.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/LockMode.php
+END
+ConnectionException.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/ConnectionException.php
+END
+Connection.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php
+END
+DBALException.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/DBALException.php
+END
+Statement.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Statement.php
+END
+Events.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Events.php
+END
+Version.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Version.php
+END
+DriverManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/DriverManager.php
+END
+Configuration.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Configuration.php
+END
+README.markdown
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/README.markdown
+END

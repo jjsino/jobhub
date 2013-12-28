@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream
+END
+ArrayCharacterStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php
+END
+NgCharacterStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php
+END

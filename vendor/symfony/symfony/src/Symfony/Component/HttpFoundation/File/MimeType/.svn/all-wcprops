@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/File/MimeType
+END
+FileinfoMimeTypeGuesser.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/File/MimeType/FileinfoMimeTypeGuesser.php
+END
+MimeTypeExtensionGuesser.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/File/MimeType/MimeTypeExtensionGuesser.php
+END
+MimeTypeGuesser.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/File/MimeType/MimeTypeGuesser.php
+END
+MimeTypeGuesserInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/File/MimeType/MimeTypeGuesserInterface.php
+END
+ExtensionGuesser.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/File/MimeType/ExtensionGuesser.php
+END
+ExtensionGuesserInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/File/MimeType/ExtensionGuesserInterface.php
+END
+FileBinaryMimeTypeGuesser.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/File/MimeType/FileBinaryMimeTypeGuesser.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Controller
+END
+ControllerNameParserTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Controller/ControllerNameParserTest.php
+END
+ControllerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Controller/ControllerTest.php
+END
+RedirectControllerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Controller/RedirectControllerTest.php
+END

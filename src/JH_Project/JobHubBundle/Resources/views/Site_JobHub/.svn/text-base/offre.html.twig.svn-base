@@ -1,0 +1,8 @@
+{# twig parent: #}
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - page Offre{% endblock %}
+
+{% block body %}
+
+{% endblock %}

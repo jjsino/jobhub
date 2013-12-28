@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Csrf/CsrfProvider
+END
+SessionCsrfProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Csrf/CsrfProvider/SessionCsrfProviderTest.php
+END
+DefaultCsrfProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Csrf/CsrfProvider/DefaultCsrfProviderTest.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml
+END
+merge_import.yml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/merge_import.yml
+END
+merge.yml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/merge.yml
+END
+custom_acl_provider.yml
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/custom_acl_provider.yml
+END
+container1.yml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/container1.yml
+END

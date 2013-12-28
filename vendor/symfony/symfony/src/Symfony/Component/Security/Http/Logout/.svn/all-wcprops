@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout
+END
+DefaultLogoutSuccessHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/DefaultLogoutSuccessHandler.php
+END
+CookieClearingLogoutHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/CookieClearingLogoutHandler.php
+END
+LogoutHandlerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/LogoutHandlerInterface.php
+END
+SessionLogoutHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/SessionLogoutHandler.php
+END
+LogoutSuccessHandlerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Logout/LogoutSuccessHandlerInterface.php
+END

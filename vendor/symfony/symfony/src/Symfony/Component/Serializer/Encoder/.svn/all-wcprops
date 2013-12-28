@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder
+END
+JsonEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/JsonEncoder.php
+END
+SerializerAwareEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/SerializerAwareEncoder.php
+END
+JsonDecode.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/JsonDecode.php
+END
+XmlEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/XmlEncoder.php
+END
+EncoderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/EncoderInterface.php
+END
+ChainEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/ChainEncoder.php
+END
+DecoderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/DecoderInterface.php
+END
+JsonEncode.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/JsonEncode.php
+END
+NormalizationAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/NormalizationAwareInterface.php
+END
+ChainDecoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Serializer/Encoder/ChainDecoder.php
+END

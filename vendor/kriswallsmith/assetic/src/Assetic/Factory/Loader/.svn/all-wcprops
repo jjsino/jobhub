@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader
+END
+FormulaLoaderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/FormulaLoaderInterface.php
+END
+BasePhpFormulaLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/BasePhpFormulaLoader.php
+END
+FunctionCallsFormulaLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/FunctionCallsFormulaLoader.php
+END
+CachedFormulaLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Factory/Loader/CachedFormulaLoader.php
+END

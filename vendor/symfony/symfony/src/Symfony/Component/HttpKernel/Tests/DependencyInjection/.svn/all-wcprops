@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DependencyInjection
+END
+ContainerAwareHttpKernelTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DependencyInjection/ContainerAwareHttpKernelTest.php
+END
+RegisterListenersPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DependencyInjection/RegisterListenersPassTest.php
+END
+MergeExtensionConfigurationPassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DependencyInjection/MergeExtensionConfigurationPassTest.php
+END

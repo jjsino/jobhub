@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Fixtures/AnnotatedClasses
+END
+FooClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Fixtures/AnnotatedClasses/FooClass.php
+END
+AbstractClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Fixtures/AnnotatedClasses/AbstractClass.php
+END
+BarClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Fixtures/AnnotatedClasses/BarClass.php
+END

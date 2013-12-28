@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/config
+END
+routing.xml.twig
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/config/routing.xml.twig
+END
+routing.yml.twig
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/config/routing.yml.twig
+END
+routing.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/config/routing.php.twig
+END

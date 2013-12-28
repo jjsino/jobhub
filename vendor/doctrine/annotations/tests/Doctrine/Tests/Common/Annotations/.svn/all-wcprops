@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations
+END
+CachedReaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/CachedReaderTest.php
+END
+AnnotationReaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/AnnotationReaderTest.php
+END
+PerformanceTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/PerformanceTest.php
+END
+DummyClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/DummyClass.php
+END
+DocParserTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/DocParserTest.php
+END
+PhpParserTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/PhpParserTest.php
+END
+TopLevelAnnotation.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/TopLevelAnnotation.php
+END
+DocLexerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/DocLexerTest.php
+END
+AbstractReaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/AbstractReaderTest.php
+END
+FileCacheReaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/FileCacheReaderTest.php
+END
+SimpleAnnotationReaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/SimpleAnnotationReaderTest.php
+END

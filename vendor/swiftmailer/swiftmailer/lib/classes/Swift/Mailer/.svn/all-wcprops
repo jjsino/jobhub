@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer
+END
+ArrayRecipientIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php
+END
+RecipientIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/RecipientIterator.php
+END

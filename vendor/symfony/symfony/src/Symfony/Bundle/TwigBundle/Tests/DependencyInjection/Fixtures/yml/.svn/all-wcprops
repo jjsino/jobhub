@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/yml
+END
+customTemplateEscapingGuesser.yml
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/yml/customTemplateEscapingGuesser.yml
+END
+empty.yml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/yml/empty.yml
+END
+full.yml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/yml/full.yml
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/A/B
+END
+Foo.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/A/B/Foo.php
+END
+Bar.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/beta/NamespaceCollision/A/B/Bar.php
+END

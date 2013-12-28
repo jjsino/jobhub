@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/phpunit.xml.dist
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/composer.json
+END
+WebProfilerBundle.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/WebProfilerBundle.php
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/CHANGELOG.md
+END

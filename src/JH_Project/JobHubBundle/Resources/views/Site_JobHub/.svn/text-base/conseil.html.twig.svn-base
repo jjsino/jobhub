@@ -1,0 +1,8 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Conseils{% endblock %}
+
+{% block body %}
+{{ parent() }}
+   
+{% endblock %}

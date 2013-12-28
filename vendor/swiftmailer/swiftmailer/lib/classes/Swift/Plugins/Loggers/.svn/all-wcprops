@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers
+END
+EchoLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php
+END
+ArrayLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php
+END

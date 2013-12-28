@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Loader
+END
+FileLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Loader/FileLoaderTest.php
+END
+LoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Loader/LoaderTest.php
+END
+LoaderResolverTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Loader/LoaderResolverTest.php
+END
+DelegatingLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Loader/DelegatingLoaderTest.php
+END

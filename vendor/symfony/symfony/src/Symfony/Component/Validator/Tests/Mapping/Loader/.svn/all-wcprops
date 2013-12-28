@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader
+END
+AnnotationLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/AnnotationLoaderTest.php
+END
+empty-mapping.yml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/empty-mapping.yml
+END
+AbstractMethodStaticLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/AbstractMethodStaticLoader.php
+END
+constraint-mapping-non-strings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/constraint-mapping-non-strings.xml
+END
+constraint-mapping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/constraint-mapping.xml
+END
+constraint-mapping.yml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/constraint-mapping.yml
+END
+XmlFileLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/XmlFileLoaderTest.php
+END
+FilesLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/FilesLoaderTest.php
+END
+YamlFileLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/YamlFileLoaderTest.php
+END
+LoaderChainTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/LoaderChainTest.php
+END
+withdoctype.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/withdoctype.xml
+END
+nonvalid-mapping.yml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/nonvalid-mapping.yml
+END
+StaticMethodLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/StaticMethodLoaderTest.php
+END

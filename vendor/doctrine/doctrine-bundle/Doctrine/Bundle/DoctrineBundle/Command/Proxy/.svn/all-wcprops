@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy
+END
+ClearResultCacheDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/ClearResultCacheDoctrineCommand.php
+END
+EnsureProductionSettingsDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/EnsureProductionSettingsDoctrineCommand.php
+END
+InfoDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/InfoDoctrineCommand.php
+END
+ClearMetadataCacheDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/ClearMetadataCacheDoctrineCommand.php
+END
+ConvertMappingDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/ConvertMappingDoctrineCommand.php
+END
+DoctrineCommandHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/DoctrineCommandHelper.php
+END
+ClearQueryCacheDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/ClearQueryCacheDoctrineCommand.php
+END
+ValidateSchemaCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/ValidateSchemaCommand.php
+END
+UpdateSchemaDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/UpdateSchemaDoctrineCommand.php
+END
+CreateSchemaDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/CreateSchemaDoctrineCommand.php
+END
+RunSqlDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/RunSqlDoctrineCommand.php
+END
+DropSchemaDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/DropSchemaDoctrineCommand.php
+END
+RunDqlDoctrineCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/doctrine-bundle/Doctrine/Bundle/DoctrineBundle/Command/Proxy/RunDqlDoctrineCommand.php
+END

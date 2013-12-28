@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter
+END
+composer.lock
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/composer.lock
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/composer.json
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/LICENSE.txt
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/.travis.yml
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/phpunit.xml.dist
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/README.md
+END

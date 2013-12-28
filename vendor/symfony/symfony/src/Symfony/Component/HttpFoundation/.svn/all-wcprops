@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation
+END
+RequestMatcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/RequestMatcher.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/LICENSE
+END
+Response.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Response.php
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/CHANGELOG.md
+END
+HeaderBag.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/HeaderBag.php
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/phpunit.xml.dist
+END
+BinaryFileResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/BinaryFileResponse.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/README.md
+END
+AcceptHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/AcceptHeader.php
+END
+Cookie.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Cookie.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/composer.json
+END
+RequestMatcherInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/RequestMatcherInterface.php
+END
+RedirectResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/RedirectResponse.php
+END
+ServerBag.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/ServerBag.php
+END
+ResponseHeaderBag.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/ResponseHeaderBag.php
+END
+StreamedResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/StreamedResponse.php
+END
+AcceptHeaderItem.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/AcceptHeaderItem.php
+END
+Request.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Request.php
+END
+JsonResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/JsonResponse.php
+END
+IpUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/IpUtils.php
+END
+FileBag.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/FileBag.php
+END
+ParameterBag.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/ParameterBag.php
+END
+ApacheRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/ApacheRequest.php
+END

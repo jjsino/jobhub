@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/bootstrap.php
+END
+ContainerAwareEventManagerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/ContainerAwareEventManagerTest.php
+END
+DoctrineOrmTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/DoctrineOrmTestCase.php
+END

@@ -1,0 +1,533 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures
+END
+DescriptorApplication1.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/DescriptorApplication1.php
+END
+DescriptorApplication2.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/DescriptorApplication2.php
+END
+input_argument_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_1.md
+END
+input_option_3.json
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_3.json
+END
+application_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_2.md
+END
+input_option_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_1.txt
+END
+input_definition_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_1.md
+END
+input_definition_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_1.xml
+END
+input_option_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_2.txt
+END
+application_run1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_run1.txt
+END
+input_definition_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_2.xml
+END
+application_run2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_run2.txt
+END
+input_option_3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_3.txt
+END
+input_definition_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_3.xml
+END
+application_run3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_run3.txt
+END
+input_option_4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_4.txt
+END
+application_run4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_run4.txt
+END
+input_definition_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_4.xml
+END
+Foo3Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/Foo3Command.php
+END
+definition_astext.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/definition_astext.txt
+END
+application_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_1.txt
+END
+input_definition_4.json
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_4.json
+END
+application_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_2.txt
+END
+input_option_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_1.xml
+END
+input_option_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_1.md
+END
+input_option_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_2.xml
+END
+input_option_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_3.xml
+END
+input_option_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_4.xml
+END
+command_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_1.txt
+END
+command_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_2.txt
+END
+application_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_1.md
+END
+application_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_1.xml
+END
+input_option_4.json
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_4.json
+END
+application_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_2.xml
+END
+DescriptorCommand1.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/DescriptorCommand1.php
+END
+DescriptorCommand2.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/DescriptorCommand2.php
+END
+input_argument_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_1.json
+END
+application_gethelp.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_gethelp.txt
+END
+input_definition_4.md
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_4.md
+END
+Foo2Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/Foo2Command.php
+END
+command_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_1.xml
+END
+command_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_2.md
+END
+command_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_2.xml
+END
+input_argument_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_1.txt
+END
+input_definition_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_1.json
+END
+input_argument_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_2.txt
+END
+input_argument_3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_3.txt
+END
+application_asxml1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_asxml1.txt
+END
+command_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_1.json
+END
+application_asxml2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_asxml2.txt
+END
+input_option_4.md
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_4.md
+END
+definition_asxml.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/definition_asxml.txt
+END
+input_option_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_1.json
+END
+application_renderexception1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception1.txt
+END
+input_argument_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_1.xml
+END
+input_argument_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_2.xml
+END
+application_renderexception2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception2.txt
+END
+input_argument_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_3.xml
+END
+application_renderexception3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception3.txt
+END
+input_argument_3.md
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_3.md
+END
+application_renderexception4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception4.txt
+END
+input_definition_3.md
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_3.md
+END
+Foo1Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/Foo1Command.php
+END
+input_argument_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_2.json
+END
+application_1.json
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_1.json
+END
+command_1.md
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_1.md
+END
+application_renderexception3decorated.txt
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_renderexception3decorated.txt
+END
+command_asxml.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_asxml.txt
+END
+input_definition_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_2.json
+END
+command_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_2.json
+END
+input_option_3.md
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_3.md
+END
+input_option_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_2.json
+END
+input_argument_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_2.md
+END
+command_astext.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_astext.txt
+END
+input_definition_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_2.md
+END
+application_astext1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_astext1.txt
+END
+application_astext2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_astext2.txt
+END
+input_argument_3.json
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_3.json
+END
+Foo4Command.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/Foo4Command.php
+END
+application_2.json
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_2.json
+END
+input_definition_3.json
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_3.json
+END
+TestCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/TestCommand.php
+END
+input_definition_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_1.txt
+END
+input_definition_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_2.txt
+END
+input_option_2.md
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_2.md
+END
+input_definition_3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_3.txt
+END
+FooCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/FooCommand.php
+END
+input_definition_4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_4.txt
+END

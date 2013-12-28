@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/cache
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/cache/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/cache/LICENSE
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/cache/.travis.yml
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/cache/phpunit.xml.dist
+END
+.coveralls.yml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/cache/.coveralls.yml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/cache/build.properties
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/cache/README.md
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/cache/build.xml
+END

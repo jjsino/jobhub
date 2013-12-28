@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures
+END
+TestClient.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/TestClient.php
+END
+FooBarBundle.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/FooBarBundle.php
+END
+KernelForTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/KernelForTest.php
+END
+TestEventDispatcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/TestEventDispatcher.php
+END
+KernelForOverrideName.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Fixtures/KernelForOverrideName.php
+END

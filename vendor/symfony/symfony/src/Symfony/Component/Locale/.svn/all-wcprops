@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Locale
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Locale/README.md
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Locale/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Locale/LICENSE
+END
+Locale.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Locale/Locale.php
+END
+CHANGELOG.md
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Locale/CHANGELOG.md
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Locale/phpunit.xml.dist
+END

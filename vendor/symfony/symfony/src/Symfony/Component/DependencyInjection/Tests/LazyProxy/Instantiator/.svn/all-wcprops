@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/LazyProxy/Instantiator
+END
+RealServiceInstantiatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/LazyProxy/Instantiator/RealServiceInstantiatorTest.php
+END

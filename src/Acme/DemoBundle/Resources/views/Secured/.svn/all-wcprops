@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/branches/jin/Symfony/src/Acme/DemoBundle/Resources/views/Secured
+END
+hello.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11/branches/jin/Symfony/src/Acme/DemoBundle/Resources/views/Secured/hello.html.twig
+END
+login.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11/branches/jin/Symfony/src/Acme/DemoBundle/Resources/views/Secured/login.html.twig
+END
+helloadmin.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/11/branches/jin/Symfony/src/Acme/DemoBundle/Resources/views/Secured/helloadmin.html.twig
+END
+layout.html.twig
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/11/branches/jin/Symfony/src/Acme/DemoBundle/Resources/views/Secured/layout.html.twig
+END

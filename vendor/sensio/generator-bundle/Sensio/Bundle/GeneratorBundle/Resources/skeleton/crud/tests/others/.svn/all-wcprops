@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/tests/others
+END
+short_scenario.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/tests/others/short_scenario.php.twig
+END
+full_scenario.php.twig
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/skeleton/crud/tests/others/full_scenario.php.twig
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/twig/twig/lib/Twig/Extension
+END
+StringLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/twig/twig/lib/Twig/Extension/StringLoader.php
+END
+Sandbox.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/twig/twig/lib/Twig/Extension/Sandbox.php
+END
+Optimizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/twig/twig/lib/Twig/Extension/Optimizer.php
+END
+Escaper.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/twig/twig/lib/Twig/Extension/Escaper.php
+END
+Debug.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/twig/twig/lib/Twig/Extension/Debug.php
+END
+Core.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/twig/twig/lib/Twig/Extension/Core.php
+END
+Staging.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/twig/twig/lib/Twig/Extension/Staging.php
+END

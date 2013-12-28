@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/Tests/LazyProxy/Fixtures/php
+END
+lazy_service_structure.txt
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/Tests/LazyProxy/Fixtures/php/lazy_service_structure.txt
+END
+lazy_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/Tests/LazyProxy/Fixtures/php/lazy_service.php
+END

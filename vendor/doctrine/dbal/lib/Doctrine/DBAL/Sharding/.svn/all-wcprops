@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding
+END
+ShardingException.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/ShardingException.php
+END
+PoolingShardManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/PoolingShardManager.php
+END
+PoolingShardConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/PoolingShardConnection.php
+END
+ShardManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/dbal/lib/Doctrine/DBAL/Sharding/ShardManager.php
+END

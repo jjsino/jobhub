@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Reflection
+END
+ClassFinderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Reflection/ClassFinderInterface.php
+END
+StaticReflectionParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Reflection/StaticReflectionParser.php
+END
+RuntimePublicReflectionProperty.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Reflection/RuntimePublicReflectionProperty.php
+END
+StaticReflectionMethod.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Reflection/StaticReflectionMethod.php
+END
+Psr0FindFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Reflection/Psr0FindFile.php
+END
+ReflectionProviderInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Reflection/ReflectionProviderInterface.php
+END
+StaticReflectionProperty.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Reflection/StaticReflectionProperty.php
+END
+StaticReflectionClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Reflection/StaticReflectionClass.php
+END

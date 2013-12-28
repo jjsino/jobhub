@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/CsrfFormLogin
+END
+bundles.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/CsrfFormLogin/bundles.php
+END
+config.yml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/CsrfFormLogin/config.yml
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/CsrfFormLogin/routing.yml
+END
+routes_as_path.yml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/CsrfFormLogin/routes_as_path.yml
+END

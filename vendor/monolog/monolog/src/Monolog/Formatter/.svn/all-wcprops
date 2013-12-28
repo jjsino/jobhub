@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/monolog/monolog/src/Monolog/Formatter
+END
+JsonFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php
+END
+FormatterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php
+END
+NormalizerFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php
+END
+GelfMessageFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/monolog/monolog/src/Monolog/Formatter/GelfMessageFormatter.php
+END
+LogstashFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php
+END
+WildfireFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php
+END
+ChromePHPFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php
+END
+LineFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php
+END

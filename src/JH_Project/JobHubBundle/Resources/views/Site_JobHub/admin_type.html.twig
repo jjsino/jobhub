@@ -1,0 +1,26 @@
+
+{# Les informations d'un {type}  ID: id #}
+{# src/JH_Project/JobHubBundle/Resources/views/Site_JobHub/admin_truc.html.twig #}
+
+{# twig parent: #}
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+{% block title %}{{ parent() }}{% endblock %}
+
+{% block left %}
+{{ parent() }} 
+{% endblock %}
+
+{% block right %}
+{{ parent() }} 
+<section class="col-md-12">
+<p>{{type}} num:{{id}}</p>
+<p><i class="icon-film"></i> icon-film</p>
+ </section>
+{% endblock %}
+
+
+{% block footer %}
+{{ parent() }} 
+{% endblock %}
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DataCollector
+END
+RequestDataCollectorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DataCollector/RequestDataCollectorTest.php
+END
+MemoryDataCollectorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DataCollector/MemoryDataCollectorTest.php
+END
+ExceptionDataCollectorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DataCollector/ExceptionDataCollectorTest.php
+END
+TimeDataCollectorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DataCollector/TimeDataCollectorTest.php
+END
+LoggerDataCollectorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DataCollector/LoggerDataCollectorTest.php
+END
+ConfigDataCollectorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/DataCollector/ConfigDataCollectorTest.php
+END

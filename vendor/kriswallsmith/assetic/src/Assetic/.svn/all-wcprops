@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic
+END
+AssetManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/AssetManager.php
+END
+AssetWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/AssetWriter.php
+END
+FilterManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/FilterManager.php
+END
+ValueSupplierInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/ValueSupplierInterface.php
+END

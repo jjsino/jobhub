@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Descriptor
+END
+ObjectsProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Descriptor/ObjectsProvider.php
+END
+JsonDescriptorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Descriptor/JsonDescriptorTest.php
+END
+XmlDescriptorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Descriptor/XmlDescriptorTest.php
+END
+MarkdownDescriptorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Descriptor/MarkdownDescriptorTest.php
+END
+AbstractDescriptorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Descriptor/AbstractDescriptorTest.php
+END
+TextDescriptorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Descriptor/TextDescriptorTest.php
+END

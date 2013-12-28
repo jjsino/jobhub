@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib
+END
+swift_required.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/swift_required.php
+END
+swift_init.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/swift_init.php
+END
+preferences.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/preferences.php
+END
+swift_required_pear.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/swift_required_pear.php
+END
+mime_types.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/swiftmailer/swiftmailer/lib/mime_types.php
+END

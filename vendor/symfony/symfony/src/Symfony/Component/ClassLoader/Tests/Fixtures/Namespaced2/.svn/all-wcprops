@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced2
+END
+Foo.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced2/Foo.php
+END
+Bar.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced2/Bar.php
+END
+Baz.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Namespaced2/Baz.php
+END

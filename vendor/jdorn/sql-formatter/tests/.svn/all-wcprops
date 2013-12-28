@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/tests
+END
+format-highlight.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/tests/format-highlight.html
+END
+performance.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/tests/performance.php
+END
+SqlFormatterTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/tests/SqlFormatterTest.php
+END
+highlight.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/tests/highlight.html
+END
+format.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/tests/format.html
+END
+sql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/jdorn/sql-formatter/tests/sql.sql
+END

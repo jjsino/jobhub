@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml
+END
+templating_url_package.yml
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/templating_url_package.yml
+END
+profiler.yml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/profiler.yml
+END
+full.yml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/full.yml
+END
+session.yml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/session.yml
+END
+validation_annotations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/validation_annotations.yml
+END
+csrf.yml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/csrf.yml
+END

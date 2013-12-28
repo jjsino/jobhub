@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Util
+END
+Inflector.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Util/Inflector.php
+END
+Debug.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Util/Debug.php
+END
+ClassUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Util/ClassUtils.php
+END

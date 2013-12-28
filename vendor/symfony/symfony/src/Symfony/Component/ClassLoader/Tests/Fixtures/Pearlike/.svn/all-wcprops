@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike
+END
+Baz.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/Baz.php
+END
+WithComments.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/WithComments.php
+END
+Foo.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/Foo.php
+END
+Bar.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/Tests/Fixtures/Pearlike/Bar.php
+END

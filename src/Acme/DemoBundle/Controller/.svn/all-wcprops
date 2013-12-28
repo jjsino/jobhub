@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/11/branches/jin/Symfony/src/Acme/DemoBundle/Controller
+END
+DemoController.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/branches/jin/Symfony/src/Acme/DemoBundle/Controller/DemoController.php
+END
+SecuredController.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11/branches/jin/Symfony/src/Acme/DemoBundle/Controller/SecuredController.php
+END
+WelcomeController.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11/branches/jin/Symfony/src/Acme/DemoBundle/Controller/WelcomeController.php
+END

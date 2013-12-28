@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder
+END
+NodeBuilderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/NodeBuilderTest.php
+END
+ArrayNodeDefinitionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/ArrayNodeDefinitionTest.php
+END
+NumericNodeDefinitionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/NumericNodeDefinitionTest.php
+END
+EnumNodeDefinitionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/EnumNodeDefinitionTest.php
+END
+ExprBuilderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/ExprBuilderTest.php
+END
+TreeBuilderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Builder/TreeBuilderTest.php
+END

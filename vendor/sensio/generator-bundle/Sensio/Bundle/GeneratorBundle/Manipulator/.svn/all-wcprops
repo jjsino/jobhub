@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Manipulator
+END
+RoutingManipulator.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Manipulator/RoutingManipulator.php
+END
+Manipulator.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Manipulator/Manipulator.php
+END
+KernelManipulator.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Manipulator/KernelManipulator.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource
+END
+IteratorResourceInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/IteratorResourceInterface.php
+END
+CoalescingDirectoryResource.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/CoalescingDirectoryResource.php
+END
+FileResource.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/FileResource.php
+END
+ResourceInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/ResourceInterface.php
+END
+DirectoryResource.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Factory/Resource/DirectoryResource.php
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Asset
+END
+GlobAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Asset/GlobAsset.php
+END
+AssetCache.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCache.php
+END
+StringAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Asset/StringAsset.php
+END
+BaseAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Asset/BaseAsset.php
+END
+AssetCollection.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCollection.php
+END
+AssetCollectionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetCollectionInterface.php
+END
+AssetReference.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetReference.php
+END
+FileAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Asset/FileAsset.php
+END
+HttpAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Asset/HttpAsset.php
+END
+AssetInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/kriswallsmith/assetic/src/Assetic/Asset/AssetInterface.php
+END

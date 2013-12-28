@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/UserProvider
+END
+InMemoryFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/UserProvider/InMemoryFactory.php
+END
+UserProviderFactoryInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/UserProvider/UserProviderFactoryInterface.php
+END

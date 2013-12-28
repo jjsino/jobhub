@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints
+END
+CurrencyValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CurrencyValidatorTest.php
+END
+ChoiceValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/ChoiceValidatorTest.php
+END
+NotNullValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/NotNullValidatorTest.php
+END
+DateTimeValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/DateTimeValidatorTest.php
+END
+FileValidatorPathTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/FileValidatorPathTest.php
+END
+GreaterThanOrEqualValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/GreaterThanOrEqualValidatorTest.php
+END
+CardSchemeValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CardSchemeValidatorTest.php
+END
+TimeValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/TimeValidatorTest.php
+END
+FileValidatorObjectTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/FileValidatorObjectTest.php
+END
+AllValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/AllValidatorTest.php
+END
+LessThanOrEqualValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LessThanOrEqualValidatorTest.php
+END
+NotIdenticalToValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/NotIdenticalToValidatorTest.php
+END
+TypeValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/TypeValidatorTest.php
+END
+LessThanValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LessThanValidatorTest.php
+END
+LengthValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LengthValidatorTest.php
+END
+ImageValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/ImageValidatorTest.php
+END
+LanguageValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LanguageValidatorTest.php
+END
+CollectionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CollectionTest.php
+END
+CountValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CountValidatorTest.php
+END
+CollectionValidatorArrayTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CollectionValidatorArrayTest.php
+END
+FalseValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/FalseValidatorTest.php
+END
+AbstractComparisonValidatorTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/AbstractComparisonValidatorTestCase.php
+END
+CollectionValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CollectionValidatorTest.php
+END
+NotEqualToValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/NotEqualToValidatorTest.php
+END
+IsbnValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/IsbnValidatorTest.php
+END
+CallbackValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CallbackValidatorTest.php
+END
+RangeValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/RangeValidatorTest.php
+END
+LocaleValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LocaleValidatorTest.php
+END
+IdenticalToValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/IdenticalToValidatorTest.php
+END
+AllTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/AllTest.php
+END
+UrlValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/UrlValidatorTest.php
+END
+CountryValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CountryValidatorTest.php
+END
+GreaterThanValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/GreaterThanValidatorTest.php
+END
+LuhnValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/LuhnValidatorTest.php
+END
+IpValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/IpValidatorTest.php
+END
+NotBlankValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/NotBlankValidatorTest.php
+END
+IbanValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/IbanValidatorTest.php
+END
+NullValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/NullValidatorTest.php
+END
+EqualToValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/EqualToValidatorTest.php
+END
+RegexValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/RegexValidatorTest.php
+END
+IssnValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/IssnValidatorTest.php
+END
+CollectionValidatorCustomArrayObjectTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CollectionValidatorCustomArrayObjectTest.php
+END
+DateValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/DateValidatorTest.php
+END
+TrueValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/TrueValidatorTest.php
+END
+FileValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/FileValidatorTest.php
+END
+CollectionValidatorArrayObjectTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CollectionValidatorArrayObjectTest.php
+END
+CountValidatorCountableTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CountValidatorCountableTest.php
+END
+CountValidatorArrayTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/CountValidatorArrayTest.php
+END
+BlankValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/BlankValidatorTest.php
+END
+EmailValidatorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/EmailValidatorTest.php
+END
+ValidTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Constraints/ValidTest.php
+END

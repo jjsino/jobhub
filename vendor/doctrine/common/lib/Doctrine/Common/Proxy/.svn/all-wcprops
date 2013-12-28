@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Proxy
+END
+ProxyDefinition.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyDefinition.php
+END
+AbstractProxyFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Proxy/AbstractProxyFactory.php
+END
+Autoloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Autoloader.php
+END
+Proxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Proxy/Proxy.php
+END
+ProxyGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/43/branches/jin/Symfony/vendor/doctrine/common/lib/Doctrine/Common/Proxy/ProxyGenerator.php
+END
