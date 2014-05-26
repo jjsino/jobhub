@@ -1,0 +1,56 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Modifier Experience{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+<div class="bloc_info">
+	<div class="clearfix contenu_header">
+		<div class="pull-left">	<h2> Modifier </h2></div>
+		<div class="pull-right bloc_info_right_link">
+		<a class="bloc_info_right_link" href="{{ path('candidat_profile_experience_delete', { 'id': entity.id }) }}">Delete</a>
+		 | <a bloc_info_right_link href="{{ path('job_hub_candidat_show') }}">Retour</a>
+		</div>
+	</div>
+ <form class="candidat_profil_form" action="{{ path('candidat_profile_experience_update', { 'id': entity.id }) }}" method="POST" {{ form_enctype(edit_form) }}>
+	<table class="record_properties">
+		<tbody>
+			<tr>
+                <th>Date debut</th>
+                <td>{{ form_widget(edit_form.dateDebut) }}</td>
+            </tr>
+            <tr>
+                <th>Date fin</th>
+                <td>{{ form_widget(edit_form.dateFin) }}</td>
+            </tr>
+            <tr>
+                <th>Fonction du poste</th>
+                <td>{{ form_widget(edit_form.fonction)}}</td>
+            </tr> 
+            <tr>
+                <th>Entreprise</th>
+                <td>{{ form_widget(edit_form.entreprise) }}</td>
+            </tr> 
+            <tr>
+                <th>Description</th>
+                <td>{{ form_widget(edit_form.description) }}</td>
+            </tr>
+        </tbody>
+	</table>
+	{{form_rest(edit_form)}}
+</form>
+
+</div>
+{% endblock %} 
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}

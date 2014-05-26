@@ -1,0 +1,44 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Résultat de recherche{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+<h2> Résultats de recherche </h2>
+{% if offres|length > 0 %}
+<table class="table records_list">
+<thead>
+    <tr>
+        <th>Intitulé</th>
+        <th>Date, lieu</th>		
+    </tr>
+</thead>
+<tbody>
+{% for offre in offres %}
+    <tr>
+
+        <td><a href="{{ path('job_hub_offre_show', { 'id': offre.id}) }}">{{ offre.intitule }}</a></td>
+        <td>{% if offre.maj %}{{ offre.maj|date('Y-m-d') }}{% endif %},
+        {% if offre.ville %}{{ offre.ville.nom}},{{ offre.ville.region.pays.nomFr }}{% endif%}</td>
+    </tr>
+{% endfor %}
+</tbody>
+</table>
+{% else %}
+<div class="alert">No Offer found</div>
+{% endif %}
+
+{% endblock %}
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}
+

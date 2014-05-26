@@ -1,0 +1,23 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Bienvenue sur JobHub!{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+<p>Vous êtes bien inscrit sur JobHub</p>
+<p>Vous pouvez désormais vous connecter</p>
+{{ render(controller( 'JobHubBundle:Security:login' )) }}
+{% endblock %} 
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'actu'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}

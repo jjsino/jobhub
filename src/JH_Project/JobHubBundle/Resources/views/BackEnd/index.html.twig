@@ -1,0 +1,43 @@
+{# Page d'accueil de l'administration #}
+{# src/JH_Project/JobHubBundle/Resources/views/BackEnd/index.html.twig #}
+{# twig parent: admin_layout.html.twig #}
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+
+{% block title %}{{ parent() }} - administration{% endblock %}
+
+
+{% block page_title %}
+<h2>Accès Rapid</h2>
+{% endblock %}
+
+{% block page_content %}
+<div class="text-center">
+  <a href="{{ path('administration_administrateur') }}" class="thumbnail">
+     <img alt="Administrateurs"/>
+  </a>
+    <a href="{{ path('administration_candidat') }}" class="thumbnail">
+     <img alt="Candidats"/>
+  </a>
+    <a href="{{ path('administration_entreprise') }}" class="thumbnail">
+     <img alt="Entreprises"/>
+  </a>
+  <a href="{{ path('administration_offre') }}" class="thumbnail">
+     <img alt="Offres"/>
+  </a>
+  <a href="{{ path('administration_candidature') }}" class="thumbnail">
+     <img alt="Candidatures"/>
+  </a>
+  <a href="{{ path('administration_cv') }}"class="thumbnail">
+     <img alt="CVs"/>
+  </a>
+  <a href="{{ path('administration_article') }}" class="thumbnail">
+     <img alt="Articles"/>
+  </a>
+  <a href="{{ path('administration_rubrique') }}" class="thumbnail">
+     <img alt="Rubrique"/>
+  </a>
+</div>
+
+{% endblock %}

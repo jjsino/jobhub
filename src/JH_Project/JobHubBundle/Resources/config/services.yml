@@ -1,7 +1,100 @@
-parameters:
-#    job_hub.example.class: JH_Project\JobHubBundle\Example
-
 services:
-#    job_hub.example:
-#        class: %job_hub.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    job_hub.backend.admin.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\AdministrateurController
+        calls:
+            - [setContainer, ["@service_container"]]
+
+    job_hub.backend.offre.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\OffreController
+        calls:
+            - [setContainer, ["@service_container"]]
+            
+    job_hub.backend.candidat.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\CandidatController
+        calls:
+            - [setContainer, ["@service_container"]]
+
+    job_hub.backend.candidature.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\CandidatureController
+        calls:
+            - [setContainer, ["@service_container"]]
+                        
+    job_hub.backend.entreprise.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\EntrepriseController
+        calls:
+            - [setContainer, ["@service_container"]]
+            
+    job_hub.backend.cv.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\CVController
+        calls:
+            - [setContainer, ["@service_container"]]
+            
+    job_hub.backend.article.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\ArticleController
+        calls:
+            - [setContainer, ["@service_container"]]
+
+    job_hub.backend.rubrique.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\RubriqueController
+        calls:
+            - [setContainer, ["@service_container"]]
+                        
+    job_hub.backend.image.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\ImageController
+        calls:
+            - [setContainer, ["@service_container"]]
+            
+    job_hub.backend.video.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\VideoController
+        calls:
+            - [setContainer, ["@service_container"]]
+            
+    job_hub.backend.domaine.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\DomaineController
+        calls:
+            - [setContainer, ["@service_container"]]
+            
+    job_hub.backend.activite.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\ActiviteController
+        calls:
+            - [setContainer, ["@service_container"]]
+         
+    job_hub.backend.pays.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\PaysController
+        calls:
+            - [setContainer, ["@service_container"]]
+
+    job_hub.backend.region.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\RegionController
+        calls:
+            - [setContainer, ["@service_container"]]
+           
+    job_hub.backend.ville.controller:
+        class: JH_Project\JobHubBundle\Controller\BackEnd\VilleController
+        calls:
+            - [setContainer, ["@service_container"]]
+    
+    job_hub.candidat.controller:
+        class: JH_Project\JobHubBundle\Controller\CandidatController
+        calls:
+            - [setContainer, ["@service_container"]]
+
+    job_hub.entreprise.controller:
+        class: JH_Project\JobHubBundle\Controller\EntrepriseController
+        calls:
+            - [setContainer, ["@service_container"]]
+               
+    job_hub.security.controller:
+        class: JH_Project\JobHubBundle\Controller\SecurityController
+        calls:
+            - [setContainer, ["@service_container"]]
+
+    job_hub.cv.controller:
+        class: JH_Project\JobHubBundle\Controller\CVController
+        calls:
+            - [setContainer, ["@service_container"]]
+    
+    job_hub.mailer:
+        class: JH_Project\JobHubBundle\Mailer\Mailer
+        calls:
+            - [setContainer, ["@service_container"]]

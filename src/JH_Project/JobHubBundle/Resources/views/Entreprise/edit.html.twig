@@ -1,16 +1,70 @@
-{% extends '::base.html.twig' %}
+{% extends "JobHubBundle::layout.html.twig" %}
 
-{% block body -%}
-    <h1>Entreprise edit</h1>
+{% block title %}{{ parent() }} - Entreprise{% endblock %}
 
-    {{ form(edit_form) }}
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
 
-        <ul class="record_actions">
-    <li>
-        <a href="{{ path('admin_entreprise') }}">
-            Back to the list
-        </a>
-    </li>
-    <li>{{ form(delete_form) }}</li>
-</ul>
+{% block contenu %}
+<div class="clearfix contenu_header">
+	<div class="pull-left">	<h2>Entreprise</h2></div>
+</div>
+<div class="bloc_info">
+<form class="entreprise_profil_form" action="{{ path('job_hub_entreprise_update') }}" method="POST" {{ form_enctype(edit_form) }}>
+	<h4>Information Générales</h4>
+	<table class="record_properties">
+                    <tbody>
+            <tr>
+                <th>Nom</th>
+                <td>{{ form_widget(edit_form.nom) }}</td>
+            </tr>
+            <tr>
+                <th>Raison sociale</th>
+                <td>{{ form_widget(edit_form.raisonSociale ) }}</td>
+            </tr>
+            <tr>
+                <th>Contact email</th> 
+                <td>{{ form_widget(edit_form.contactEmail) }}</td>
+            </tr>
+      
+            <tr>
+                <th>SiteWeb</th>
+                <td> {{ form_widget(edit_form.siteWeb) }}</td>
+            </tr>
+        </tbody>
+     </table>
+ <h4>Vos coordonnées</h4>
+	  <table class="record_properties">
+		   <tbody>
+			    <tr>
+			       <th>Email</th> 
+			       <td>{{ entity.compteUser.email }}</td>
+			    </tr>
+			    <tr>
+			      <th>Telephone</th>
+			      <td>{{ form_widget(edit_form.telephone) }}</td>
+			    </tr>
+			    <tr>
+	               <th>Fax</th>
+	               <td>{{ form_widget(edit_form.fax) }}</td>
+	            </tr>
+	            <tr>
+	              <th>Ville</th>
+	              <td>{{ form_widget(edit_form.ville)}}</td>
+	           </tr>
+		  </tbody>
+	    </table>
+		  {{ form_rest(edit_form) }}
+	 </form>
+</div>
+{% endblock %}	
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
 {% endblock %}

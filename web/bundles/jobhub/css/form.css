@@ -1,0 +1,113 @@
+
+/* Formulaire */
+
+/*"New" "Edit" Forms-offre */
+#jh_project_jobhubbundle_offre
+{           background-color: #6e6a6a;
+	        text-align: center; padding: 10px; 
+            margin-bottom: 10px; 
+            margin-top: 10px;
+}
+                 
+#jh_project_jobhubbundle_offre 
+{    
+	font-size: 16px;
+
+ }
+#jh_project_jobhubbundle_offre div 
+   { 
+		clear: left;
+		margin-top: 10px;
+	    margin-bottom: 10px;
+    }
+#jh_project_jobhubbundle_offre label 
+	{ 
+		   float: left;
+		   width: 100px; font-weight: bold; 
+		   vertical-align: top; 
+		   padding-top: 15px;
+		   text-align: center;
+		   margin-left: 5px;
+		   margin-right: 25px;
+ }
+ 
+input#jh_project_jobhubbundle_offre_intitule,
+input#jh_project_jobhubbundle_offre_fonctionPoste,
+input#jh_project_jobhubbundle_offre_lieu
+
+{
+	   width: 500px; 
+	   line-height: 26px;
+	   font-size: 20px; 
+	   min-height: 26px;
+}
+
+textarea#jh_project_jobhubbundle_offre_description 
+{
+	  width: 500px;
+	  line-height: 15;
+	  font-size: 20px; 
+}
+input#jh_project_jobhubbundle_offre_submit 
+{ 
+		     margin-left: 110px; 
+		     width: 508px;
+	         bline-height: 26px; 
+	         font-size: 60px;
+	         min-height: 26px; 
+	         background-color: #eb2139;
+}
+
+/* END "New" "Edit" Forms-offre */
+
+
+
+/* BEGIN "New" "Edit" Forms-profile-entrprise */
+#jh_project_jobhubbundle_entreprise
+ {
+  margin-top: 10px;
+  
+}
+
+
+#jh_project_jobhubbundle_entreprise div
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+#jh_project_jobhubbundle_entreprise label
+{
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+input#jh_project_jobhubbundle_offre_nom,
+input#jh_project_jobhubbundle_offre_fax
+{
+  width: 300px;
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  
+}
+input#jh_project_jobhubbundle_offre_raisonSociale,
+input#jh_project_jobhubbundle_offre_contactEmail,
+input#jh_project_jobhubbundle_offre_telephone,
+input#jh_project_jobhubbundle_offre_codePostal
+{
+  width: 300px;
+  
+}
+input#jh_project_jobhubbundle_offre_adresse,
+input#jh_project_jobhubbundle_offre_telephone,
+input#jh_project_jobhubbundle_offre_siteWeb
+{
+  width: 300px;
+
+}
+
+/* END "New" "Edit" Forms-profile-entrprise */

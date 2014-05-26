@@ -1,0 +1,22 @@
+
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Inscription{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+{% include 'JobHubBundle::_forms/form_inscription.html.twig' with {'entity': entity, 'form': form, 'error': error} %}
+{% endblock %} 
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}
+

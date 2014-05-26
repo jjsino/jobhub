@@ -1,8 +1,0 @@
-{% extends "JobHubBundle::layout.html.twig" %}
-
-{% block title %}{{ parent() }} - Recherche avancée{% endblock %}
-
-{% block body %}
-{{ parent() }}
-   Recherche avancée
-{% endblock %}

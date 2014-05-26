@@ -10,58 +10,37 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use JH_Project\JobHubBundle\Entity\Entreprise;
 use JH_Project\JobHubBundle\Form\EntrepriseType;
 
+use JH_Project\JobHubBundle\Entity\Utilisateur;
+use JH_Project\JobHubBundle\Controller\SecurityController;
 /**
  * Entreprise controller.
  *
- * @Route("/admin_entreprise")
+ * @Route("/entreprise")
  */
-class EntrepriseController extends Controller
+class EntrepriseController extends SecurityController
 {
-
-    /**
-     * Lists all Entreprise entities.
-     *
-     * @Route("/", name="admin_entreprise")
-     * @Method("GET")
-     * @Template()
-     */
-    public function indexAction()
-    {
-        $em = $this->getDoctrine()->getManager();
-
-        $entities = $em->getRepository('JobHubBundle:Entreprise')->findAll();
-
-        return array(
-            'entities' => $entities,
-        );
-    }
-    /**
-     * Creates a new Entreprise entity.
-     *
-     * @Route("/", name="admin_entreprise_create")
-     * @Method("POST")
-     * @Template("JobHubBundle:Entreprise:new.html.twig")
-     */
-    public function createAction(Request $request)
-    {
-        $entity = new Entreprise();
-        $form = $this->createCreateForm($entity);
-        $form->handleRequest($request);
-
-        if ($form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
-            $em->persist($entity);
-            $em->flush();
-
-            return $this->redirect($this->generateUrl('admin_entreprise_show', array('id' => $entity->getId())));
-        }
-
-        return array(
-            'entity' => $entity,
-            'form'   => $form->createView(),
-        );
-    }
-
+	/**
+	 * @var Entreprise
+	 */
+	protected $currentEntreprise;
+	
+	/**
+	 * Get connected Entity Entreprise
+	 *
+	 * @return Entreprise $currentEntreprise
+	 *
+	 */
+	public function getCurrentEntreprise()
+	{
+		$em = $this->getDoctrine()->getManager();
+		
+		$loggedUser = parent::getLoggedUser();
+		
+		$this->currentEntreprise = $em->getRepository('JobHubBundle:Entreprise')->findOneBy(array('compteUser' => $loggedUser));
+	
+		return $this->currentEntreprise;
+	}
+	
     /**
     * Creates a form to create a Entreprise entity.
     *
@@ -72,7 +51,7 @@ class EntrepriseController extends Controller
     private function createCreateForm(Entreprise $entity)
     {
         $form = $this->createForm(new EntrepriseType(), $entity, array(
-            'action' => $this->generateUrl('admin_entreprise_create'),
+            'action' => $this->generateUrl('job_hub_entreprise_create'),
             'method' => 'POST',
         ));
 
@@ -82,75 +61,68 @@ class EntrepriseController extends Controller
     }
 
     /**
-     * Displays a form to create a new Entreprise entity.
-     *
-     * @Route("/new", name="admin_entreprise_new")
-     * @Method("GET")
-     * @Template()
-     */
-    public function newAction()
-    {
-        $entity = new Entreprise();
-        $form   = $this->createCreateForm($entity);
-
-        return array(
-            'entity' => $entity,
-            'form'   => $form->createView(),
-        );
-    }
-
-    /**
      * Finds and displays a Entreprise entity.
      *
-     * @Route("/{id}", name="admin_entreprise_show")
+     * @Route("/profile", name="job_hub_entreprise_show")
      * @Method("GET")
      * @Template()
      */
-    public function showAction($id)
-    {
-        $em = $this->getDoctrine()->getManager();
-
-        $entity = $em->getRepository('JobHubBundle:Entreprise')->find($id);
-
-        if (!$entity) {
-            throw $this->createNotFoundException('Unable to find Entreprise entity.');
+    public function showAction()
+    {   
+    	$entreprise = $this->getCurrentEntreprise();
+    	if (!$entreprise) {
+    		return $this->redirect($this->generateUrl('login'));
+    	}
+    	
+    	if(!$entreprise->check_info_base()){
+        	$form = $this->createEditForm($entreprise)->createView();
+        } else {
+        	$form = null;
         }
-
-        $deleteForm = $this->createDeleteForm($id);
-
-        return array(
-            'entity'      => $entity,
-            'delete_form' => $deleteForm->createView(),
-        );
+        if(count($entreprise -> getOffres())==0){
+        	$disabled_offers = null;
+        	$enabled_offers = null;
+        } else {
+        	$disabled_offers = $this->getDoctrine()->getEntityManager()->getRepository('JobHubBundle:Offre')
+        		->findBy(array('entreprise' => $entreprise, 'enabled' => false));
+        	$enabled_offers = $this->getDoctrine()->getEntityManager()->getRepository('JobHubBundle:Offre')
+        		->findBy(array('entreprise' => $entreprise, 'enabled' => true));
+        }
+        $offres = array(
+        		'disabled_offers'=>$disabled_offers,
+        		'enabled_offers'=>$enabled_offers);
+    	return array(
+    			'entity' => $entreprise,
+    			'edit_form' => $form,
+    			'enabled_offers'=>$enabled_offers,
+    			'disabled_offers'=>$disabled_offers,
+    			//'offres' => $offres
+    	);
     }
 
     /**
      * Displays a form to edit an existing Entreprise entity.
      *
-     * @Route("/{id}/edit", name="admin_entreprise_edit")
+     * @Route("/profile/edit", name="job_hub_entreprise_edit")
      * @Method("GET")
      * @Template()
      */
-    public function editAction($id)
+    public function editAction()
     {
-        $em = $this->getDoctrine()->getManager();
-
-        $entity = $em->getRepository('JobHubBundle:Entreprise')->find($id);
-
-        if (!$entity) {
-            throw $this->createNotFoundException('Unable to find Entreprise entity.');
-        }
-
-        $editForm = $this->createEditForm($entity);
-        $deleteForm = $this->createDeleteForm($id);
-
-        return array(
-            'entity'      => $entity,
-            'edit_form'   => $editForm->createView(),
-            'delete_form' => $deleteForm->createView(),
-        );
+    	$entreprise = $this->getCurrentEntreprise(); 
+    	if (!$entreprise) {
+    		throw $this->createNotFoundException('Unable to find Entreprise entity.');
+    	}
+    	$editForm = $this->createEditForm($entreprise);
+    	return array(
+    			'entity'      => $entreprise,
+    			'edit_form'   => $editForm->createView(),
+    	);
     }
 
+    
+    
+    
     /**
     * Creates a form to edit a Entreprise entity.
     *
@@ -160,88 +132,43 @@ class EntrepriseController extends Controller
     */
     private function createEditForm(Entreprise $entity)
     {
-        $form = $this->createForm(new EntrepriseType(), $entity, array(
-            'action' => $this->generateUrl('admin_entreprise_update', array('id' => $entity->getId())),
-            'method' => 'PUT',
-        ));
+        $form = $this->createForm(new EntrepriseType(), $entity);
 
-        $form->add('submit', 'submit', array('label' => 'Update'));
+        $form->add('submit', 'submit', array('label' => 'Sauvegarder les modifications'));
 
         return $form;
     }
     /**
      * Edits an existing Entreprise entity.
      *
-     * @Route("/{id}", name="admin_entreprise_update")
-     * @Method("PUT")
+     * @Route("/profile/update", name="job_hub_entreprise_update")
+     * @Method("POST")
      * @Template("JobHubBundle:Entreprise:edit.html.twig")
      */
-    public function updateAction(Request $request, $id)
-    {
-        $em = $this->getDoctrine()->getManager();
-
-        $entity = $em->getRepository('JobHubBundle:Entreprise')->find($id);
-
-        if (!$entity) {
-            throw $this->createNotFoundException('Unable to find Entreprise entity.');
-        }
-
-        $deleteForm = $this->createDeleteForm($id);
-        $editForm = $this->createEditForm($entity);
-        $editForm->handleRequest($request);
-
-        if ($editForm->isValid()) {
-            $em->flush();
-
-            return $this->redirect($this->generateUrl('admin_entreprise_edit', array('id' => $id)));
-        }
-
-        return array(
-            'entity'      => $entity,
-            'edit_form'   => $editForm->createView(),
-            'delete_form' => $deleteForm->createView(),
-        );
+    public function updateAction()
+    {            
+            
+    	$entreprise=$this->getCurrentEntreprise();
+    	if (!$entreprise) {
+    		return $this->redirect($this->generateUrl('login'));
+    	}
+        	
+    	$editForm = $this->createEditForm($entreprise);
+    	$request = $this->container->get('request');
+    	$editForm->handleRequest($request);
+    
+    	if ($editForm->isValid()) {
+    		$em = $this->getDoctrine()->getManager();
+			$entreprise->removeLogo();
+			$entreprise->uploadLogo();	
+    		$em->flush();    
+    		return $this->redirect($this->generateUrl('job_hub_entreprise_show'));
+    	}
+    
+    	return array(
+    			'entity'      => $entity,
+    			'edit_form'   => $editForm->createView(),
+    	);
     }
-    /**
-     * Deletes a Entreprise entity.
-     *
-     * @Route("/{id}", name="admin_entreprise_delete")
-     * @Method("DELETE")
-     */
-    public function deleteAction(Request $request, $id)
-    {
-        $form = $this->createDeleteForm($id);
-        $form->handleRequest($request);
-
-        if ($form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
-            $entity = $em->getRepository('JobHubBundle:Entreprise')->find($id);
-
-            if (!$entity) {
-                throw $this->createNotFoundException('Unable to find Entreprise entity.');
-            }
-
-            $em->remove($entity);
-            $em->flush();
-        }
-
-        return $this->redirect($this->generateUrl('admin_entreprise'));
-    }
-
-    /**
-     * Creates a form to delete a Entreprise entity by id.
-     *
-     * @param mixed $id The entity id
-     *
-     * @return \Symfony\Component\Form\Form The form
-     */
-    private function createDeleteForm($id)
-    {
-        return $this->createFormBuilder()
-            ->setAction($this->generateUrl('admin_entreprise_delete', array('id' => $id)))
-            ->setMethod('DELETE')
-            ->add('submit', 'submit', array('label' => 'Delete'))
-            ->getForm()
-        ;
-    }
+    
 }

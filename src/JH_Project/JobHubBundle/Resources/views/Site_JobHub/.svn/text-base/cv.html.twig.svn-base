@@ -1,8 +1,0 @@
-{# twig parent: #}
-{% extends "JobHubBundle::layout.html.twig" %}
-
-{% block title %}{{ parent() }} - page CV{% endblock %}
-
-{% block body %}
-
-{% endblock %}

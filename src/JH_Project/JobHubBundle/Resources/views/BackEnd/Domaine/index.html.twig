@@ -1,0 +1,47 @@
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+
+{% block page_title %}
+<div class="navbar-header">
+	<h2>Liste des domaines</h2>
+</div>
+<ul class="entity_actions pull-right">
+<li>
+    <a class="btn" href="{{ path('administration_domaine_new') }}">
+        Ajouter un domaine
+    </a>
+</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Libelle</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('administration_domaine_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.libelle }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('administration_domaine_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('administration_domaine_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    
+{% endblock %}

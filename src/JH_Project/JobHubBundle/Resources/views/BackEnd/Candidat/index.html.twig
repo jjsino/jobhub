@@ -1,0 +1,42 @@
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+{% block page_title %}
+<div class="navbar-header">
+<h2>Liste des candidats</h2>
+</div>
+{% endblock %}
+
+{% block page_content %}
+    <table class="table records_list">
+        <thead>
+            <tr>
+            	<th>Id</th>
+                <th>Login</th>
+                <th>Email</th>
+                <th>Etat</th>
+                <th>Expiré</th>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+            	<td>{{ entity.id }} </td>
+                <td><a href="{{ path('administration_candidat_show', { 'id': entity.id }) }}">{{ entity.compteUser.username }}</a></td>
+                <td>{{ entity.compteUser.email }}</td>
+                <td>{% if entity.compteUser.enabled %}Activé{% else %}Désactivé{% endif %}</td>
+                <td>{% if entity.compteUser.expired %}Expiré{% else %}Valide{% endif %}</td>
+                <td>{{ entity.nom }}</td>
+                <td>{{ entity.prenom }}</td>
+                <td>
+                    <a href="{{ path('administration_candidat_show', { 'id': entity.id }) }}">Détails</a>
+                	|
+                    <a href="{{ path('administration_candidat_edit', { 'id': entity.id }) }}">Désactiver</a>
+            	</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% endblock %}

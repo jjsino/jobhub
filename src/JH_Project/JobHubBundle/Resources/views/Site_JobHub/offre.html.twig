@@ -1,8 +1,66 @@
+{# Ceci est un commentaire #}
+{# src/JH_Project/JobHubBundle/Resources/views/Site_JobHub/offre.html.twig #}
+
 {# twig parent: #}
 {% extends "JobHubBundle::layout.html.twig" %}
-
 {% block title %}{{ parent() }} - page Offre{% endblock %}
+
 
 {% block body %}
 
+{% block navbar %}
+{{ parent() }}
 {% endblock %}
+
+   <div class="row">
+        <div class="col-lg-6">  </div>
+         <div class="col-lg-6">
+    </div>  
+ </div>   
+        
+      <div class="row">
+        <div class="col-lg-12"> 
+        
+        <table class="table">  
+        <thead>  
+          <tr>  
+            <th>Offre</th>  
+            <th>Entreprise</th>  
+            <th>Region</th>  
+            <th>Ville</th>  
+          </tr>  
+        </thead>  
+        <tbody>  
+          <tr>  
+            <td>001</td>  
+            <td>Rammohan </td>  
+            <td>Ile de france</td>  
+            <td>Paris</td>  
+          </tr>  
+          <tr>  
+            <td>002</td>  
+            <td>Smita</td>  
+            <td>Ile de france</td>  
+            <td>Paris</td>   
+          </tr>  
+          <tr>  
+            <td>003</td>  
+            <td>Rabindranath</td>  
+            <td>Ile de france</td>  
+            <td>Paris</td>   
+          </tr>  
+        </tbody>  
+      </table>          
+     
+         </div>
+ </div>   
+   
+  
+ {% block footer %}
+{{ parent() }}
+    
+{% endblock %}
+
+
+{% endblock %}
+

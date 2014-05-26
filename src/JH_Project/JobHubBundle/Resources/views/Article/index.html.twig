@@ -1,0 +1,58 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - {{rubrique}}{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+	<div class="clearfix contenu_header">
+		<div class="pull-left">	<h2> {{rubrique}} </h2></div>
+	</div>
+	<div class="bloc_info">
+	{% if entities|length > 0 %}
+		<table class="table records_list">
+		    <thead>
+		        <tr>
+		            <th>Id</th>
+		            <th>Titre</th>
+		            <th>Etat</th>
+		            <th>Maj</th>
+		            <th>Contenu</th>
+		            <th>Actions</th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		    {% for entity in entities %}
+		        <tr>
+		            <td><a href="{{ path('article_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+		            <td>{{ entity.titre }}</td>
+		            <td>{{ entity.etat }}</td>
+		            <td>{% if entity.maj %}{{ entity.maj|date('Y-m-d H:i:s') }}{% endif %}</td>
+		            <td>{{ entity.contenu }}</td>
+		            <td>
+		            <ul>
+		                <li>
+		                    <a href="{{ path('article_show', { 'id': entity.id }) }}">show</a>
+		                </li>
+		            </ul>
+		            </td>
+		        </tr>
+		    {% endfor %}
+		    </tbody>
+		</table>
+	{% else %}
+	 No Articles Registered 
+	{% endif %}
+	</div>
+{% endblock %} 
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}

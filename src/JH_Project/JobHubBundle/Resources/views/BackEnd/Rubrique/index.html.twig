@@ -1,0 +1,48 @@
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+
+{% block page_title %}
+<div class="navbar-header">
+	<h2>Liste des rubriques</h2>
+</div>
+<ul class="entity_actions pull-right">
+<li>
+    <a class="btn" href="{{ path('administration_rubrique_new') }}">
+        Ajouter un rubrique
+    </a>
+</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('administration_rubrique_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.nom }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('administration_rubrique_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('administration_rubrique_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

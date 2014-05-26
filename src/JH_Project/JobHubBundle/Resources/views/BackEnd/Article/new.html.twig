@@ -1,0 +1,22 @@
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+
+{% block page_title %}
+<div class="navbar-header">
+	<h2>Nouvel article</h2>
+</div>
+<ul class="entity_actions pull-right back_to_list record_actions">
+	<li>
+		<a href="{{ path('administration_article') }}">
+		    Retour à la liste
+		</a>
+	</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+
+    {{ form(form) }}
+
+{% endblock %}

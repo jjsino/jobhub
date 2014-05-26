@@ -1,0 +1,55 @@
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+
+{% block page_title %}
+<div class="navbar-header">
+	<h2>Liste des pays</h2>
+</div>
+<ul class="entity_actions pull-right">
+<li>
+    <a class="btn" href="{{ path('administration_pays_new') }}">
+        Ajouter un pays
+    </a>
+</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Code</th>
+                <th>Alpha2</th>
+                <th>Alpha3</th>
+                <th>Nomen</th>
+                <th>Nomfr</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('administration_pays_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.code }}</td>
+                <td>{{ entity.alpha2 }}</td>
+                <td>{{ entity.alpha3 }}</td>
+                <td>{{ entity.nomEn }}</td>
+                <td>{{ entity.nomFr }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('administration_pays_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('administration_pays_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    {% endblock %}

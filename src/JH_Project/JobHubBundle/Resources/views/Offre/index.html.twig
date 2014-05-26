@@ -1,0 +1,58 @@
+{# La liste des offres #}
+
+{# twig parent: #} 
+{% extends "JobHubBundle::layout.html.twig" %} 
+
+{%block title %}{{ parent() }} - Offre{% endblock %}
+
+{% block navbar %} {{ parent() }} {% endblock %}
+
+{% block contenu %}
+{#
+<div class="outer">
+<div class="inner">
+#}
+	<div class="clearfix contenu_header">		
+		<h2 class="pull-left bloc_info_titre"> Liste des offres</h2>
+		{% if is_granted('ROLE_ENTREPRISE') %}
+		<a class="pull-right bloc_info_right_link" href="{{ path('job_hub_offre_new')}}">Publier une offre</a>
+		{% endif %}
+	</div> 
+	<div class="clearfix bloc_info">
+			<table class="table records_list">
+				<thead>
+					<tr>
+						<th>Intitulé</th>
+						<th>Date</th>
+						<th>Ville</th>
+					</tr>
+				</thead>
+				<tbody>
+				{% for entity in entities %}
+				<tr>
+					<td>
+						<a href="{{ path('job_hub_offre_show', { 'id': entity.id}) }}">
+						{{ entity.intitule }} <span>Voir les détails de l'offre</span>
+						</a>
+					</td>
+					<td>{% if entity.maj %}{{ entity.maj|date('Y-m-d') }}{% endif%}</td>
+					<td>{% if entity.ville%}{{ entity.ville.nom}},{{ entity.ville.region.pays.nomFr }}{% endif%}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+{#
+</div>
+</div>
+#}
+{% endblock %} 
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %} 
+{{ parent() }}
+{% endblock %} 

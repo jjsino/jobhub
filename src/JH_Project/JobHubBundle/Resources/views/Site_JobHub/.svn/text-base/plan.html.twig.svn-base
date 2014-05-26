@@ -1,8 +1,0 @@
-{% extends "JobHubBundle::layout.html.twig" %}
-
-{% block title %}{{ parent() }} - Plan{% endblock %}
-
-{% block body %}
-{{ parent() }}
-   
-{% endblock %}

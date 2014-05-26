@@ -12,4 +12,49 @@ use Doctrine\ORM\EntityRepository;
  */
 class CVRepository extends EntityRepository
 {
+	public function searchCV( $titre ){
+        $qb = $this->createQueryBuilder('cv');
+        $qb->where( 'cv.titre LIKE :titre' )
+           ->setParameter( 'titre', '%'. $titre .'%' );
+ 
+        return $qb->getQuery()->getResult();
+    }
+    
+    public function removeCV($id) 
+    {
+		$query = $this->getEntityManager()->createQuery(
+			'DELETE
+			 FROM JobHubBundle:CV cv
+			 WHERE cv.id = '.$id
+			);
+		$query->execute();
+    }
+    
+    
+    public function findAllOrderedByDate()
+    {
+    	return $this->getEntityManager()
+    	->createQuery(
+    			'SELECT cv
+    			 FROM JobHubBundle:CV cv ORDER BY cv.maj ASC'
+    	)
+    	->getResult();
+    }
+    
+    
+/*public function getEntityFromDate(\DateTime $date)
+{
+    return $this->getEntityManager()
+                ->createQueryBuilder();
+    
+                $qb->select('cv')
+                ->from('JobHubBundle:CV','cv')
+                ->where('(cv.date) >= :date')
+                ->orderBy('cv.date','DESC')
+                ->setParameter('date', $date->format('Y-m-d'))
+                ->getResult();
+}*/
+    
+    
+    
 }

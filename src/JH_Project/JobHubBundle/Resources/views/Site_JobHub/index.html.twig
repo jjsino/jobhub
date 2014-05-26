@@ -3,20 +3,151 @@
 
 {# twig parent: #}
 {% extends "JobHubBundle::layout.html.twig" %}
-
 {% block title %}{{ parent() }} - Accueil{% endblock %}
 
 
 
-
-
 {% block body %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{#  TO MODIFY
+{% for flashMessage in app.session.flashbag.get('notice') %}
+    <div class="flash-notice">
+        {{ flashMessage }}
+    </div>
+{% endfor %}
+#}
+    <!-- Formulaire de recherche -->
+     <div class="jumbotron">
+        <img src="{{ asset('bundles/jobhub/images/logo_JobHub.png') }}" alt="JobHub">
+     			{{ render(controller( 'SearchEngineBundle:SearchOffer:search' )) }}
+                <!--
+                <form  class="lead" role="search" id="formrecherche" action="" method="get"> 
+                       <input type="text" class="input-large" class="form-control" placeholder="Mot cle">
+                       <input type="text" class="input-large" class="form-control" placeholder="Lieu">  
+                       <input type="submit" class="btn btn-large btn-info" value="Chercher"/>
+                </form>
+                <p> <h5> <a class="btn-link right" href="#" role="button">Recherche avancee</a> </h5>    </p>
+                -->
+   </div>
+    
+      <!-- Colonnes de la ligne 2 -->
+      <div class="container">
+       <div class="row">
+         <div class="col-md-8">
+         <!--  Carousel -->
+           <div id="myCarousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                  <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="{{ asset('bundles/jobhub/images/antennae.jpg') }}" alt="post image">
+                    <div class="carousel-caption">
+                      <h4>First Thumbnail label</h4>
+                      <p>image1.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                     <img src="{{ asset('bundles/jobhub/images/echo.jpg') }}" alt="post image">
+                    <div class="carousel-caption">
+                      <h4>Second Thumbnail label</h4>
+                      <p>image2.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                     <img src="{{ asset('bundles/jobhub/images/ngc5866.jpg') }}">
+                    <div class="carousel-caption">
+                      <h4>Third Thumbnail label</h4>
+                      <p>image3.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">&laquo;</a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">&raquo;</a>
+              </div>
+		</div>
+		<!-- / SLIDER -->
+        <div class="col-md-4">
+          <div class="hide_bloc panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">Sondage</h3>
+             </div>
+             <div class="panel-body">
+               <h5> Quel critère d'un emploi est le plus important à votre regard ?</h5>
+              
+               <ol> <input  type = "checkbox"  data-label ="suffix" class = "style2" /> Salaire </ol>
+               <ol><input  type = "checkbox"  data-label = "suffix" class = "style2" /> Lieu de travail</ol>
+               <ol><input  type = "checkbox"  data-label = "suffix" class = "style2" /> Thème du travail</ol>
+              </ul> <br>
+             <p><a class="btn btn-mini btn-info" href="#" role="button">Voter</a></p>
+          </div>
+        </div>
+    </div>  
+ </div>        
+
+      <div class="row">
+      
+      <div class="col-md-4">
+           <div class="hide_bloc panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">Conseils</h3>
+             </div>
+             <div class="panel-body">
+              <ul>
+               <li> Comment s'entrainer a faire un entretien en anglais ?</li>
+               <li>Quels sont les avantages d'un job dans l'informatique ?</li>
+               <li>Mieux s'affirmer au travail : quel coaching ?</li>
+              
+              </ul>
+             <p><a class="btn btn-mini btn-info" href="#" role="button">plus de Detail</a></p>
+             
+          </div>
+        </div>
+    </div>  
+    
+       <div class="col-md-4">
+         <div class="hide_bloc panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">Section FAQ</h3>
+             </div>
+             <div class="panel-body">
+              <ul>
+               <li> Comment s'entrainer à  faire un entretien en anglais ?</li>
+               <li>Quels sont les avantages d'un job dans l'informatique ?</li>
+               <li>Mieux s'affirmer au travail : quel coaching ?</li>
+              
+              </ul>
+             <p><a class="btn btn-mini btn-info" href="#" role="button">Voir plus</a></p>
+          </div>
+        </div>
+       </div>  
+    
+        <div class="col-md-4"> 
+           <div class="hide_bloc panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">Liens utiles</h3>
+             </div>
+             <div class="panel-body">
+              <ul>
+				<li><a href="#">Les jeudis</a></li>
+				<li><a href="{{asset('http://monster.fr')}}">Monster</a></li>
+                </ul>
+          </div>
+        </div>    
+        </div>
+     </div>  
+   </div>
+  </div>
+ {% block footer %}
 {{ parent() }}
     
 {% endblock %}
 
 
-{% block footer %}
-{{ parent() }}
-    
 {% endblock %}

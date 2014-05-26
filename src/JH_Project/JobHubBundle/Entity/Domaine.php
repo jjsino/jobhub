@@ -29,9 +29,9 @@ class Domaine
     private $libelle;
 
     /**
-     * @ORM\OneToMany(targetEntity="Activite", mappedBy="domaine", cascade={"remove","persist"})
+     * @ORM\OneToMany(targetEntity="Offre", mappedBy="activite", cascade={"remove","persist"})
      */
-    private $activites;
+    private $offres;
 
     /**
      * Get id
@@ -74,5 +74,19 @@ class Domaine
     public function getLibelle()
     {
         return $this->libelle;
+    }
+    public function __toString()
+    {
+    	return $this -> libelle;
+    }
+
+    /**
+     * Get offres
+     *
+     * @return array 
+     */
+    public function getOffres()
+    {
+        return $this->offres;
     }
 }

@@ -1,0 +1,122 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} offre{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+
+{#
+link: 
+	modifier; activer/désactiver; retour; voir candidatures => entreprise
+	postuler =>candidat
+	notice login => not loggedUser
+#}
+
+<div class="clearfix contenu_header">		
+	<h2 class="pull-left bloc_info_titre"> Offre d'emploi N° {{entity.id}}</h2>
+	<div class="pull-right bloc_info_right_link">
+		<a class="bloc_info_right_link" href="{{ path('job_hub_offre')}}">
+		Retour<span>Retour à la liste des offres</span>
+		</a>
+		{% if is_granted('ROLE_CANDIDAT') %}
+		 |<a class="bloc_info_right_link" href="{{ path('job_hub_offre_postuler', { 'id': entity.id }) }}">
+		Postuler<span>Postuler à cette offre</span>
+		</a>
+		 |<a class="bloc_info_right_link" href="{{ path('job_hub_offre_postuler', { 'id': entity.id }) }}">
+		Sauvegarder<span>Sauvegarder cette offre</span>
+		</a>
+		{% elseif is_granted('ROLE_ENTREPRISE') %}
+			{% if entity.entreprise == entreprise %}
+				 |<a class="bloc_info_right_link"  href="{{ path('job_hub_offre_edit', { 'id': entity.id }) }}">
+		          Modifier<span>Modifier cette offre</span>
+		        </a> |
+		        <a class="bloc_info_right_link"  href="{{ path('job_hub_offre_disable', { 'id': entity.id }) }}">
+		          Désactiver<span>Mettre cette offre hors ligne</span>
+		        </a>
+		     {% endif %}
+		{% else %}
+		{% endif %}
+	</div>
+</div>
+<div class="show_offre bloc_info">
+    <table class="record_properties">
+	        <tbody>
+            <tr>
+                <th>Référence</th>
+                <td>{{ entity.id }}</td>
+            </tr> 
+            <tr>
+                <th>Intitulé</th>
+                <td>{{ entity.intitule }}</td>
+            </tr>            
+            <tr>
+                <th>Entreprise</th>
+                <td>{{ entity.entreprise.nom }}</td>
+            </tr>
+            <tr>
+                <th>Date de mise en ligne </th>
+                <td>{{ entity.maj|date('d-m-y') }}</td>
+            </tr>
+             <tr>
+                <th>Ville</th>
+                <td>{{ entity.ville.nom }},{{ entity.ville.region.pays.nomFr }}</td>
+            </tr>
+                 {# 1: CDI; 2: CDD; 3: Stage; 4:Apprentissage; 5:Temps Partiel; 6: Freelance#}
+            <tr>
+                <th>Type de Contrat</th>
+                <td>
+                {% if entity.typeContrat == 1 %} CDI
+                {% elseif entity.typeContrat == 2 %} CDD                
+                {% elseif entity.typeContrat == 3 %} Stage
+                {% elseif entity.typeContrat == 4 %} Apprentissage
+                {% elseif entity.typeContrat == 5 %} Temps Partiel
+                {% elseif entity.typeContrat == 6 %} Freelance
+                {% else %} Non communiqué
+                {% endif %}
+                </td>
+            </tr> 
+            <tr>
+                <th>Fonction</th>
+                <td>{{ entity.fonctionPoste }}</td>
+            </tr> 
+            <tr>
+                <th>Domaine</th>
+                <td>{{ entity.domaine.libelle }}</td>
+            </tr> 
+            <tr>
+                <th>Activité</th>
+                <td>{{ entity.activite.libelle }}</td>
+            </tr> 
+            <tr> {# 1: SMIC; 2: 1500-2000; 3:2000-2500; 4:2500-3000; 5:3000-3500; 6:>3500 #}
+                <th>Salaire</th>
+                <td>
+                {% if entity.salaire == 1 %} SMIC
+                {% elseif entity.salaire == 2 %} 1500€-2000€                
+                {% elseif entity.salaire == 3 %} 2000€-2500€
+                {% elseif entity.salaire == 4 %} 2500€-3000€
+                {% elseif entity.salaire == 5 %} 3000€-3500€
+                {% elseif entity.salaire == 6 %} 3500€
+                {% else %} Non communiqué
+                {% endif %}
+                </td>
+            </tr> 
+            <tr>
+                <th>Description</th>
+                <td>{{ entity.description | nl2br}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>		
+{% endblock %}
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %}	
+ 
+{% block footer %}
+{{ parent() }}
+{% endblock %}

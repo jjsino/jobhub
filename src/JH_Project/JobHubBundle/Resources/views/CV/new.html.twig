@@ -1,0 +1,19 @@
+<h4> Publier un CV</h4>
+{% if error %}
+{{ error }}
+{% endif %}
+ <form class="candidat_profil_form" action="{{ path('candidat_cv_create') }}" method="POST" {{ form_enctype(form) }}>
+	<table class="record_properties">
+		<tbody>
+			<tr>
+                <th>Titre du CV</th>
+                <td>{{ form_widget(form.titre) }}</td>
+            </tr>
+            <tr>
+                <th>Votre CV (fichier PDF)</th>
+                <td>{{ form_widget(form.file) }}</td>
+            </tr>
+        </tbody>
+	</table>
+	{{form_rest(form)}}
+</form>

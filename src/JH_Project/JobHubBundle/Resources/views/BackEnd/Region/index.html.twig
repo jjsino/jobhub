@@ -1,0 +1,50 @@
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+
+{% block page_title %}
+<div class="navbar-header">
+	<h2>Liste des regions</h2>
+</div>
+<ul class="entity_actions pull-right">
+<li>
+    <a class="btn" href="{{ path('administration_region_new') }}">
+        Ajouter une region
+    </a>
+</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Pays</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td>{{ entity.id }}</td>
+                <td><a href="{{ path('administration_region_show', { 'id': entity.id }) }}">{{ entity.nom }}</a></td>
+                <td>{{ entity.pays.nomFr }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('administration_region_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('administration_region_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    {% endblock %}

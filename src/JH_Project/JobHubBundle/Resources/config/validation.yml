@@ -1,0 +1,28 @@
+# src/Acme/BlogBundle/Resources/config/validation.yml
+# validator
+JH_Project\JobHubBundle\Entity\CV:
+    properties:
+        file:
+            - File:
+                maxSize: 10240k
+                mimeTypes: [application/pdf, application/x-pdf]
+                mimeTypesMessage: Choisissez un fichier PDF valide
+
+JH_Project\JobHubBundle\Entity\Candidat:
+    properties:
+        photoProfil:
+            - Image:
+                maxWidth: 400
+                maxHeight: 400
+        nom:
+            - NotBlank: { groups: [edit] }
+        prenom:
+            - NotBlank: { groups: [edit] }           
+        birthday:
+            - NotBlank: { groups: [edit] }            
+        adresse:
+            - NotBlank: { groups: [edit] }
+        codePostal:
+            - NotBlank: { groups: [edit] }            
+        ville:
+            - NotBlank: { groups: [edit] }                         

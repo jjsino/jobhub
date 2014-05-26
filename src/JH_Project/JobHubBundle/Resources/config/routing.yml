@@ -1,85 +1,697 @@
-job_hub_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: JobHubBundle:Default:index }
+# ---------------------------------------------------------- #
+#                           Front-end
+# ---------------------------------------------------------- #
+
+# ---- General
+job_hub_index:
+    pattern:  /
+    defaults: { _controller: JobHubBundle:JobHub:index }
 
 job_hub_accueil:
     pattern:  /index
     defaults: { _controller: JobHubBundle:JobHub:index }
-
-job_hub_session:
-    pattern:  /session
-    defaults: { _controller: JobHubBundle:JobHub:session }
-    
-job_hub_candidat:
-    pattern:  /candidat
-    defaults: { _controller: JobHubBundle:JobHub:candidat }
-
-job_hub_entreprise:
-    pattern:  /entreprise
-    defaults: { _controller: JobHubBundle:JobHub:entreprise }
-    
-job_hub_cv:
-    pattern:  /cv
-    defaults: { _controller: JobHubBundle:JobHub:cv}
-    
-job_hub_offre:
-    pattern:  /offre
-    defaults: { _controller: JobHubBundle:JobHub:offre}  
     
 job_hub_recherche:
     pattern:  /recherche
     defaults: { _controller: JobHubBundle:JobHub:recherche}   
  
-job_hub_conseil:
-    pattern:  /conseil
-    defaults: { _controller: JobHubBundle:JobHub:conseil} 
+job_hub_articles:
+    pattern:  /article/{nom_rubrique}
+    defaults: { _controller: JobHubBundle:Article:index }
 
-job_hub_actu:
-    pattern:  /actu
-    defaults: { _controller: JobHubBundle:JobHub:actu} 
+job_hub_article_show:
+    pattern:  /article/{id}
+    defaults: { _controller: JobHubBundle:Article:show }  
  
 job_hub_plan:
     pattern:  /plan
-    defaults: { _controller: JobHubBundle:JobHub:plan}          
-                      
-job_hub_faq:
-    pattern:  /faq
-    defaults: { _controller: JobHubBundle:JobHub:faq}
+    defaults: { _controller: JobHubBundle:JobHub:plan}   
 
-job_hub_admin_connect:
-    pattern:  /admin_connect
-    defaults: { _controller: JobHubBundle:JobHub:admin_connect }
+# ---- Inscription
+job_hub_inscription:
+    pattern:  /inscription/
+    defaults: { _controller: JobHubBundle:JobHub:inscription_form }
+job_hub_inscription_check:
+    pattern:  /inscription_check/
+    defaults: { _controller: JobHubBundle:JobHub:inscription_check }
+job_hub_inscrit:
+    pattern:  /inscrit/
+    defaults: { _controller: JobHubBundle:JobHub:inscrit }   
 
-admin_entreprise:
-    pattern:  /admin_entreprise
-    defaults: { _controller: JobHubBundle:Entreprise:index }
+# ---- Authentications
+# Authentication générale
+login:
+    pattern:  /login
+    defaults: { _controller: JobHubBundle:Security:login }
+
+login_check:
+    pattern: /login_check
+
+logout:
+    pattern: /logout
+    defaults: { _controller: JobHubBundle:Security:logout }
+
+pass_oubli:
+    pattern: /oubli
+    defaults: { _controller: JobHubBundle:Security:passOubli }
+        
+# ---- Candidat & CRUD : update/edit, show 
+job_hub_candidat:
+    pattern:  /candidat/
+    defaults: { _controller: JobHubBundle:Candidat:index }
     
-admin_entreprise_new:
-    pattern:  /admin_entreprise_new
-    defaults: { _controller: JobHubBundle:Entreprise:new }
+job_hub_candidat_show:
+    pattern:  /candidat/profile/
+    defaults: { _controller: JobHubBundle:Candidat:show }
 
-admin_entreprise_create:
-    pattern:  /admin_entreprise_create
-    defaults: { _controller: JobHubBundle:Entreprise:create }
+job_hub_candidat_edit:
+    pattern:  /candidat/profile/edit
+    defaults: { _controller: JobHubBundle:Candidat:edit }
+
+job_hub_candidat_update:
+    pattern:  /candidat/profile/update
+    defaults: { _controller: JobHubBundle:Candidat:update }
+
+# Formation CRUD
+candidat_profile_formation:
+    pattern:  /candidat/profile/formation/
+    defaults: { _controller: JobHubBundle:Formation:index }
+
+candidat_profile_formation_new:
+    pattern:  /candidat/profile/formation/new
+    defaults: { _controller: JobHubBundle:Formation:new }
+
+candidat_profile_formation_create:
+    pattern:  /candidat/profile/formation/create
+    defaults: { _controller: JobHubBundle:Formation:create }
+
+candidat_profile_formation_show:
+    pattern:  /candidat/profile/formation/{id}
+    defaults: { _controller: JobHubBundle:Formation:show }
+
+candidat_profile_formation_edit:
+    pattern:  /candidat/profile/formation/{id}/edit
+    defaults: { _controller: JobHubBundle:Formation:edit }
+
+candidat_profile_formation_update:
+    pattern:  /candidat/profile/formation/{id}/update
+    defaults: { _controller: JobHubBundle:Formation:update }
+
+candidat_profile_formation_delete:
+    pattern:  /candidat/profile/formation/{id}/delete
+    defaults: { _controller: JobHubBundle:Formation:delete }
+
+# Experience CRUD
+candidat_profile_experience:
+    pattern:  /candidat/profile/experience/
+    defaults: { _controller: JobHubBundle:Experience:index }
+
+candidat_profile_experience_new:
+    pattern:  /candidat/profile/experience/new
+    defaults: { _controller: JobHubBundle:Experience:new }
+
+candidat_profile_experience_create:
+    pattern:  /candidat/profile/experience/create
+    defaults: { _controller: JobHubBundle:Experience:create }
+
+candidat_profile_experience_show:
+    pattern:  /candidat/profile/experience/{id}
+    defaults: { _controller: JobHubBundle:Experience:show }
+
+candidat_profile_experience_edit:
+    pattern:  /candidat/profile/experience/{id}/edit
+    defaults: { _controller: JobHubBundle:Experience:edit }
+
+candidat_profile_experience_update:
+    pattern:  /candidat/profile/experience/{id}/update
+    defaults: { _controller: JobHubBundle:Experience:update }
+
+candidat_profile_experience_delete:
+    pattern:  /candidat/profile/experience/{id}/delete
+    defaults: { _controller: JobHubBundle:Experience:delete }
+
+# ---- CV & CRUD: new/create, show, index
+candidat_cv:
+    pattern:  /candidat/cv/
+    defaults: { _controller: JobHubBundle:CV:index }
+  
+candidat_cv_new:
+    pattern:  /candidat/cv/new
+    defaults: { _controller: JobHubBundle:CV:new }
+
+candidat_cv_create:
+    pattern:  /candidat/cv/create
+    defaults: { _controller: JobHubBundle:CV:create }
     
-admin_entreprise_edit:
-    pattern:  /admin_entreprise_edit/{id}
-    defaults: { _controller: JobHubBundle:Entreprise:edit }   
-
-admin_entreprise_show:
-    pattern:  /admin_entreprise_show/{id}
-    defaults: { _controller: JobHubBundle:Entreprise:show }   
+candidat_cv_show:
+    pattern:  /candidat/cv/{id}
+    defaults: { _controller: JobHubBundle:CV:show }
     
-job_hub_admin_accueil:
-    pattern:  /admin
-    defaults: { _controller: JobHubBundle:JobHub:admin }
+candidat_cv_list:
+    pattern:  /cv/list
+    defaults: { _controller: JobHubBundle:CV:list }    
+    
+candidat_cv_delete:
+    pattern:  /candidat/cv/{id}/delete
+    defaults: { _controller: JobHubBundle:CV:delete }
+# ---- Entreprise & CRUD: show, update/edit    
+job_hub_entreprise_show:
+    pattern:  /entreprise/profile/
+    defaults: { _controller: JobHubBundle:Entreprise:show }
 
-job_hub_admin_type_liste:
-    pattern:  /admin/{type}
-    defaults: { _controller: JobHubBundle:JobHub:admin_type_liste}
+job_hub_entreprise_edit:
+    pattern:  /entreprise/profile/edit
+    defaults: { _controller: JobHubBundle:Entreprise:edit }
+
+job_hub_entreprise_update:
+    pattern:  /entreprise/profile/update
+    defaults: { _controller: JobHubBundle:Entreprise:update }
+      
+
+# ---- Offre & CRUD: new/create, show, index, update/edit
+job_hub_offre:
+    pattern:  /offre/
+    defaults: { _controller: JobHubBundle:Offre:index }
+  
+job_hub_offre_new:
+    pattern:  /entreprise/offre/new
+    defaults: { _controller: JobHubBundle:Offre:new }
+
+job_hub_offre_create:
+    pattern:  /entreprise/offre/create
+    defaults: { _controller: JobHubBundle:Offre:create }
+    
+job_hub_offre_show:
+    pattern:  /offre/{id}
+    defaults: { _controller: JobHubBundle:Offre:show }
+
+job_hub_offre_disable:
+    pattern:  /offre/{id}/disable
+    defaults: { _controller: JobHubBundle:Offre:disable }
+
+job_hub_offre_enable:
+    pattern:  /offre/{id}/enable
+    defaults: { _controller: JobHubBundle:Offre:enable }
+            
+job_hub_offre_edit:
+    pattern:  /entreprise/offre/{id}/edit
+    defaults: { _controller: JobHubBundle:Offre:edit }
+
+job_hub_offre_update:
+    pattern:  /entreprise/offre/{id}/update
+    defaults: { _controller: JobHubBundle:Offre:update }
+
+# ---- Candidature
+job_hub_offre_postuler:
+    pattern:  /candidat/offre/{id}/postuler
+    defaults: { _controller: JobHubBundle:Candidature:new }
+
+job_hub_candidature_create:
+    pattern:  /offre/{id}/candidature
+    defaults: { _controller: JobHubBundle:Candidature:create } 
+       
+candidat_profile_candidature:
+    pattern:  /candidat/profile/candidature/
+    defaults: { _controller: JobHubBundle:Candidature:index_candidat }
+
+entreprise_profile_candidature:
+    pattern:  /entreprise/profile/candidature/
+    defaults: { _controller: JobHubBundle:Candidature:index_entreprise }
+
+candidat_profile_candidature_show:
+    pattern:  /candidat/profile/candidature/{id}
+    defaults: { _controller: JobHubBundle:Candidature:show_candidat }
+
+entreprise_profile_candidature_show:
+    pattern:  /entreprise/profile/candidature/{id}
+    defaults: { _controller: JobHubBundle:Candidature:show_entreprise }
+
+entreprise_profile_candidature_save:
+    pattern:  /entreprise/profile/candidature/{id}/save
+    defaults: { _controller: JobHubBundle:Candidature:save }
      
-job_hub_admin_type:
-    pattern:  /admin/{type}/{id}
-    defaults: { _controller: JobHubBundle:JobHub:admin_type }
+entreprise_profile_candidature_ignore:
+    pattern:  /entreprise/profile/candidature/{id}/ignore
+    defaults: { _controller: JobHubBundle:Candidature:ignore }
     
+entreprise_profile_candidature_unsave:
+    pattern:  /entreprise/profile/candidature/{id}/unsave
+    defaults: { _controller: JobHubBundle:Candidature:unsave }             
+# -------------------------------------------------------------- #
+#                           Back-end
+# -------------------------------------------------------------- #
 
+# ---- main page
+job_hub_administration_root:
+    pattern:  /administration/
+    defaults: { _controller: JobHubBundle:BackEnd:index }
+
+job_hub_administration_index:
+    pattern:  /administration/index
+    defaults: { _controller: JobHubBundle:BackEnd:index }
+
+# ---- login
+job_hub_administration_login:
+    pattern:  /administration/login
+    defaults: { _controller: JobHubBundle:BackEnd:login }
+
+job_hub_administration_login_check:
+    pattern: /administration/login_check
+
+job_hub_administration_logout:
+    pattern: /administration/logout
+
+# gestion des offres:
+administration_offre:
+    pattern:  /administration/offre/
+    defaults: { _controller: job_hub.backend.offre.controller:indexAction }
+     
+administration_offre_new:
+    pattern:  /administration/offre/new
+    defaults: { _controller: job_hub.backend.offre.controller:newAction }
+    
+administration_offre_create:
+    pattern:  /administration/offre/create
+    defaults: { _controller: job_hub.backend.offre.controller:createAction }
+        
+administration_offre_show:
+    pattern:  /administration/offre/{id}
+    defaults: { _controller: job_hub.backend.offre.controller:showAction }
+
+administration_offre_edit:
+    pattern:  /administration/offre/{id}/edit
+    defaults: { _controller: job_hub.backend.offre.controller:editAction }
+
+administration_offre_update:
+    pattern:  /administration/offre/{id}/update
+    defaults: { _controller: job_hub.backend.offre.controller:updateAction }
+    
+administration_offre_delete:
+    pattern:  /administration/offre/{id}/delete
+    defaults: { _controller: job_hub.backend.offre.controller:deleteAction }
+    
+# gestion des admins
+administration_administrateur:
+    pattern:  /administration/administrateur/
+    defaults: { _controller: job_hub.backend.admin.controller:indexAction }
+  
+administration_administrateur_new:
+    pattern:  /administration/administrateur/new
+    defaults: { _controller: job_hub.backend.admin.controller:newAction }
+
+administration_administrateur_create:
+    pattern:  /administration/administrateur/create
+    defaults: { _controller: job_hub.backend.admin.controller:createAction }
+    
+administration_administrateur_show:
+    pattern:  /administration/administrateur/{id}
+    defaults: { _controller: job_hub.backend.admin.controller:showAction }
+
+administration_administrateur_edit:
+    pattern:  /administration/administrateur/{id}/edit
+    defaults: { _controller: job_hub.backend.admin.controller:editAction }
+
+administration_administrateur_update:
+    pattern:  /administration/administrateur/{id}/update
+    defaults: { _controller: job_hub.backend.admin.controller:updateAction }
+    
+administration_administrateur_delete:
+    pattern:  /administration/administrateur/{id}/delete
+    defaults: { _controller: job_hub.backend.admin.controller:deleteAction }
+    
+# gestion des CV
+administration_cv:
+    pattern:  /administration/cv/
+    defaults: { _controller: job_hub.backend.cv.controller:indexAction }
+  
+administration_cv_new:
+    pattern:  /administration/cv/new
+    defaults: { _controller: job_hub.backend.cv.controller:newAction }
+
+administration_cv_create:
+    pattern:  /administration/cv/create
+    defaults: { _controller: job_hub.backend.cv.controller:createAction }
+    
+administration_cv_show:
+    pattern:  /administration/cv/{id}
+    defaults: { _controller: job_hub.backend.cv.controller:showAction }
+
+administration_cv_edit:
+    pattern:  /administration/cv/{id}/edit
+    defaults: { _controller: job_hub.backend.cv.controller:editAction }
+
+administration_cv_update:
+    pattern:  /administration/cv/{id}/update
+    defaults: { _controller: job_hub.backend.cv.controller:updateAction }
+    
+administration_cv_delete:
+    pattern:  /administration/cv/{id}/delete
+    defaults: { _controller: job_hub.backend.cv.controller:deleteAction }
+
+# gestion des candidatures
+administration_candidature:
+    pattern:  /administration/candidature/
+    defaults: { _controller: job_hub.backend.candidature.controller:indexAction }
+  
+administration_candidature_new:
+    pattern:  /administration/candidature/new
+    defaults: { _controller: job_hub.backend.candidature.controller:newAction }
+
+administration_candidature_create:
+    pattern:  /administration/candidature/create
+    defaults: { _controller: job_hub.backend.candidature.controller:createAction }
+    
+administration_candidature_show:
+    pattern:  /administration/candidature/{id}
+    defaults: { _controller: job_hub.backend.candidature.controller:showAction }
+
+administration_candidature_edit:
+    pattern:  /administration/candidature/{id}/edit
+    defaults: { _controller: job_hub.backend.candidature.controller:editAction }
+
+administration_candidature_update:
+    pattern:  /administration/candidature/{id}/update
+    defaults: { _controller: job_hub.backend.candidature.controller:updateAction }
+    
+administration_candidature_delete:
+    pattern:  /administration/candidature/{id}/delete
+    defaults: { _controller: job_hub.backend.candidature.controller:deleteAction }
+            
+# gestion des candidats
+administration_candidat:
+    pattern:  /administration/candidat/
+    defaults: { _controller: job_hub.backend.candidat.controller:indexAction }
+  
+administration_candidat_new:
+    pattern:  /administration/candidat/new
+    defaults: { _controller: job_hub.backend.candidat.controller:newAction }
+
+administration_candidat_create:
+    pattern:  /administration/candidat/create
+    defaults: { _controller: job_hub.backend.candidat.controller:createAction }
+    
+administration_candidat_show:
+    pattern:  /administration/candidat/{id}
+    defaults: { _controller: job_hub.backend.candidat.controller:showAction }
+
+administration_candidat_edit:
+    pattern:  /administration/candidat/{id}/edit
+    defaults: { _controller: job_hub.backend.candidat.controller:editAction }
+
+administration_candidat_update:
+    pattern:  /administration/candidat/{id}/update
+    defaults: { _controller: job_hub.backend.candidat.controller:updateAction }
+    
+administration_candidat_delete:
+    pattern:  /administration/candidat/{id}/delete
+    defaults: { _controller: job_hub.backend.candidat.controller:deleteAction }
+    
+# gestion des entreprises
+administration_entreprise:
+    pattern:  /administration/entreprise/
+    defaults: { _controller: job_hub.backend.entreprise.controller:indexAction }
+  
+administration_entreprise_new:
+    pattern:  /administration/entreprise/new
+    defaults: { _controller: job_hub.backend.entreprise.controller:newAction }
+
+administration_entreprise_create:
+    pattern:  /administration/entreprise/create
+    defaults: { _controller: job_hub.backend.entreprise.controller:createAction }
+    
+administration_entreprise_show:
+    pattern:  /administration/entreprise/{id}
+    defaults: { _controller: job_hub.backend.entreprise.controller:showAction }
+
+administration_entreprise_edit:
+    pattern:  /administration/entreprise/{id}/edit
+    defaults: { _controller: job_hub.backend.entreprise.controller:editAction }
+
+administration_entreprise_update:
+    pattern:  /administration/entreprise/{id}/update
+    defaults: { _controller: job_hub.backend.entreprise.controller:updateAction }
+    
+administration_entreprise_delete:
+    pattern:  /administration/entreprise/{id}/delete
+    defaults: { _controller: job_hub.backend.entreprise.controller:deleteAction }
+
+# gestion des rubriques
+administration_rubrique:
+    pattern:  /administration/rubrique/
+    defaults: { _controller: job_hub.backend.rubrique.controller:indexAction }
+  
+administration_rubrique_new:
+    pattern:  /administration/rubrique/new
+    defaults: { _controller: job_hub.backend.rubrique.controller:newAction }
+
+administration_rubrique_create:
+    pattern:  /administration/rubrique/create
+    defaults: { _controller: job_hub.backend.rubrique.controller:createAction }
+    
+administration_rubrique_show:
+    pattern:  /administration/rubrique/{id}
+    defaults: { _controller: job_hub.backend.rubrique.controller:showAction }
+
+administration_rubrique_edit:
+    pattern:  /administration/rubrique/{id}/edit
+    defaults: { _controller: job_hub.backend.rubrique.controller:editAction }
+
+administration_rubrique_update:
+    pattern:  /administration/rubrique/{id}/update
+    defaults: { _controller: job_hub.backend.rubrique.controller:updateAction }
+    
+administration_rubrique_delete:
+    pattern:  /administration/rubrique/{id}/delete
+    defaults: { _controller: job_hub.backend.rubrique.controller:deleteAction }
+    
+# gestion des articles
+administration_article:
+    pattern:  /administration/article/
+    defaults: { _controller: job_hub.backend.article.controller:indexAction }
+  
+administration_article_new:
+    pattern:  /administration/article/new
+    defaults: { _controller: job_hub.backend.article.controller:newAction }
+
+administration_article_create:
+    pattern:  /administration/article/create
+    defaults: { _controller: job_hub.backend.article.controller:createAction }
+    
+administration_article_show:
+    pattern:  /administration/article/{id}
+    defaults: { _controller: job_hub.backend.article.controller:showAction }
+
+administration_article_edit:
+    pattern:  /administration/article/{id}/edit
+    defaults: { _controller: job_hub.backend.article.controller:editAction }
+
+administration_article_update:
+    pattern:  /administration/article/{id}/update
+    defaults: { _controller: job_hub.backend.article.controller:updateAction }
+    
+administration_article_delete:
+    pattern:  /administration/article/{id}/delete
+    defaults: { _controller: job_hub.backend.article.controller:deleteAction }
+
+# gestion des images
+administration_image:
+    pattern:  /administration/image/
+    defaults: { _controller: job_hub.backend.image.controller:indexAction }
+  
+administration_image_new:
+    pattern:  /administration/image/new
+    defaults: { _controller: job_hub.backend.image.controller:newAction }
+
+administration_image_create:
+    pattern:  /administration/image/create
+    defaults: { _controller: job_hub.backend.image.controller:createAction }
+    
+administration_image_show:
+    pattern:  /administration/image/{id}
+    defaults: { _controller: job_hub.backend.image.controller:showAction }
+
+administration_image_edit:
+    pattern:  /administration/image/{id}/edit
+    defaults: { _controller: job_hub.backend.image.controller:editAction }
+
+administration_image_update:
+    pattern:  /administration/image/{id}/update
+    defaults: { _controller: job_hub.backend.image.controller:updateAction }
+    
+administration_image_delete:
+    pattern:  /administration/image/{id}/delete
+    defaults: { _controller: job_hub.backend.image.controller:deleteAction }
+
+# gestion des videos
+administration_video:
+    pattern:  /administration/video/
+    defaults: { _controller: job_hub.backend.video.controller:indexAction }
+  
+administration_video_new:
+    pattern:  /administration/video/new
+    defaults: { _controller: job_hub.backend.video.controller:newAction }
+
+administration_video_create:
+    pattern:  /administration/video/create
+    defaults: { _controller: job_hub.backend.video.controller:createAction }
+    
+administration_video_show:
+    pattern:  /administration/video/{id}
+    defaults: { _controller: job_hub.backend.video.controller:showAction }
+
+administration_video_edit:
+    pattern:  /administration/video/{id}/edit
+    defaults: { _controller: job_hub.backend.video.controller:editAction }
+
+administration_video_update:
+    pattern:  /administration/video/{id}/update
+    defaults: { _controller: job_hub.backend.video.controller:updateAction }
+    
+administration_video_delete:
+    pattern:  /administration/video/{id}/delete
+    defaults: { _controller: job_hub.backend.video.controller:deleteAction }
+
+# gestion des domaines
+administration_domaine:
+    pattern:  /administration/domaine/
+    defaults: { _controller: job_hub.backend.domaine.controller:indexAction }
+  
+administration_domaine_new:
+    pattern:  /administration/domaine/new
+    defaults: { _controller: job_hub.backend.domaine.controller:newAction }
+
+administration_domaine_create:
+    pattern:  /administration/domaine/create
+    defaults: { _controller: job_hub.backend.domaine.controller:createAction }
+    
+administration_domaine_show:
+    pattern:  /administration/domaine/{id}
+    defaults: { _controller: job_hub.backend.domaine.controller:showAction }
+
+administration_domaine_edit:
+    pattern:  /administration/domaine/{id}/edit
+    defaults: { _controller: job_hub.backend.domaine.controller:editAction }
+
+administration_domaine_update:
+    pattern:  /administration/domaine/{id}/update
+    defaults: { _controller: job_hub.backend.domaine.controller:updateAction }
+    
+administration_domaine_delete:
+    pattern:  /administration/domaine/{id}/delete
+    defaults: { _controller: job_hub.backend.domaine.controller:deleteAction }
+
+# gestion des activites
+administration_activite:
+    pattern:  /administration/activite/
+    defaults: { _controller: job_hub.backend.activite.controller:indexAction }
+  
+administration_activite_new:
+    pattern:  /administration/activite/new
+    defaults: { _controller: job_hub.backend.activite.controller:newAction }
+
+administration_activite_create:
+    pattern:  /administration/activite/create
+    defaults: { _controller: job_hub.backend.activite.controller:createAction }
+    
+administration_activite_show:
+    pattern:  /administration/activite/{id}
+    defaults: { _controller: job_hub.backend.activite.controller:showAction }
+
+administration_activite_edit:
+    pattern:  /administration/activite/{id}/edit
+    defaults: { _controller: job_hub.backend.activite.controller:editAction }
+
+administration_activite_update:
+    pattern:  /administration/activite/{id}/update
+    defaults: { _controller: job_hub.backend.activite.controller:updateAction }
+    
+administration_activite_delete:
+    pattern:  /administration/activite/{id}/delete
+    defaults: { _controller: job_hub.backend.activite.controller:deleteAction }
+
+# gestion des pays
+administration_pays:
+    pattern:  /administration/pays/
+    defaults: { _controller: job_hub.backend.pays.controller:indexAction }
+  
+administration_pays_new:
+    pattern:  /administration/pays/new
+    defaults: { _controller: job_hub.backend.pays.controller:newAction }
+
+administration_pays_create:
+    pattern:  /administration/pays/create
+    defaults: { _controller: job_hub.backend.pays.controller:createAction }
+    
+administration_pays_show:
+    pattern:  /administration/pays/{id}
+    defaults: { _controller: job_hub.backend.pays.controller:showAction }
+
+administration_pays_edit:
+    pattern:  /administration/pays/{id}/edit
+    defaults: { _controller: job_hub.backend.pays.controller:editAction }
+
+administration_pays_update:
+    pattern:  /administration/pays/{id}/update
+    defaults: { _controller: job_hub.backend.pays.controller:updateAction }
+    
+administration_pays_delete:
+    pattern:  /administration/pays/{id}/delete
+    defaults: { _controller: job_hub.backend.pays.controller:deleteAction }
+
+# gestion des regions
+administration_region:
+    pattern:  /administration/region/
+    defaults: { _controller: job_hub.backend.region.controller:indexAction }
+  
+administration_region_new:
+    pattern:  /administration/region/new
+    defaults: { _controller: job_hub.backend.region.controller:newAction }
+
+administration_region_create:
+    pattern:  /administration/region/create
+    defaults: { _controller: job_hub.backend.region.controller:createAction }
+    
+administration_region_show:
+    pattern:  /administration/region/{id}
+    defaults: { _controller: job_hub.backend.region.controller:showAction }
+
+administration_region_edit:
+    pattern:  /administration/region/{id}/edit
+    defaults: { _controller: job_hub.backend.region.controller:editAction }
+
+administration_region_update:
+    pattern:  /administration/region/{id}/update
+    defaults: { _controller: job_hub.backend.region.controller:updateAction }
+    
+administration_region_delete:
+    pattern:  /administration/region/{id}/delete
+    defaults: { _controller: job_hub.backend.region.controller:deleteAction }
+
+# gestion des villes
+administration_ville:
+    pattern:  /administration/ville/
+    defaults: { _controller: job_hub.backend.ville.controller:indexAction }
+  
+administration_ville_new:
+    pattern:  /administration/ville/new
+    defaults: { _controller: job_hub.backend.ville.controller:newAction }
+
+administration_ville_create:
+    pattern:  /administration/ville/create
+    defaults: { _controller: job_hub.backend.ville.controller:createAction }
+    
+administration_ville_show:
+    pattern:  /administration/ville/{id}
+    defaults: { _controller: job_hub.backend.ville.controller:showAction }
+
+administration_ville_edit:
+    pattern:  /administration/ville/{id}/edit
+    defaults: { _controller: job_hub.backend.ville.controller:editAction }
+
+administration_ville_update:
+    pattern:  /administration/ville/{id}/update
+    defaults: { _controller: job_hub.backend.ville.controller:updateAction }
+    
+administration_ville_delete:
+    pattern:  /administration/ville/{id}/delete
+    defaults: { _controller: job_hub.backend.ville.controller:deleteAction }    

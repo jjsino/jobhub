@@ -1,0 +1,28 @@
+
+ <form class="candidat_profil_form" action="{{ path('candidat_profile_experience_create') }}" method="POST" {{ form_enctype(form) }}>
+	<table class="record_properties">
+		<tbody>
+			<tr>
+                <th>Date debut</th>
+                <td>{{ form_widget(form.dateDebut) }}</td>
+            </tr>
+            <tr>
+                <th>Date fin</th>
+                <td>{{ form_widget(form.dateFin) }}</td>
+            </tr>
+            <tr>
+                <th>Fonction du poste</th>
+                <td>{{ form_widget(form.fonction)}}</td>
+            </tr> 
+            <tr>
+                <th>Entreprise</th>
+                <td>{{ form_widget(form.entreprise) }}</td>
+            </tr> 
+            <tr>
+                <th>Description</th>
+                <td>{{ form_widget(form.description) }}</td>
+            </tr>
+        </tbody>
+	</table>
+	{{form_rest(form)}}
+</form>

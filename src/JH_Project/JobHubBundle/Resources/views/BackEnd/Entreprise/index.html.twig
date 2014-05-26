@@ -1,0 +1,59 @@
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+
+{% block title %}{{ parent() }} - administration{% endblock %}
+
+{% block page_title %}
+<div class="navbar-header">
+<h2>Liste des entreprises</h2>
+</div>
+<ul class="pull-right new_entity">
+<li>
+    <a class="btn" href="{{ path('administration_entreprise_new') }}">
+        Ajouter une entreprise
+    </a>
+</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+
+    <table class="table records_list">
+        <thead>
+            <tr>
+            	<th>ID</th>
+                <th>Nom de l'entreprise</th>
+                <th>Adresse mail de contact</th>
+                <th>Etat</th>
+                <th>Dernière connexion</th>
+                <th>Expiré</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+            	<td>{{ entity.id }}</td>
+                <td>{{ entity.nom }}</td>
+                <td>{{ entity.contactEmail }}</td>
+                <td>{% if entity.compteUser.enabled %}Activé{% else %}Désactivé{% endif %}</td>
+                <td>{% if entity.compteUser.lastLogin %}{{ entity.compteUser.lastLogin|date('Y-m-d') }}{% endif %}</td>
+                <td>{% if entity.compteUser.expired %}Expiré{% else %}Valide{% endif %}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('administration_entreprise_show', { 'id': entity.id }) }}">Détails</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('administration_entreprise_edit', { 'id': entity.id }) }}">Modifier</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('administration_entreprise_delete', { 'id': entity.id }) }}">Supprimer</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% endblock %}

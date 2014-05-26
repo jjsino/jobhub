@@ -1,0 +1,7 @@
+parameters:
+#    search_engine.example.class: JH_Project\SearchEngineBundle\Example
+
+services:
+#    search_engine.example:
+#        class: %search_engine.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

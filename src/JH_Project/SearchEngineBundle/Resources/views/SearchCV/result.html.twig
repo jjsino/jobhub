@@ -1,0 +1,19 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}SearchEngineBundle:SearchCVController:result{% endblock %}
+
+{% block body %}
+    <div id="content">
+        <a href="{{ path('searchengine_search_cv') }}" class="btn">Return</a>
+        <hr />
+        <ul>
+            {% for cv in entities %}
+                <li>
+                    {{ cv.titre }} ({{ cv.maj|date('Y') }})<br />
+                </li>
+            {% else %}
+                <div class="alert">No CV found</div>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

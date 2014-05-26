@@ -1,8 +1,35 @@
 {% extends "JobHubBundle::layout.html.twig" %}
+{% block title %}{{ parent() }} - Plan-JobHub{% endblock %}
 
-{% block title %}{{ parent() }} - Plan{% endblock %}
-
-{% block body %}
+{% block navbar %}
 {{ parent() }}
-   
 {% endblock %}
+
+{% block contenu %}  
+ <p>
+   <h2>Plan du site</h2></br>
+		<ul>
+		  <h5> JobHub </h5> 
+		   <li><a href="{{path('job_hub_accueil')}}">Accueil</a></li> 
+		</ul> </br>
+		<ul>
+		 <h5> Candidat </h5> 
+		  <li><a href="{{path('job_hub_cv')}}">Déposer un CV</a></li>
+		  <li><a href="{{path('job_hub_offre')}}">Parcourir les offres</a></li>
+		</ul> </br>
+		<ul>
+		 <h5> Entreprise </h5>
+		  <li><a href="{{path('job_hub_offre_new')}}">Publier une offre</a></li>
+		  <li><a href="#">Consulter les CV</a></li></li>
+		</ul> </br>
+ </p>	
+{% endblock %} 
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %}   
+
+{% block footer %} 
+{{ parent() }}
+{% endblock %} 

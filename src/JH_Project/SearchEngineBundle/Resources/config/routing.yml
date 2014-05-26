@@ -1,0 +1,21 @@
+searchengine_search_cv:
+    pattern:  /search_cv
+    defaults: { _controller: SearchEngineBundle:SearchCV:search }
+
+searchengine_search_cv_result:
+    pattern:  /search_cv_result
+    defaults: { _controller: SearchEngineBundle:SearchCV:result }
+
+searchengine_search_offer:
+    pattern:  /search_offer
+    defaults: { _controller: SearchEngineBundle:SearchOffer:search }
+
+searchengine_search_offer_result:
+    pattern:  /search_offer_result
+    defaults: { _controller: SearchEngineBundle:SearchOffer:result }
+
+searchengine_search_offer_ajax:
+    pattern: /ajax
+    defaults: { _controller: SearchEngineBundle:SearchOffer:getAjaxResults}
+    requirements:
+        _method: GET

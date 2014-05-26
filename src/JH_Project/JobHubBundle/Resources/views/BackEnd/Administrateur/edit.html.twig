@@ -1,0 +1,27 @@
+{# Edit d'un administrateur l'administration #}
+{# src/JH_Project/JobHubBundle/Resources/views/amdin/Administrateur/edit.html.twig #}
+{# twig parent: admin_layout.html.twig #}
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+
+{% block page_title %}
+<div class="navbar-header">
+	<h2>Modifier administrateur</h2>
+</div>
+<ul class="entity_actions pull-right back_to_list record_actions navbar-nav">
+	<li>
+		<a href="{{ path('administration_administrateur') }}">
+		    Retour à la liste
+		</a>
+	</li>
+	<li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+
+    {{ form(edit_form) }}
+
+{% endblock %}
+

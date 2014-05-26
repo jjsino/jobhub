@@ -1,0 +1,60 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Candidat{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+	<div class="clearfix contenu_header">		
+		<h2 class="pull-left bloc_info_titre"> Détail de la candidature</h2>
+		 <a class="pull-right bloc_info_right_link" href="{{ path('candidat_profile_candidature')}}">Retour</a>
+	</div>
+	<div class="bloc_info_contenu bloc_info">
+    <table class="record_properties">
+        <tbody>
+            <tr>
+                <th>Référence:</th>
+                <td>{{ candidature.id }}</td>
+            </tr>
+            <tr>
+                <th>Date de la candidature</th>
+                <td>{{ candidature.date|date('Y-m-d') }}</td>
+            </tr>           
+            <tr>
+                <th>Offre</th>
+                <td>
+		            <a href="{{ path('job_hub_offre_show', { 'id': candidature.offre.id }) }}">
+		            {{ candidature.offre.intitule }} <span> Voir l'offre </span>
+		            </a>
+                </td>
+            </tr>
+            <tr>
+                <th>CV Jointe</th>
+                <td> <a href="{{asset(candidature.cv.path)}}">
+                {{ candidature.cv.titre }}<span>Voir mon CV</span>
+                </a>
+                </td>
+            </tr> 
+            <tr>
+                <th>Motivation</th>
+                <td>{{ candidature.motivation }}</td>
+            </tr>
+        </tbody>
+    </table>
+	</div>
+{% endblock %}
+
+{% block sidebar %}
+{% include 'JobHubBundle::_common/bloc_side_offre.html.twig' with {'offre': candidature.offre } %}
+
+{#
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+#}
+{% endblock %} 
+ 
+{% block footer %}
+{{ parent() }}
+{% endblock %}

@@ -19,7 +19,7 @@ class Candidature
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+    protected $id;
 
     /**
      * @var \DateTime
@@ -28,6 +28,24 @@ class Candidature
      */
     private $date;
 
+   /**
+     * @ORM\ManyToOne(targetEntity="Candidat", cascade={"persist"})
+     * @ORM\JoinColumn(nullable=false)
+     */ 
+    private $candidat;
+    
+   /**
+     * @ORM\ManyToOne(targetEntity="CV", cascade={"persist"})
+     * @ORM\JoinColumn(nullable=false)
+     */ 
+    private $cv;
+        
+   /**
+     * @ORM\ManyToOne(targetEntity="Offre", cascade={"persist"})
+     * @ORM\JoinColumn(nullable=false)
+     */ 
+    private $offre;
+    
     /**
      * @var string
      *
@@ -35,7 +53,21 @@ class Candidature
      */
     private $motivation;
 
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="etat", type="integer")
+     *
+     * 1: indiférent; 0: ignoré; 2: sauvegardé;
+     */
+    private $etat;
 
+    public function __construct()
+    {
+    	$this->date = new \DateTime('now');
+    	$this->etat = 1;
+    }
+    
     /**
      * Get id
      *
@@ -70,6 +102,75 @@ class Candidature
     }
 
     /**
+     * Set candidat
+     *
+     * @param Candidat $candidat
+     * @return Candidature
+     */
+    public function setCandidat(Candidat $candidat)
+    {
+        $this->candidat = $candidat;
+    
+        return $this;
+    }
+
+    /**
+     * Get candidat
+     *
+     * @return Candidat 
+     */
+    public function getCandidat()
+    {
+        return $this->candidat;
+    }
+
+    /**
+     * Set cv
+     *
+     * @param CV $cv
+     * @return Candidature
+     */
+    public function setCV(CV $cv)
+    {
+        $this->cv = $cv;
+    
+        return $this;
+    }
+
+    /**
+     * Get cv
+     *
+     * @return CV 
+     */
+    public function getCV()
+    {
+        return $this->cv;
+    }
+    
+     /**
+     * Set offre
+     *
+     * @param Offre $offre
+     * @return Candidature
+     */
+    public function setOffre(Offre $offre)
+    {
+        $this->offre = $offre;
+    
+        return $this;
+    }
+
+    /**
+     * Get offre
+     *
+     * @return Offre 
+     */
+    public function getOffre()
+    {
+        return $this->offre;
+    }
+    
+    /**
      * Set motivation
      *
      * @param string $motivation
@@ -90,5 +191,28 @@ class Candidature
     public function getMotivation()
     {
         return $this->motivation;
+    }
+
+    /**
+     * Set etat
+     *
+     * @param integer $etat
+     * @return Candidature
+     */
+    public function setEtat($etat)
+    {
+        $this->etat = $etat;
+    
+        return $this;
+    }
+
+    /**
+     * Get etat
+     *
+     * @return integer 
+     */
+    public function getEtat()
+    {
+        return $this->etat;
     }
 }

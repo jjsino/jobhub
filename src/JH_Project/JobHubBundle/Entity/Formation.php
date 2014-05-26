@@ -48,6 +48,13 @@ class Formation
      * @ORM\Column(name="etablissement", type="string", length=255)
      */
     private $etablissement;
+    
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="niveau_etudes", type="string", length=255, nullable=true)
+     */
+    private $niveauEtudes;
 
     /**
      * @var boolean
@@ -171,6 +178,29 @@ class Formation
     }
 
     /**
+     * Set niveauEtudes
+     *
+     * @param string $niveauEtudes
+     * @return Formation
+     */
+    public function setNiveauEtudes($niveauEtudes)
+    {
+        $this->niveauEtudes = $niveauEtudes;
+    
+        return $this;
+    }
+
+    /**
+     * Get niveauEtudes
+     *
+     * @return string 
+     */
+    public function getNiveauEtudes()
+    {
+        return $this->niveauEtudes;
+    }
+
+    /**
      * Set diplomeObtenu
      *
      * @param boolean $diplomeObtenu
@@ -237,6 +267,5 @@ class Formation
 		$this->candidat = $candidat;
 		return $this;
 	}
-	
-    
+	    
 }

@@ -1,0 +1,67 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Candidat{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+<div id="candidat_formation">
+<div class="clearfix contenu_header">
+	<h2 class="pull-left">Liste des formations enregistrées</h2>
+	<div class="pull-right bloc_info_right_link">
+	<a class="bloc_info_right_link" data-toggle="collapse" data-parent="#candidat_formation" href="#candidat_new_formation_form">Ajouter</a> |
+	<a class="bloc_info_right_link" href="{{ path('job_hub_candidat_show') }}">Mon profil</a>
+	</div>
+</div>
+
+{# ------------------------ Contenu Principal --------------------- #}
+<div class="bloc_info">
+{% if entities|length > 0 %}
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Annee</th>
+                <th>Libellediplome</th>
+                <th>Etablissement</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td>{{ entity.anneeDebut|date('Y') }} - {{ entity.anneeFin|date('Y') }}</td>
+                <td><a href="{{ path('candidat_profile_formation_show', { 'id': entity.id }) }}">{{ entity.libelleDiplome }}</a></td>
+                <td>{{ entity.etablissement }}</td>
+                <td>
+                    <a href="{{ path('candidat_profile_formation_show', { 'id': entity.id }) }}">Détails</a> |
+                    <a href="{{ path('candidat_profile_formation_edit', { 'id': entity.id }) }}">Modifier</a> |
+                    <a href="{{ path('candidat_profile_formation_delete', { 'id': entity.id }) }}">Supprimer</a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+<p>Vous n'avez pas encore communiqué votre parcours scolaire</p>
+{% endif %}
+	<div id="candidat_new_formation_form" class="collapse">
+	{{ render(controller( 'JobHubBundle:Formation:new' )) }}
+	</div>
+</div> {# ---- END  class="bloc_info" ---- #}
+
+</div> {# ---- END  id="candidat_formation" ---- #}
+{# ------------------------ Fin Contenu Principal --------------------- #}
+{% endblock %} 
+
+{% block sidebar %}
+
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}
+

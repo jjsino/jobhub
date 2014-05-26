@@ -1,0 +1,62 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+ 
+{% block contenu %}
+<div class="clearfix contenu_header">
+	<h2 class="pull-left bloc_info_titre">Publier une offre</h2>
+</div>
+<div class="bloc_info">
+ <small>* Veuillez remplir le formulaire</small>
+			        
+ <form action="{{ path('job_hub_offre_create', { 'id' : entity.id }) }}" method="POST" {{ form_enctype(form) }}>
+ 	<table>
+ 		<tr>
+ 			<th>Intitulé de l'offre</th>
+ 			<td> {{ form_widget(form.intitule) }}</td> 			
+ 		</tr>
+ 		<tr>
+ 			<th> Ville</th>
+ 			<td> {{ form_widget(form.ville) }}</td>
+ 		</tr>
+ 		<tr>
+ 			<th> Type du contrat</th>
+ 			<td> {{ form_widget(form.typeContrat) }}</td>
+ 		</tr> 
+ 		<tr>
+ 			<th> Salaire</th>
+ 			<td> {{ form_widget(form.salaire) }}</td>
+ 		</tr> 			
+ 		<tr>
+ 			<th> Activité du poste</th>
+ 			<td> {{ form_widget(form.activite) }}</td>
+ 		</tr>
+ 		<tr>
+ 			<th> Domaine du travail</th>
+ 			<td> {{ form_widget(form.domaine) }}</td>
+ 		</tr>
+ 		<tr>
+ 			<th> Fonction du poste</th>
+ 			<td> {{ form_widget(form.fonctionPoste) }}</td>
+ 		</tr>
+ 		<tr>
+ 			<th> Description</th>
+ 			<td> {{ form_widget(form.description) }}</td>
+ 		</tr>
+ 	</table>
+ 	{{form_rest(form)}}
+</form>	
+
+</div>
+{% endblock %} 
+	  
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+	   
+{% block footer %}
+{{ parent() }} 
+{% endblock %}

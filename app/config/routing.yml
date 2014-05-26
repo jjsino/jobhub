@@ -2,3 +2,25 @@ job_hub:
     resource: "@JobHubBundle/Resources/config/routing.yml"
     prefix:   /
 
+user_security:
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+
+user_profile:
+    resource: "@FOSUserBundle/Resources/config/routing/profile.xml"
+    prefix: /profile
+
+user_register:
+    resource: "@FOSUserBundle/Resources/config/routing/registration.xml"
+    prefix: /register
+
+user_resetting:
+    resource: "@FOSUserBundle/Resources/config/routing/resetting.xml"
+    prefix: /resetting
+
+user_change_password:
+    resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
+    prefix: /change_password
+    
+SearchEngineBundle:
+    resource: "@SearchEngineBundle/Resources/config/routing.yml"
+    prefix:   /

@@ -1,0 +1,51 @@
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+{% block page_title %}
+<div class="navbar-header">
+<h2>Liste des candidatures</h2>
+</div>
+<ul class="entity_actions pull-right new_entity">
+<li>
+    <a class="btn" href="{{ path('administration_candidature_new') }}">
+        Ajouter une candidature
+    </a>
+</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Date</th>
+                <th>Candidat</th>
+                <th>Offre</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('administration_candidature_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{% if entity.date %}{{ entity.date|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>{{ entity.candidat.compteUser.username }}</td>
+                <td>{{ entity.offre.intitule }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('administration_candidature_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('administration_candidature_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    
+    {% endblock %}

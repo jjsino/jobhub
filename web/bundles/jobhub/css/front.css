@@ -1,0 +1,342 @@
+/*======================= Layout =========================*/
+html
+{
+   background-color: #ccc;
+   width: 90%;
+   margin: 0 auto;
+   height:100%;
+   /*
+   padding-left: 50px;
+   padding-right: 50px;*/
+}
+
+/*body*/
+
+body {
+	 font-family: 'Roboto', sans-serif;
+     font-size:14px;
+     line-height:20px;
+     color:#333333;
+     background-color:#fff;
+     min-height: 100%;
+}
+
+h1{
+	font-weight:200;
+	font-size: 60px;
+	text-align: center;
+}
+
+ul {
+	list-style:none;
+}
+
+small {
+	padding-left: 30px;
+}
+
+th {
+	vertical-align: text-top;
+	padding: 5px;
+}
+
+textarea {
+	min-width: 300px;
+	min-height: 200px;
+}
+
+i.fa-map-marker {
+	vertical-align: middle;
+	}
+	
+/* container */
+.container {
+  height: auto;
+  min-height: 90%;
+  margin-bottom:30px;
+}
+
+/* navbar */
+.navbar {
+  margin:0;
+}
+.nav_btn {
+  margin-top: 12px;
+}
+a.nav_link {
+  color: #bbb;
+  padding: 5px;
+  text-decoration:underline;
+  font-size: 12px;
+}
+a.nav_link:hover {
+  color: #eee;
+}
+/* contenu principal */
+#contenu {
+}
+/* ==== sidebar ====*/
+#sidebar {
+    display: block;
+    float: right;
+    color: #fff;
+}
+
+#sidebar li {
+    color: #ccc;
+}
+
+/* ==== footer ====*/
+footer {
+  color:#f9f9f9;
+  text-align: center;
+}
+#footer_items a {
+  color: #fff; 
+  font-size: 14px;
+}
+footer p {
+  padding: 15px 0 0;
+  margin: 0;
+}
+/*===================== Fin Layout =======================*/
+
+
+/*===================== Composantes =======================*/
+/* searchbar */
+#searchbar {
+  text-align: center;
+  width: 100%;
+}
+#searchbar label {
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+}
+#searchbar input {
+  margin-right: 20px;
+}
+#searchbar a {
+  font-size: 12px;
+  text-decoration:underline;
+  color:#333;
+ }
+ 
+/* user bloc side */
+.user_bloc_side ul {
+  margin: 0px;
+  text-indent: 10px;
+}
+.user_bloc_side a {
+  font-size: 14px;
+  color: #555;
+  text-decoration: underline;
+}
+.user_bloc_side a:hover {
+  color: #bbbbbb;
+}
+
+/* offre bloc aside */
+.offre_bloc_side th {
+  font-weight: normal;
+  color: #333;
+}
+.offre_bloc_side td {
+  text-indent: 10px;
+  color: #555;
+}
+/* jumbotron */
+.jumbotron img {
+  width:150px;
+  height: 150px;
+}
+.jumbotron {
+  margin-top: 0;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+.jumbotron h4{
+  margin-top: 0;
+  text-align: center;
+  color: #217;
+}
+.jumbotron form {
+  background:none;
+  border: 0px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px;
+} 
+.jumbotron a {
+  font-size: 14px;
+  text-decoration:underline;
+  color:#555;
+}
+.jumbotron label {
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+}
+/*===================== FIN Composantes =======================*/
+
+/*===================== Index =======================*/		
+/* Carousel */
+.carousel {
+  height: 250px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 250px;
+  background-color:transparent;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 250px;
+}
+/*===================== FIN Index =======================*/
+
+/* ====css pour la partie offre  ===*/
+.inner .row {
+  margin-left: -15px;
+  margin-right: -15px;
+} 
+
+#content {
+   float: left;
+   margin-left: 60px;
+   background-color: #6e6a6a;
+}
+
+.show_offre table {
+	margin: 10px;
+}
+
+.outer {
+  padding: 10px;
+  background-color: #6e6e6e;
+  /* float: left;
+   margin-left: 60px;*/
+}
+.outer:before,
+.outer:after {
+  content: " ";
+  display: table;
+}
+.outer:after {
+  clear: both;
+}
+.inner {
+  position: relative;
+  min-height: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: #fff;
+  border: 10px solid #e4e4e4;
+}
+
+/* ------------------------*/
+/* ---- Espace Compte ---- */
+/* ------------------------*/
+
+/* ---- Candidat/Entreprise----*/
+.contenu_header,
+.bloc_info {
+  border: 1px solid rgb(221, 221, 221);
+  padding: 10px;
+}
+.bloc_info {
+  margin-bottom: 10px;
+}
+.contenu_header .bloc_info_titre {
+  font-size: 25px;
+}
+.bloc_info_titre {
+  font-weight: bold;
+  color: #666;
+}
+.contenu_header {
+  background: rgb(245, 245, 245);
+}
+.bloc_info_right_link {
+  padding: 15px;
+}
+.show_offre table td,
+#postuler table td,
+.contenu_header h2,
+.bloc_info_contenu table td {
+  text-indent: 10px;
+}
+#jh_project_jobhubbundle_formation,
+#jh_project_jobhubbundle_experience {
+  margin-bottom: 30px;
+}
+.modal-content .inscription_connexion_form input {
+  width: 80%;
+}
+#postuler,
+#jh_project_jobhubbundle_formation div,
+#jh_project_jobhubbundle_experience div,
+.inscription_connexion_form div {
+  margin: 15px;
+}
+#jh_project_jobhubbundle_formation button,
+#jh_project_jobhubbundle_experience button {
+  margin-top: 20px;
+}
+#jh_project_jobhubbundle_formation input,
+#jh_project_jobhubbundle_formation select,
+#jh_project_jobhubbundle_formation textarea,
+#jh_project_jobhubbundle_experience input,
+#jh_project_jobhubbundle_experience select,
+#jh_project_jobhubbundle_experience textarea {
+  position: relative;
+  left: 20px;
+}
+.bloc_info p,
+.bloc_bulbe p {
+	text-indent:10px;
+	padding: 5px;
+}
+.candidat_profil_info_base {
+	width:50%;
+	padding: 10px;
+}
+.pull-left.candidat_profil_info_base {	
+	border-right: 1px solid rgb(221, 221, 221);
+}
+.img_profil {
+	width: 70px;
+	height: 70px;
+}
+.candidat_profil_form table {
+	margin: 10px;
+	width: 50%;
+}
+.candidat_profil_form h4 {
+	width: 50%;
+	text-align: center;
+}
+a span {
+	display:none;
+}
+a:hover span {
+	font-size: 11px;
+	padding: 5px 10px;
+	display: inline;
+	position: absolute;
+	margin-top:20px;
+	width:auto;
+	color: #333;
+	border:1px solid rgb(221, 221, 221);
+	background-color:rgb(245, 245, 245);
+	border-radius: 2px;
+}

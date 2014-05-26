@@ -56,7 +56,12 @@ class Experience
      */
     private $description;
 
-
+    /**
+     * @ORM\ManyToOne(targetEntity="Candidat", inversedBy="formations", cascade={"remove"})
+     * @ORM\JoinColumn(nullable=false,name="candidat_id", referencedColumnName="id")
+     */
+    private $candidat;
+    
     /**
      * Get id
      *
@@ -181,4 +186,26 @@ class Experience
     {
         return $this->description;
     }
+   
+    /**
+     * Get candidat
+     *
+     * @return Candidat
+     */
+	public function getCandidat() {
+		return $this->candidat;
+	}
+	
+
+	/**
+	 * Set candidat
+	 *
+	 * @param Candidat $candidat
+	 * @return Experience
+	 */
+	
+	public function setCandidat($candidat) {
+		$this->candidat = $candidat;
+		return $this;
+	}
 }

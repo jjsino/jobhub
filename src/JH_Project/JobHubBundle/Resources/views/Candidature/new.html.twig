@@ -1,0 +1,41 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+ 
+{% block contenu %}
+<div class="clearfix contenu_header">
+	<h2 class="pull-left bloc_info_titre">Postuler</h2>
+	<a class="pull-right bloc_info_right_link" href="{{ path('job_hub_offre_show', { 'id' : offre.id })}}">Retour</a>
+</div>
+<div class="bloc_info">
+ <p> Postuler à l'offre N°{{offre.id}}: {{offre.intitule}} </p>
+ <small>* Veuillez remplir le formulaire de la candidature</small>
+ <form id="postuler" action="{{ path('job_hub_candidature_create', { 'id' : offre.id }) }}" method="POST" {{ form_enctype(form) }}>
+ 	<table>
+ 		<tr>
+ 			<th>Selectionner votre CV</th>
+ 			<td>
+ 			{% for cv in resumes %}
+    			<input type="radio" name="_cv" value="{{cv.id}}"><a href="{{asset(cv.path)}}">{{ cv.titre }}</a>(mis en ligne: {{ cv.maj|date('Y-m-d') }})
+    		{% endfor %}
+    		</td> 			
+ 		</tr>
+ 		<tr>
+ 			<th> Votre motivation</th>
+ 			<td> {{ form_widget(form.motivation) }}</td>
+ 		</tr>
+ 	</table>
+ 	{{form_rest(form)}}
+</form>	
+</div> 
+{% endblock %} 
+
+{% block sidebar %}
+{% include 'JobHubBundle::_common/bloc_side_offre.html.twig' with {'offre': offre } %}
+{% endblock %} 
+ 
+{% block footer %}
+{{ parent() }}
+{% endblock %}

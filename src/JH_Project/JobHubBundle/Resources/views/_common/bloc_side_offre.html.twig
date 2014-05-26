@@ -1,0 +1,36 @@
+
+<div class="hide_bloc panel panel-default offre_bloc_side">
+	<div class="panel-heading">
+		<h3 class="panel-title">Récapitulatif de l'offre</h3>
+	 </div>
+	 <div class="panel-body">
+	 	<table>
+	 		<tbody>
+	 		<tr>
+	 			<th>Référence</th>
+	 			<td>N°{{offre.id}}</td>
+	 		</tr>
+	 		<tr>
+	 			<th>Intitulé</th>
+	 			<td>
+	 			<a href="{{path('job_hub_offre_show',{'id':offre.id})}}">
+	 			{{offre.intitule}} <span>Détails de l'offre</span>
+	 			</a>
+	 			</td>
+	 		</tr>
+	 		<tr>
+	 			<th>Entreprise</th>
+	 			<td>{{offre.entreprise.nom}}</td>
+	 		</tr>
+	 		<tr>
+	 			<th>Poste</th>
+	 			<td>{{offre.fonctionPoste}}</td>
+	 		</tr>
+	 		<tr>
+	 			<th>Lieu</th>
+	 			<td>{{offre.ville.nom}}</td>
+	 		</tr>
+	 		</tbody>
+	 	</table>
+	</div>
+</div>

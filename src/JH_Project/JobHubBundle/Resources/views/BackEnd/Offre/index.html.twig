@@ -1,0 +1,50 @@
+{# Page d'accueil de l'administration #}
+{# src/JH_Project/JobHubBundle/Resources/views/BackEnd/Offre/index.html.twig #}
+{# twig parent: admin_layout.html.twig #}
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+{% block page_title %}
+<div class="navbar-header">
+<h2>Liste des Offres</h2>
+</div>
+<ul class="entity_actions pull-right new_entity">
+<li>
+    <a class="btn" href="{{ path('administration_offre_new') }}">
+        Ajouter une offre
+    </a>
+</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Intitulé du poste</th>
+                <th>Date,Lieu</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><img src="{{ asset('bundles/jobhub/images/Entreprise/1.png')}}"/>
+                <a href="{{ path('administration_offre_show', { 'id': entity.id }) }}">{{ entity.intitule }}</a></td>
+                <td>{% if entity.maj %}{{ entity.maj|date('Y-m-d') }}{% endif %}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('administration_offre_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('administration_offre_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    {% endblock %}

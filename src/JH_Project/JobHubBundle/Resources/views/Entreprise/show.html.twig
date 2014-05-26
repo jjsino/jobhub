@@ -1,60 +1,218 @@
-{% extends '::base.html.twig' %}
+{% extends "JobHubBundle::layout.html.twig" %}
 
-{% block body -%}
-    <h1>Entreprise</h1>
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+ 
+{% block contenu %}
 
-    <table class="record_properties">
-        <tbody>
-            <tr>
-                <th>Id</th>
-                <td>{{ entity.id }}</td>
-            </tr>
+{% if edit_form %}
+<div class="clearfix bloc_bulbe">
+<img class="pull-left" src="{{ asset('bundles/jobhub/images/icons/utils/glyphicons_064_lightbulb.png') }}"/>
+<p>Votre profil n'est pas complet. Veuillez le completer.</p>
+</div>
+<div class="clearfix contenu_header">
+	<div class="pull-left">	<h2>Profil Entreprise</h2></div>
+</div>
+<div class="bloc_info">
+<form class="entreprise_profil_form" action="{{ path('job_hub_entreprise_update') }}" method="POST" {{ form_enctype(edit_form) }}>
+	<h4>Information Générales</h4>
+	    <table class="record_properties">
+         <tbody>
             <tr>
                 <th>Nom</th>
-                <td>{{ entity.nom }}</td>
+                <td>{{ form_widget(edit_form.nom) }}</td>
             </tr>
             <tr>
-                <th>Raisonsociale</th>
-                <td>{{ entity.raisonSociale }}</td>
+                <th>Raison sociale</th>
+                <td>{{ form_widget(edit_form.raisonSociale ) }}</td>
             </tr>
             <tr>
-                <th>Contactemail</th>
-                <td>{{ entity.contactEmail }}</td>
+                <th>Contact email</th> 
+                <td>{{ form_widget(edit_form.contactEmail) }}</td>
             </tr>
+      
             <tr>
-                <th>Adresse</th>
-                <td>{{ entity.adresse }}</td>
-            </tr>
-            <tr>
-                <th>Telephone</th>
-                <td>{{ entity.telephone }}</td>
-            </tr>
-            <tr>
-                <th>Fax</th>
-                <td>{{ entity.fax }}</td>
-            </tr>
-            <tr>
-                <th>Codepostal</th>
-                <td>{{ entity.codePostal }}</td>
-            </tr>
-            <tr>
-                <th>Siteweb</th>
-                <td>{{ entity.siteWeb }}</td>
+                <th>SiteWeb</th>
+                <td> {{ form_widget(edit_form.siteWeb) }}</td>
             </tr>
         </tbody>
-    </table>
+     </table>
+ <h4>Vos coordonnées</h4>
+	  <table class="record_properties">
+		   <tbody>
+			    <tr>
+			       <th>Email</th> 
+			       <td>{{ entity.compteUser.email }}</td>
+			    </tr>
+			    <tr>
+			      <th>Telephone</th>
+			      <td>{{ form_widget(edit_form.telephone) }}</td>
+			    </tr>
+			    <tr>
+	               <th>Fax</th>
+	               <td>{{ form_widget(edit_form.fax) }}</td>
+	            </tr>
+	            <tr>
+	              <th>Ville</th>
+	              <td>{{ form_widget(edit_form.ville)}}</td>
+	           </tr>
+		  </tbody>
+	    </table>
+		  {{ form_rest(edit_form) }}
+	 </form>
+</div>
+  
+{% else %}  
+	<div class="clearfix contenu_header">		
+		  <div class="pull-left">
+			  <div class="clearfix">
+				<img class="img_profil thumbnail  pull-left" src="{{asset(entity.pathLogo)}}"/>	
+				<h2 class="pull-right"> Espace Comte </h2>
+			  </div>
+		   </div>
+		  <a class="pull-right bloc_info_right_link" href="{{ path('job_hub_entreprise_edit')}}">Modifier</a>
+	</div>
+	<div class="clearfix bloc_info">
+		<div class="pull-left candidat_profil_info_base">
+			<h3 class="bloc_info_titre">Information Générales</h3>
+			<div class="bloc_info_contenu">
+				<table class="record_properties">
+					  <tbody>
+			        <tr>
+			            <th>Nom</th>
+			            <td>{{ entity.nom }}</td>
+			        </tr>
+			        <tr>
+			            <th>Raison sociale</th>
+			            <td>{{ entity.raisonSociale }}</td>
+			        </tr>
+			        <tr>
+			            <th>Contact email</th>
+			            <td>{{ entity.contactEmail }}</td>
+			        </tr>
+			        <tr>
+			            <th>SiteWeb</th>
+			            <td>{{ entity.siteWeb }}</td>
+			        </tr>
+			    </tbody>
+			 </table>
+		  </div>
+		</div>
+	
+		<div class="candidat_profil_info_base pull-right">
+			 <h3 class="bloc_info_titre">Vos coordonnées</h3>
+		 <div class="bloc_info_contenu">
+			 <table class="record_properties">
+				<tbody>
+			      <tr>
+			         <th>Email</th>
+			         <td>{{ entity.compteUser.email }}</td>
+			      </tr>
+			      <tr>
+			          <th>Telephone</th>
+			          <td>{{ entity.telephone }}</td>
+			      </tr>
+			      <tr>
+			        <th>Fax</th>
+			        <td>{{ entity.fax }}</td>
+			      </tr>
+			      <tr>
+			        <th>Adresse</th>
+			        {% if entity.adresse %}
+			        <td>{{ entity.adresse }}</br>
+			        {{ entity.ville.codePostal }}, {{ entity.ville.nom }}</br>
+			        {{ entity.ville.region.nom }}, {{ entity.ville.region.pays.nomFr }}</td>
+			        {% endif %}
+			    </tr>
+			 </tbody>
+		   </table>
+		  </div>
+		</div>  
+	</div>
+  	
+  	<div class="bloc_info"> {# -- liste offres -- #}
+  	
+  	<h3 class="bloc_info_titre">Vos offres en ligne</h3>
+  	{% if  enabled_offers|length > 0 %}
+	<table class="table records_list">
+	   <thead>
+			<tr>
+			<th>Intitule</th>
+			<th>Date</th>
+			<th>Ville</th>
+			<th>Actions</th>
+			</tr>
+	   </thead>
+	   <tbody>
+	{% for offre in enabled_offers %}
+		<tr>
+			<td><a href="{{ path('job_hub_offre_show',{ 'id': offre.id})}}">{{offre.intitule }}</a></td>
+			<td>{% if offre.maj %}{{ offre.maj|date('Y-m-d') }}{% endif%}</td>
+			<td>{% if offre.ville %}{{ offre.ville.nom}},{{ offre.ville.region.pays.nomFr }}{% endif%}</td>
+			<td>
+				<a href="{{ path('job_hub_offre_show',{ 'id': offre.id})}}">
+					Détails <span>Voir les détails de cette offre</span>
+				</a> |
+				<a href="{{ path('job_hub_offre_edit',{ 'id': offre.id})}}">
+					Modifier <span>Modifier cette offre</span>
+				</a> |
+				<a href="{{ path('job_hub_offre_disable',{ 'id': offre.id})}}">
+					Désactiver <span>Mettre en hors ligne cette offre</span>
+				</a>
+			</td>
+		</tr>
+	{% endfor %}
+	 </tbody>
+	</table>
+	{% else %}
+	<p> Vous n'avez actuellement pas d'offres en ligne </p>
+	{% endif %}
+	
+	<h4 class="bloc_info_titre">Vous pouvez également mettre en ligne vos offres enregistrées</h4>
+	{% if  disabled_offers|length > 0 %}
+	<table class="table records_list">
+	   <thead>
+			<tr>
+			<th>Intitule</th>
+			<th>Date</th>
+			<th>Ville</th>
+			<th>Actions</th>
+			</tr>
+	   </thead>
+	   <tbody>
+	{% for offre in disabled_offers %}
+		<tr>
+			<td><a href="{{ path('job_hub_offre_show',{ 'id': offre.id})}}">{{offre.intitule }}</a></td>
+			<td>{% if offre.maj %}{{ offre.maj|date('Y-m-d') }}{% endif%}</td>
+			<td>{% if offre.ville %}{{ offre.ville.nom}},{{ offre.ville.region.pays.nomFr }}{% endif%}</td>
+			<td>
+				<a href="{{ path('job_hub_offre_show',{ 'id': offre.id})}}">
+					Détails <span>Voir les détails de cette offre</span>
+				</a> |
+				<a href="{{ path('job_hub_offre_edit',{ 'id': offre.id})}}">
+					Modifier <span>Modifier cette offre</span>
+				</a> |
+				<a href="{{ path('job_hub_offre_enable',{ 'id': offre.id})}}">
+					Activer <span>Mettre cette offre en ligne </span>
+				</a>
+			</td>
+		</tr>
+	{% endfor %}
+	 </tbody>
+	</table>
+	{% else %}
+	<p> Vous n'avez actuellement pas d'offres en ligne </p>
+	{% endif %}
+	</div> 
+{% endif %}	{# -- end if profile not complete -- #}
+{% endblock %} 
 
-        <ul class="record_actions">
-    <li>
-        <a href="{{ path('admin_entreprise') }}">
-            Back to the list
-        </a>
-    </li>
-    <li>
-        <a href="{{ path('admin_entreprise_edit', { 'id': entity.id }) }}">
-            Edit
-        </a>
-    </li>
-    <li>{{ form(delete_form) }}</li>
-</ul>
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+ 
+{% block footer %}
+{{ parent() }}
 {% endblock %}

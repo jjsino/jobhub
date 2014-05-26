@@ -1,0 +1,5 @@
+{% if app.user != null %} 
+<p> Bonjour, {{ app.user.username }}!</p>
+<p> Votre dernière connexion: {{ app.user.lastLogin|date('Y-m-d') }} </p>
+{% endif %}
+

@@ -1,0 +1,35 @@
+ <form class="candidat_profil_form" action="{{ path('candidat_profile_formation_create') }}" method="POST" {{ form_enctype(form) }}>
+	<table class="record_properties">
+		<tbody>
+			<tr>
+                <th>Annee debut</th>
+                <td>{{ form_widget(form.anneeDebut) }}</td>
+            </tr>
+            <tr>
+                <th>Annee fin</th>
+                <td>{{ form_widget(form.anneeFin) }}</td>
+            </tr>
+            <tr>
+                <th>Libellé de votre diplôme</th>
+                <td>{{ form_widget(form.libelleDiplome)}}</td>
+            </tr> 
+            <tr>
+                <th>Etablissement</th>
+                <td>{{ form_widget(form.etablissement) }}</td>
+            </tr> 
+            <tr>
+                <th>Niveau d'études du diplôme</th>
+                <td>{{ form_widget(form.niveauEtudes) }}</td>
+            </tr>
+            <tr>
+                <th>Diplôme obtenu</th>
+                <td>{{ form_widget(form.diplomeObtenu) }}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{{ form_widget(form.description) }}</td>
+            </tr>
+        </tbody>
+	</table>
+	{{form_rest(form)}}
+</form>

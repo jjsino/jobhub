@@ -1,0 +1,53 @@
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+
+{% block page_title %}
+<div class="navbar-header">
+	<h2>Liste des villes</h2>
+</div>
+<ul class="entity_actions pull-right">
+<li>
+    <a class="btn" href="{{ path('administration_ville_new') }}">
+        Ajouter une ville
+    </a>
+</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Code Postal</th>
+                <th>Nom</th>
+                <th>Région</th>
+                <th>Pays</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td>{{ entity.id }}</a></td>
+                <td>{{ entity.codePostal }}</td>
+                <td>{{ entity.nom }}</td>
+                <td>{{ entity.region.nom }}</td>
+                <td>{{ entity.region.pays.nomFr }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('administration_ville_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('administration_ville_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% endblock %}

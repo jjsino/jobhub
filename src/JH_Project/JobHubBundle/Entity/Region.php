@@ -30,7 +30,7 @@ class Region
 
     /**
      * @ORM\ManyToOne(targetEntity="Pays", inversedBy="regions", cascade={"remove"})
-     * @ORM\JoinColumn(name="pays_id", referencedColumnName="id")
+     * @ORM\JoinColumn(name="pays_id", nullable=false, referencedColumnName="id")
      */
     private $pays;
     
@@ -70,7 +70,7 @@ class Region
      */
     public function getPays()
     {
-        return $this->$pays;
+        return $this->pays;
     }
     
     /**
@@ -104,5 +104,10 @@ class Region
     public function getVilles()
     {
         return $this->villes;
+    }
+    
+    public function __toString()
+    {
+    	return $this->nom;
     }
 }

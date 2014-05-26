@@ -1,0 +1,21 @@
+{# SearchEngineBundle/Resources/views/SearchOffer/form.html.twig #}
+
+<form action="{{ path('searchengine_search_offer_result') }}" method="post" {{ form_enctype(form) }} class="lead well form-search">
+ 
+    <!-- form errors -->
+    {{ form_errors(form) }}
+    <label>Mot-Clés</label>
+    {{ form_errors(form.mot_cle) }}
+    {{ form_widget(form.mot_cle) }}
+    <label>Lieu</label>
+    {{ form_errors(form.lieu) }}
+    {{ form_widget(form.lieu, {'attr': {'class': 'tracked_city'}}) }}
+
+    {{ form_rest(form) }}
+ 	
+ 	<i class="fa fa-map-marker fa-2x btn btn-default" onclick="onLoadPlugGeo()"></i>
+    <input class="btn btn-primary clear" type="submit" value="Rechercher" />
+    
+    <a class="btn-link right" href="#">Recherche avancee</a>
+</form>
+

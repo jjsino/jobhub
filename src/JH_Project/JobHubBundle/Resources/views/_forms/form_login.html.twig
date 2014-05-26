@@ -1,0 +1,22 @@
+
+<h3>Formulaire de connexion</h3>
+
+{% if error %}
+<div class="alert alert-danger"> Login ou mot de passe incorrect!</div>
+{% endif %}
+<form class="inscription_connexion_form" action="{{ path('login_check') }}" method="post">
+	<div>
+    <label>Nom d'utilisateur</label></br>
+    <input type="text" name="_username" required autofocus></br>
+    </div>
+    <div>
+    <label>Mot de passe</label></br>
+    <input type="password" name="_password" required></br>
+    </div>
+    <div>
+	<label class="checkbox"><input type="checkbox" value="remember-me"> Se souvenir de moi</label></br>
+    </div>
+    <div>
+    <input class="btn btn-primary" type="submit" value="Valider" />
+    </div>
+</form>

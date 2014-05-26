@@ -1,0 +1,80 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Candidat{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+<div class="clearfix contenu_header">
+	<div class="pull-left">	<h2>Profil Candidat</h2></div>
+	<a class="pull-right bloc_info_right_link" href="{{ path('job_hub_candidat_show') }}">Retour</a>
+</div>
+<div class="bloc_info">
+<form class="candidat_profil_form" action="{{ path('job_hub_candidat_update') }}" method="POST" {{ form_enctype(edit_form) }}>
+	<h4>Information Générales</h4>
+	<table class="record_properties">
+		<tbody>
+			<tr>
+                <th>Votre nom</th>
+                <td>{{ form_widget(edit_form.nom) }}</td>
+            </tr>
+            <tr>
+                <th>Votre prénom</th>
+                <td>{{ form_widget(edit_form.prenom) }}</td>
+            </tr>
+            <tr>
+                <th>Votre date de naissance</th>
+                <td>{{ form_widget(edit_form.birthday)}}</td>
+            </tr> 
+            <tr>
+                <th>Votre sexe</th>
+                <td>{{ form_widget(edit_form.sex) }}</td>
+            </tr> 
+            <tr>
+                <th>Site personnel</th>
+                <td>{{ form_widget(edit_form.sitePerso) }}</td>
+            </tr>
+        </tbody>
+	</table>
+	<h4>Vos coordonnées</h4>
+	<table class="record_properties">
+		<tbody>
+            <tr>
+                <th>Numéro de téléphone</th>
+                <td>{{ form_widget(edit_form.telephone) }}</td>
+            </tr>
+            <tr>
+                <th>Adresse</th>
+                <td>{{ form_widget(edit_form.adresse) }}</td>
+            </tr>
+            <tr>
+                <th>Code Postal</th>
+                <td>{{ form_widget(edit_form.codePostal)}}</td>
+            </tr> 
+            <tr>
+                <th>Ville</th>
+                <td>{{ form_widget(edit_form.ville)}}</td>
+            </tr>
+            <tr>
+                <th>Photot de votre profil</th>
+                <td>{{ form_widget(edit_form.photoProfil)}}</td>
+            </tr>
+        </tbody>
+	</table>
+    {{ form_rest(edit_form) }}
+</form>
+</div>
+{% endblock %}
+
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}
+

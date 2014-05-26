@@ -3,14 +3,18 @@
 namespace JH_Project\JobHubBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
 
 /**
  * Entreprise
  *
  * @ORM\Table()
  * @ORM\Entity(repositoryClass="JH_Project\JobHubBundle\Entity\EntrepriseRepository")
- */
-class Entreprise
+ *
+ * @IgnoreAnnotation("Assert")
+ */ 
+class Entreprise 
 {
     /**
      * @var integer
@@ -19,81 +23,106 @@ class Entreprise
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="nom", type="string", length=255)
+     * @ORM\Column(name="nom", type="string", length=255, nullable=true)
      */
     private $nom;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="raison_sociale", type="string", length=255)
+     * @ORM\Column(name="raison_sociale", type="string", length=255, nullable=true)
      */
     private $raisonSociale;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="contact_email", type="string", length=255)
+     * @ORM\Column(name="contact_email", type="string", length=255, nullable=true)
      */
     private $contactEmail;
 
     /**
      * @var string
      *
-     * @ORM\Column(nullable=true,name="adresse", type="string", length=255)
+     * @ORM\Column(nullable=true,name="adresse", type="string", length=255, nullable=true)
      */
     private $adresse;
 
     /**
      * @var integer
      *
-     * @ORM\Column(nullable=true, name="telephone", type="integer")
+     * @ORM\Column(nullable=true, name="telephone", type="integer", nullable=true)
      */
     private $telephone;
 
     /**
      * @var integer
      *
-     * @ORM\Column(nullable=true, name="fax", type="integer")
+     * @ORM\Column(nullable=true, name="fax", type="integer", nullable=true)
      */
     private $fax;
 
     /**
      * @var integer
      *
-     * @ORM\Column(name="code_postal", type="integer")
+     * @ORM\Column(name="code_postal", type="integer", nullable=true)
      */
     private $codePostal;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="site_web", type="string", length=255)
+     * @ORM\Column(name="site_web", type="string", length=255, nullable=true)
      */
     private $siteWeb;
 
     /**
      * @ORM\OneToMany(targetEntity="Offre", mappedBy="entreprise", cascade={"remove","persist"})
-     */
-    private $offres;
-    
-    /**
-     * @ORM\OneToOne(targetEntity="Image", cascade={"persist"})
      * @ORM\JoinColumn(nullable=true)
      */
-    private $logo;
-    
+    private $offres;
+        
+   /**
+     *  @Assert\Image
+     */ 
+    public $logo;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="path_logo", type="string", length=255, nullable=true)
+     */
+    private $pathLogo;
+	
+	/*
+	* @var string
+	*/
+	public $save_name;
+	   
     /**
      * @ORM\ManyToOne(targetEntity="Ville", inversedBy="entreprises", cascade={"remove"})
-     * @ORM\JoinColumn(nullable=false,name="ville_id", referencedColumnName="id")
+     * @ORM\JoinColumn(nullable=true,name="ville_id", referencedColumnName="id")
      */
     private $ville;
-
+    
+   /**
+     * @ORM\OneToOne(targetEntity="Utilisateur", cascade={"persist"})
+     * @ORM\JoinColumn(nullable=false, unique=true)
+     */ 
+    private $compteUser;
+    
+    public function check_info_base()
+     {
+		 if ($this->getNom() && $this->getAdresse() &&$this->getVille()){
+		 	return true;
+		 }
+     	else return false;
+     }
     /**
      * Get id
      *
@@ -297,30 +326,7 @@ class Entreprise
     {
         return $this->offres;
     }
-    
-     /**
-     * Set logo
-     *
-     * @param Image $logo
-     * @return Entreprise
-     */
-    public function setLogo(Image $logo)
-    {
-        $this->logo = $logo;
-    
-        return $this;
-    }
-
-    /**
-     * Get logo
-     *
-     * @return Image 
-     */
-    public function getLogo()
-    {
-        return $this->logo;
-    }
-    
+ 
     /**
      * Set ville
      *
@@ -343,4 +349,81 @@ class Entreprise
     {
         return $this->ville;
     }
+
+    /**
+     * Set compteUser
+     *
+     * @param Utilisateur $compteUser
+     * @return Entreprise
+     */
+    public function setCompteUser(Utilisateur $compteUser)
+    {
+        $this->compteUser = $compteUser;
+    
+        return $this;
+    }
+        
+    /**
+     * Get compteUser
+     *
+     * @return Utilisateur 
+     */
+    public function getCompteUser()
+    {
+        return $this->compteUser;
+    }
+
+    
+    public function getAbsolutePath()
+    {
+        return $this->getUploadRootDir().'/'.$this->pathLogo;
+    }
+	
+	//asset path for twig
+    public function getpathLogo()
+    {
+        return 'bundles/jobhub/'.$this->getUploadDir().'/'.$this->pathLogo;
+    }
+    
+    public function getWebPath()
+    {
+        return $this->getUploadDir().'/'.$this->pathLogo;
+    }
+
+    protected function getUploadRootDir()
+    {
+        return __DIR__."/../../../../web/bundles/jobhub/".$this->getUploadDir();
+    }
+
+    protected function getUploadDir()
+    {
+        return 'user_uploads/Logo_Entreprise';
+    }
+        
+    public function uploadLogo()
+	{
+		if (null === $this->logo) {
+		    return;
+		}
+		$extension = $this->logo->guessExtension();
+		if (!$extension) {
+			$extension = 'jpg';
+		}
+		$this->save_name = 'Logo_Entreprise_'.$this->id.'.'.$extension;
+		$this->logo->move($this->getUploadRootDir(), $this->save_name);
+		$this->pathLogo = $this->save_name;
+		$this->save_name = null;
+		$this->logo = null;
+	}
+	
+	/**
+     * @ORM\PostRemove()
+     */
+    public function removeLogo()
+    {	
+        if ($this->pathLogo) {
+            unlink($this->getAbsolutePath());
+        }
+    }	
+    
 }

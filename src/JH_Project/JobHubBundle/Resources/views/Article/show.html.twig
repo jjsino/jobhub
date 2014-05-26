@@ -1,0 +1,52 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - {{ entity.titre }}{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+<div class="bloc_info">
+	<div class="clearfix contenu_header">
+		<div class="pull-left">	<h2> {{ entity.titre }} </h2></div>
+		<a href="{{ path('job_hub_articles') }}">Retour</a>
+	</div>
+
+	<div class="bloc_info_contenu">
+		<table class="record_properties">
+		    <tbody>
+		        <tr>
+		            <th>Id</th>
+		            <td>{{ entity.id }}</td>
+		        </tr>
+		        <tr>
+		            <th>Titre</th>
+		            <td>{{ entity.titre }}</td>
+		        </tr>
+		        <tr>
+		            <th>Etat</th>
+		            <td>{{ entity.etat }}</td>
+		        </tr>
+		        <tr>
+		            <th>Maj</th>
+		            <td>{{ entity.maj|date('Y-m-d') }}</td>
+		        </tr>
+		        <tr>
+		            <th>Contenu</th>
+		            <td>{{ entity.contenu }}</td>
+		        </tr>
+		    </tbody>
+		</table>
+	</div>
+</div>
+{% endblock %} 
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}

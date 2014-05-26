@@ -12,4 +12,14 @@ use Doctrine\ORM\EntityRepository;
  */
 class FormationRepository extends EntityRepository
 {
+    public function removeFormation($id) 
+    {
+		$query = $this->getEntityManager()->createQuery(
+			'DELETE
+			 FROM JobHubBundle:Formation f
+			 WHERE f.id = '.$id
+			);
+		$query->execute();
+    }
+    
 }

@@ -1,0 +1,89 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+ 
+{% block contenu %}
+	<div class="clearfix contenu_header">		
+		<h2 class="pull-left"> Liste des candidatures</h2>
+		 <a class="pull-right bloc_info_right_link" href="{{ path('job_hub_entreprise_show')}}">Retour</a>
+	</div> 
+	<div class="clearfix bloc_info">		
+	<p>La liste des candidatures que vous avez reçues</p>
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Offre</th>
+                <th>CV</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+		    {% for candidature in candidatures %}
+		    	{% if candidature.etat == 1 %}
+		        <tr>
+		            <td><a href="{{ path('job_hub_offre_show', { 'id': candidature.offre.id }) }}">{{ candidature.offre.intitule }}</a></td>
+		            <td><a href="{{asset(candidature.cv.path)}}">{{ candidature.cv.titre }}</a></td>
+		            <td>{% if candidature.date %}{{ candidature.date|date('Y-m-d H:i:s') }}{% endif %}</td>
+		            <td>
+		            <a href="{{ path('entreprise_profile_candidature_show', { 'id': candidature.id }) }}">
+		            	Détails <span>Voir les détails de cette candidature</span>
+		            </a> |
+		            <a href="{{ path('entreprise_profile_candidature_save', { 'id': candidature.id }) }}">
+		            	Sauvegarder <span>Sauvegarder cette candidature</span>
+		            </a> |
+		            <a href="{{ path('entreprise_profile_candidature_ignore', { 'id': candidature.id }) }}">
+		            	Ignorer <span>Je ne veux plus voir ceci</span>
+		            </a>
+		            </td>
+		        </tr>
+		        {% endif %}
+		    {% endfor %}
+        </tbody>
+    </table>
+    </br>
+    <p> Candidatures sauvegardées</p>
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Offre</th>
+                <th>CV</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+		    {% for candidature in candidatures %}
+		    	{% if candidature.etat == 2 %}
+		        <tr>
+		            <td><a href="{{ path('job_hub_offre_show', { 'id': candidature.offre.id }) }}">{{ candidature.offre.intitule }}</a></td>
+		            <td><a href="{{asset(candidature.cv.path)}}">{{ candidature.cv.titre }}</a></td>
+		            <td>{% if candidature.date %}{{ candidature.date|date('Y-m-d H:i:s') }}{% endif %}</td>
+		            <td>
+		            <a href="{{ path('entreprise_profile_candidature_show', { 'id': candidature.id }) }}">Détails</a> |
+		            <a href="{{ path('entreprise_profile_candidature_unsave', { 'id': candidature.id }) }}">
+		            	Enlever <span>enlever de la liste de sauvegarde</span>
+		            </a> |
+		            <a href="{{ path('entreprise_profile_candidature_ignore', { 'id': candidature.id }) }}">
+		            	Ignorer  <span>Je ne veux plus voir ceci</span>
+		            </a>
+		            </td>
+		        </tr>
+		        {% endif %}
+		    {% endfor %}
+        </tbody>
+    </table>
+    </div>
+
+{% endblock %}
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+ 
+{% block footer %}
+{{ parent() }}
+{% endblock %}

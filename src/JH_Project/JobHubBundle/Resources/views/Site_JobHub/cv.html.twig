@@ -1,8 +1,49 @@
 {# twig parent: #}
 {% extends "JobHubBundle::layout.html.twig" %}
 
-{% block title %}{{ parent() }} - page CV{% endblock %}
+{% block title %}{{ parent() }} - Publier CV{% endblock %}
+
 
 {% block body %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+   
+    <!-- Jumbotron -->
+        <div class="jumbotron">
+        <h2>Creer un CV</h2>
+        <p class="lead">Creez un CV sur Jobhub et soyez repre par les recruteurs. T�l�charger un CV existant en quelques clics ou laissez-vous 
+        guider par notre formulaire de cr�ation de CV pour ne rien oublier..</p>
+        <p><a class="btn btn-mini btn-primary" href="#myModal" data-toggle="modal" data-target="#myModal" role="button">Telecharger un CV</a>  ou
+         <a class="link" href="#myModal" data-toggle="modal" data-target="#myModal" role="link">Creer un CV</a></p>
+      </div>
+    
+      <!-- Colonnes de la ligne 1 -->
+      <div class="container">
+       <div class="row">
+        <div class="col-lg-12"> 
+        <h3> Conseils pour la redaction du CV </h3>
+         </div>
+         
+ </div>        
+ 
+  <div class="row">
+        <div class="col-lg-12">
+    </div>  
+ </div>   
+        
+ <div class="row">
+        <div class="col-lg-6">  </div>
+         <div class="col-lg-6"></div>  
+ </div>   
+   
+  
+ {% block footer %}
+{{ parent() }}
+    
+{% endblock %}
+
 
 {% endblock %}

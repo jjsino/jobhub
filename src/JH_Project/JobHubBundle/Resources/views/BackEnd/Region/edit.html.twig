@@ -1,0 +1,23 @@
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+
+{% block page_title %}
+<div class="navbar-header">
+	<h2>Modifier region</h2>
+</div>
+<ul class="entity_actions pull-right back_to_list record_actions">
+	<li>
+		<a class="btn" href="{{ path('administration_region') }}">
+		    Retour à la liste
+		</a>
+	</li>
+	<li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+
+    {{ form(edit_form) }}
+
+{% endblock %}

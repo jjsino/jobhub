@@ -1,0 +1,68 @@
+{# Index de la gestion des administrateurs l'administration #} {#
+src/JH_Project/JobHubBundle/Resources/views/amdin/Administrateur/index.html.twig
+#} {# twig parent: admin_layout.html.twig #} {% extends
+"JobHubBundle::admin_layout.html.twig" %} {% block page_title %}
+<div class="navbar-header">
+	<h2>Liste des administrateurs</h2>
+</div>
+<ul class="entity_actions pull-right">
+	<li><a class="btn"
+		href="{{ path('administration_administrateur_new') }}"> Ajouter un
+			administrateur </a></li>
+</ul>
+{% endblock %} {% block page_content %}
+
+<table class="table records_list">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Login</th>
+			<th>Email</th>
+			<th>Etat</th>
+			<th>Derniére connexion</th>
+			<th>Vérouillé</th>
+			<th>Expiré</th>
+			<th>Status</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for entity in entities %}
+		<tr>
+			<td>{{ entity.id }}</td>
+			<td><a
+				href="{{ path('administration_administrateur_show', { 'id': entity.id }) }}">{{
+					entity.compteUser.username }}</a></td>
+			<td>{{ entity.compteUser.email }}</td>
+			<td>{% if entity.compteUser.enabled %} Activé {% else %} Désactivé
+				{% endif %}</td>
+			<td>{% if entity.compteUser.lastLogin %} {{
+				entity.compteUser.lastLogin|date('Y-m-d H:i:s') }} {% endif %}</td>
+			<td>{% if entity.compteUser.locked %} OUI {% else %} NON {% endif %}
+			</td>
+			<td>{% if entity.compteUser.expired %} OUI {% else %} NON {% endif %}
+			</td>
+			<td>{% for role in entity.compteUser.roles %} {% if role ==
+				'ROLE_SUPER_ADMIN' %} Super Admin {% elseif role == 'ROLE_ADMIN' %}
+				Administrateur {% elseif role == 'ROLE_REDACTEUR' %} Rédacteur {%
+				elseif role == 'ROLE_MODERATEUR' %} Modérateur {% endif %} {%
+				endfor %}</td>
+			<td>
+				<ul>
+					<li><a
+						href="{{ path('administration_administrateur_show', { 'id': entity.id }) }}">Détails</a>
+					</li>
+					<li><a
+						href="{{ path('administration_administrateur_edit', { 'id': entity.id }) }}">Modifier</a>
+					</li>
+					<li><a
+						href="{{ path('administration_administrateur_delete', { 'id': entity.id }) }}">Supprimer</a>
+					</li>
+				</ul>
+			</td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
+
+{% endblock %}

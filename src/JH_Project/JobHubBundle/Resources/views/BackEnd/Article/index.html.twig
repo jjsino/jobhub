@@ -1,0 +1,56 @@
+
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+
+{% block page_title %}
+<div class="navbar-header">
+	<h2>Liste des articles</h2>
+</div>
+<ul class="entity_actions pull-right">
+<li>
+    <a class="btn" href="{{ path('administration_article_new') }}">
+        Ajouter un article
+    </a>
+</li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Titre</th>
+                <th>Etat</th>
+                <th>Maj</th>
+                <th>Contenu</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('administration_article_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.titre }}</td>
+                <td>{{ entity.etat }}</td>
+                <td>{% if entity.maj %}{{ entity.maj|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>{{ entity.contenu }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('administration_article_show', { 'id': entity.id }) }}">Détails</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('administration_article_edit', { 'id': entity.id }) }}">Modifier</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('administration_article_delete', { 'id': entity.id }) }}">Supprimer</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% endblock %}

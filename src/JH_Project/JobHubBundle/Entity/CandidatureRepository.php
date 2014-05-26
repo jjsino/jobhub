@@ -3,6 +3,7 @@
 namespace JH_Project\JobHubBundle\Entity;
 
 use Doctrine\ORM\EntityRepository;
+use JH_Project\JobHubBundle\Entity\Entreprise;
 
 /**
  * CandidatureRepository
@@ -12,4 +13,43 @@ use Doctrine\ORM\EntityRepository;
  */
 class CandidatureRepository extends EntityRepository
 {
+	
+	public function candidaturesEntreprise($id)
+	{
+		$qb = $this->createQueryBuilder('c');
+        $qb	->leftJoin('c.candidat', 'candidat')
+        	->leftJoin('c.offre', 'offre')
+        	->leftJoin('offre.entreprise', 'entreprise')  
+        	->where( 'entreprise.id = :id
+        			AND candidat.id > 0'
+        		)
+        	->setParameter('id', $id);
+ 
+        return $qb->getQuery()->getResult();
+	}
+	
+		public function showCandidatureEntreprise($id_e, $id_c)
+	{
+		$qb = $this->createQueryBuilder('c');
+        $qb	->leftJoin('c.candidat', 'candidat')
+        	->leftJoin('c.offre', 'offre')
+        	->leftJoin('offre.entreprise', 'entreprise')  
+        	->where( 'entreprise.id = :id_e
+        			AND candidat.id > 0
+        			AND c.id = :id_c'
+        		)
+        	->setParameter('id_e', $id_e)
+        	->setParameter('id_c', $id_c);
+ 
+        return $qb->getQuery()->getResult();
+	}
+	/*
+	public function index_Entreprise($id)
+	{
+		$conn = $this->getEntityManager()->getConnection();
+		$query = 'Select * 
+				  From Candidature c
+				  Where c.entreprise_id = '.$id;
+		return $conn->executeQuery($query)->fetchAll();
+	}*/
 }

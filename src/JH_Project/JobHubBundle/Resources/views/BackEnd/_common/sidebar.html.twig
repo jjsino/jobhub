@@ -1,0 +1,22 @@
+<div class="text-center">
+<div class="thumbnail">
+<img id="admin_pic" alt="user picture" src="{{ asset('bundles/jobhub/images/BackEnd/admin_avatar.png') }}"/>
+</div>
+</div>
+
+<ul>
+    <li>Login:{{ app.user.username }}</li>
+    <li>Status:
+    {% if is_granted('ROLE_SUPER_ADMIN') %}
+    	Super Administrateur
+    {% elseif is_granted('ROLE_ADMIN') %}
+    	Administrateur
+    {% elseif is_granted('ROLE_REDACTEUR') %}
+    	Rédacteur
+    {% elseif is_granted('ROLE_MODERATEUR') %}
+    	Modérateur
+    {% endif %}
+    </li>
+    <li>Dernière connexion:{{ app.user.lastlogin|date('Y-m-d') }}</li>
+    <li><a href="#">changer mot de passe</a></li>
+</ul>

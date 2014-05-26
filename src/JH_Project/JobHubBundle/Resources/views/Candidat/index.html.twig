@@ -1,0 +1,82 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Candidat{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+<div class="bloc_info">
+	<div class="clearfix contenu_header">
+	<h2 class="bloc_info_titre"> Offres intéressantes pour vous </h2>
+	</div>
+	
+	<div>
+		<table class="table records_list">
+				<thead>
+					<tr>
+						<th>Intitulé</th>
+						<th>Date</th>
+						<th>Ville</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for entity in offres %}
+					<tr>
+					<td><a href="{{ path('job_hub_offre_show', { 'id': entity.id}) }}">{{
+							entity.intitule }}</a></td>
+					<td>{% if entity.maj %}{{ entity.maj|date('Y-m-d') }}{% endif%}</td>
+					<td>{% if entity.ville %}{{ entity.ville.nom}},{{ entity.ville.region.pays.nomFr }}{% endif%}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+
+	</br>
+	<div class="clearfix contenu_header">
+	<h2 class="bloc_info_titre"> Vos candidatures récentes </h2>
+	</div>
+	{% if candidat.candidatures|length > 0 %}
+	<table class="table records_list">
+        <thead>
+            <tr>
+                <th>Offre</th>
+                <th>CV</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for candidature in candidat.candidatures %}
+            <tr>
+                <td><a href="{{ path('job_hub_offre_show', { 'id': candidature.offre.id }) }}">{{ candidature.offre.intitule }}</a></td>
+                <td><a href="{{asset(candidature.cv.path)}}">{{ candidature.cv.titre }}</a></td>
+                <td>{% if candidature.date %}{{ candidature.date|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>
+                <a href="{{ path('candidat_profile_candidature_show', { 'id': candidature.id }) }}">Détails</a>
+                </td>
+               
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p> Vous n'avez pas encore postulé à une offre. </p>
+    {% endif %}
+	<div>
+	</div>
+</div>
+{% endblock %} 
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}
+
+

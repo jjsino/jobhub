@@ -12,4 +12,25 @@ use Doctrine\ORM\EntityRepository;
  */
 class OffreRepository extends EntityRepository
 {
+	public function searchOffre($mot_cle, $lieu){
+
+        $qb = $this->createQueryBuilder('offer');
+        $qb	->leftJoin('offer.ville', 'v')
+        	->leftJoin('v.region', 'r')   
+        	->leftJoin('r.pays', 'p')
+        	->where( '(offer.description LIKE :mc 
+        		OR offer.intitule LIKE :mc 
+        		OR offer.fonctionPoste LIKE :mc)
+        		AND (v.nom LIKE :lieu
+        		OR r.nom LIKE :lieu
+        		OR p.nomFr LIKE :lieu)
+        		AND offer.enabled = true'
+        		)  
+           ->setParameter( 'mc', '%'. $mot_cle .'%' )
+           ->setParameter( 'lieu', '%'. $lieu .'%' );
+ 
+        return $qb->getQuery()->getResult();
+        
+    }
+
 }

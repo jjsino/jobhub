@@ -1,133 +1,161 @@
-{# Ceci est un commentaire #}
-{# src/JH_Project/JobHubBundle/Resources/views/Site_JobHub/layout.html.twig #}
+{# Ceci est un commentaire #} {#
+src/JH_Project/JobHubBundle/Resources/views/Site_JobHub/layout.html.twig
+#}
 
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">   
-    <title>{%  block title %}JobHub{% endblock %}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="{{ asset('bundles/jobhub/css/test.css') }}" rel="stylesheet" media="screen">
-    <link href="{{ asset('bundles/jobhub/css/font.css') }}" rel="stylesheet" media="screen">
-    <link href="{{ asset('bundles/jobhub/css/typography.css') }}" rel="stylesheet" media="screen">
-    <script src="{{ asset('bundles/jobhub/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('bundles/jobhub/js/jquery-1.10.2.min.js') }}"></script>
-    <link href="{{ asset('bundles/jobhub/css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
-    <script src="Bootstrap/js/jquery-1.10.2.min.js"></script>
-  </head>
+<head>
+<meta charset="utf-8">
+<title>{% block title %}JobHub{% endblock %}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- ICON -->
+<link rel="icon" type="image/png" href="{{ asset('bundles/jobhub/images/common/favicon.png') }}" />
   
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
+<link href="{{ asset('bundles/jobhub/css/typography.css') }}" rel="stylesheet" media="screen">
+<link href="{{ asset('bundles/jobhub/css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
+<script src="{{ asset('bundles/jobhub/js/jquery-1.10.2.min.js') }}"></script>
+<script src="{{ asset('bundles/jobhub/js/bootstrap.min.js') }}"></script>
+<link href="{{ asset('bundles/jobhub/css/front.css') }}" rel="stylesheet" media="screen">
+{#<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>#}
+<script type="text/javascript" src="{{ asset('bundles/jobhub/js/loc.js') }}"></script>
 
-  
-  <body>
-   {% block body%} 
-     <div class="container">
-  <nav class="navbar navbar-inverse" role="navigation">
-  
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">JobHub</a>
-  </div>
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav">
-     <li class="dropdown active">
-       <a href="href="{{path('job_hub_cv')}}" class="dropdown-toggle" data-toggle="dropdown">CV <b class="caret"></b>
-        <ul class="dropdown-menu">
-           <li><a href="#">Publier CV</a></li>
-           <li><a href="#">Consulter CV</a></li>
-           <li><a href="#">Créer lettre de motivation</a></li>
-        </ul>
-      </li>
-      <li> <a href="{{path('job_hub_offre')}}">Offre</a></li>
-          <li> <a href="{{path('job_hub_conseil')}}">Conseils</a></li>
-          <li> <a href="{{path('job_hub_entreprise')}}">Entreprise</a></li>
-          <li> <a href="{{path('job_hub_entreprise')}}">S'inscrire</a></li>
-    </ul>
-       <form class="navbar-form-inline navbar-right" role="search id="formconnexion">
-                    <div class="form-group">
-                           <input type="text" class="input-small" placeholder="Email">
-                           <input type="password" class="input-small" placeholder="Password">
-                           <button type="submit midlle" class="btn">Se connecter</button>
-                            <input type="checkbox" value="remember-me"> Remember me   
-                     </div>                
-       </form>
-    </ul>
-  </div>
-</nav>  
- 
-  <div class="jumbotron">
-      <div class="container">
-        <h2>Recherche avancee</h2>
-        <p  <form class="navbar-form-inline navbar-right" role="search id="formrecherche">
-                    <div class="form-group">
-                         <input type="text" class="input-small" placeholder="Saisir un poste">
-                         <input type="password" class="input-small" placeholder="Saisir une competence">                 
-                         <input type="text" class="input-small" placeholder="Saisir une ville"> 
-        </p> 
-        <p><a class="btn btn-lg btn-success midlle" href="#" role="button">Chercher</a></p>       
-      </form>
-     </div>
- </div>
-      
-      <!-- Colonnes de la ligne 2 -->
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Forum d'emplois</h2>
-          <p>Envie de postuler plus tard à une offre ? Sauvegarder les offres qui vous intéressent dans votre profil. Vous pourrez alors accéder à vos Offres Sauvegardées pour y postuler à tout moment. </p>
-          <p><a class="btn btn-default" href="#" role="button">Plus de details &raquo;</a></p>
-        </div>
-        <div class="col-md-6">
-          <h2>FAQ</h2>
-          <p>Envie de postuler plus tard à une offre ? Sauvegarder les offres qui vous intéressent dans votre profil. Vous pourrez alors accéder à vos Offres Sauvegardées pour y postuler à tout moment.</p>
-          <p><a class="btn btn-default" href="#" role="button">Plus de details &raquo;</a></p>
-       </div>
-                
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Test1</h2>
-          <p>Envie de postuler plus tard à une offre ? Sauvegarder les offres qui vous intéressent dans votre profil. Vous pourrez alors accéder à vos Offres Sauvegardées pour y postuler à tout moment.</p>
-          <p><a class="btn btn-default" href="#" role="button">Plus de details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Test2</h2>
-          <p>Envie de postuler plus tard à une offre ? Sauvegarder les offres qui vous intéressent dans votre profil. Vous pourrez alors accéder à vos Offres Sauvegardées pour y postuler à tout moment.</p>
-          <p><a class="btn btn-default" href="#" role="button">Plus de details &raquo;</a></p>
-       </div>
-       <div class="col-md-4">
-          <h2>Test3</h2>
-          <p>Envie de postuler plus tard à une offre ? Sauvegarder les offres qui vous intéressent dans votre profil. Vous pourrez alors accéder à vos Offres Sauvegardées pour y postuler à tout moment.</p>
-          <p><a class="btn btn-default" href="#" role="button">Plus de details &raquo;</a></p>
-       </div>
-        
-      </div>       
-           
-               
-           
-{% block footer %}
-<footer>
-<div id="wrap">
 
-        <div class="page-header">
-          <h1>JubHub</h1>
-        </div>
-        
-        <p>Cliquez ici pour <a href="#">Creer un compte</a> .</p>
-      </div>
-    </div>
+</head>
 
-    <div id="footer">
-        <p class="text-muted">&copy; JubHub 2013.</p>
-      </div>
-    </div>
-{% endblock %}
-</footer>
-     
-{% endblock %}	
-     
-</div>   
+<body>
+
+	{% block body%} 
+	
+	{% block navbar %}
+	<nav class="navbar navbar-inverse">
+		<div class="navbar-inner">
+			<a class="navbar-brand" href="{{path('job_hub_accueil')}}">JobHub</a>
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="dropdown active"><a href="href="#" class="dropdown-toggle" data-toggle="dropdown">Candidat <b
+							class="caret"></b>
+							<ul class="dropdown-menu">
+								<li><a href="{{path('candidat_cv')}}">D√©poser un CV</a></li>
+								<li><a href="{{path('job_hub_offre')}}">Parcourir les Offres</a></li>
+							</ul></li>
+
+					<li class="dropdown"><a href="href=" #" class="dropdown-toggle"
+						data-toggle="dropdown">Entreprise <b class="caret"></b>
+							<ul class="dropdown-menu"> 
+								<li><a href="{{path('job_hub_offre_new')}}">Publier Offres</a></li>
+								<li><a href="{{path('candidat_cv_list')}}">Consulter les CVs</a></li></li>
+				   </ul>
+				</ul>
+				<div class="pull-right" id="show_bloc">
+				{% if app.user != null %} 
+				<div class="nav_btn">
+				  <a class="nav_link" href="{{ path('job_hub_candidat_show') }}">Mon Compte</a> |                             
+			      <a class="nav_link" href="{{ path('logout') }}">D√©connexion</a>
+			    </div>  
+        		{% else %}
+					<!-- Button HTML ( Modal) -->
+					<a class="btn btn-mini nav_link" style="margin: 10px 5px 5px 10px;"
+						href="#myModal" data-toggle="modal">Se connecter</a> |						
+					<!-- Modal connexion -->
+					<div id="myModal" class="modal fade">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 class="modal-title">Connexion</h4>
+								</div>
+								<div class="modal-body">
+								{{ render(controller( 'JobHubBundle:Security:login' )) }}
+							
+								</div>
+								<div class="modal-footer">
+									<a href="{{ path('pass_oubli') }}">Mot de passe oubli√©</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Modal creation compte -->
+					<a class="btn btn-mini nav_link" style="margin: 10px 10px 5px 0px;"
+						href="#myModal2" data-toggle="modal">Inscription</a>
+					<div id="myModal2" class="modal fade">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 class="modal-title">Inscription</h4>
+								</div>
+								<div class="modal-body">
+								{{ render(controller( 'JobHubBundle:JobHub:inscription_form' )) }}
+								
+								</div>
+							</div>
+						</div>
+					</div>
+	         {% endif %}	 	
+					{#<div class="lang btn-group">
+						<button class="btn btn-mini">Fr</button>
+						<button class="btn btn-mini dropdown-toggle"
+							data-toggle="dropdown">
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" style="min-width: 30px;">
+							<li><a href="">En</a></li>
+						</ul>
+					</div>#}
+				</div>
+			</div>
+	
+	</nav>
+
+	{% endblock %} <!-- END navbar block-->
+
+	<div id="searchbar">			    
+		{{ render(controller( 'SearchEngineBundle:SearchOffer:search' )) }}
+	</div>
+<section class="container">
+	
+		<div class="col-lg-9">	
+			<div id="hey_user">	
+			{% block hey_user %}
+					{% include 'JobHubBundle::_common/hey_user.html.twig' %} 
+			{% endblock %} 
+			</div>
+			<div id="contenu">			    
+					{% block contenu %}
+					{% endblock %} 
+			</div>
+		</div>
+		<div id="sidebar" class="col-lg-3">
+		{% if  is_granted('ROLE_ENTREPRISE') or is_granted('ROLE_CANDIDAT') %}
+			{% include 'JobHubBundle::_common/user_bloc_side.html.twig' %}
+		{% endif %}
+				{% block sidebar %}
+				{% endblock %} 
+		</div>
+   </div>	
+</section>		
+	
+	<!-- FOOTER-->
+	{% block footer %}
+		<footer id="footer" class="navbar navbar-static-bottom navbar-inverse">
+			<ul class="hide_bloc nav navbar-nav pull" id="footer_items">
+				<li><a href="{{path('candidat_cv')}}">Publier cv</a></li>
+				<li><a href="{{path('job_hub_offre')}}">Consulter offres</a></li>
+				<li><a href="{{path('job_hub_plan')}}">Plan</a></li>
+			</ul>
+			<p>&copy; JubHub 2013</p>
+		</footer>
+
+		<!-- /Footer-->
+	{% endblock %}
+
+{% endblock %}<!-- END body block-->
+
 </body>
 </html>

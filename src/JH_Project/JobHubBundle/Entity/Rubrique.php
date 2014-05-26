@@ -66,6 +66,10 @@ class Rubrique
         return $this->nom;
     }
     
+    public function __toString()
+	{
+		return $this->nom;
+	}
     /**
      * Get articles
      *

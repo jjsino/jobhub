@@ -12,4 +12,13 @@ use Doctrine\ORM\EntityRepository;
  */
 class ExperienceRepository extends EntityRepository
 {
+	public function removeExperience($id) 
+    {
+		$query = $this->getEntityManager()->createQuery(
+			'DELETE
+			 FROM JobHubBundle:Experience e
+			 WHERE e.id = '.$id
+			);
+		$query->execute();
+    }
 }

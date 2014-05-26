@@ -1,0 +1,55 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+ 
+{% block contenu %}
+	<div class="clearfix contenu_header">		
+		<h2 class="pull-left bloc_info_titre"> Liste des candidatures</h2>
+		 <a class="pull-right bloc_info_right_link" href="{{ path('job_hub_candidat')}}">Retour</a>
+	</div> 
+	<div class="clearfix bloc_info">	
+
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Offre</th>
+                <th>CV jointe</th>
+                <th>Date de la candidature</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for candidature in candidatures %}
+            <tr>
+                <td>
+                <a href="{{ path('job_hub_offre_show', { 'id': candidature.offre.id }) }}">
+                {{ candidature.offre.intitule }}<span>Voir les détails de l'offre</span>
+                </a></td>
+                <td>
+                <a href="{{asset(candidature.cv.path)}}">
+                {{ candidature.cv.titre }}<span>Voir mon CV</span>
+                </a>
+                </td>
+                <td>{% if candidature.date %}{{ candidature.date|date('Y-m-d') }}{% endif %}</td>
+                <td>
+                <a href="{{ path('candidat_profile_candidature_show', { 'id': candidature.id }) }}">Détails</a>
+                
+                </td>
+               
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+	</div>
+{% endblock %}
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+ 
+{% block footer %}
+{{ parent() }}
+{% endblock %}

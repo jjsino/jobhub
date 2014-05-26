@@ -76,7 +76,7 @@ class Ville
      */
     public function getRegion()
     {
-        return $this->$region;
+        return $this->region;
     }
     
     /**
@@ -124,7 +124,10 @@ class Ville
     {
         return $this->nom;
     }
-    
+    public function __toString()
+    {
+        return $this->nom;
+    }
     /**
      * Get entreprises
      *
@@ -134,4 +137,6 @@ class Ville
     {
         return $this->entreprises;
     }
+    
+    
 }

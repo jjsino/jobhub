@@ -67,6 +67,11 @@ class Article
      */ 
     private $video;
 
+	public function __construct()
+	{
+		$this->maj = new \DateTime('now');
+		//$this->etat = false;
+	}
     /**
      * Get id
      *
@@ -81,7 +86,7 @@ class Article
      * Set rubrique
      *
      * @param Rubrique $rubrique
-     * @return Activite
+     * @return Article
      */
     public function setRubrique(Rubrique $rubrique)
     {

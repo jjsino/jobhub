@@ -1,0 +1,46 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Candidat{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+<div class="bloc_info" id="candidat_cv">
+	<div class="clearfix contenu_header">
+		<h2 class="pull-left bloc_info_titre">Liste des CVs</h3>
+	</div>	
+	
+	<div>
+	{% if entities|length > 0 %}
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Titre du CV</th>
+                <th>Date de mise en ligne</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{asset(entity.path)}}">{{ entity.titre }}</a></td>
+                <td>{% if entity.maj %}{{ entity.maj|date('Y-m-d') }}{% endif %}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+	{% endif %}
+	</div>
+</div>
+{% endblock %} 
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}

@@ -1,0 +1,69 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Candidat{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+<div id="candidat_experience">
+<div class="clearfix contenu_header">
+	<h2 class="pull-left">Liste des experiences enregistrées</h2>
+	<div class="pull-right bloc_info_right_link">
+	<a class="bloc_info_right_link" data-toggle="collapse" data-parent="#candidat_experience" href="#candidat_new_experience_form">Ajouter</a> |
+	<a class="bloc_info_right_link" href="{{ path('job_hub_candidat_show') }}">Mon profil</a>
+	</div>
+</div>
+
+{# ------------------------ Contenu Principal --------------------- #}
+<div class="bloc_info">
+{% if entities|length > 0 %}
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Années</th>
+                <th>Fonction</th>
+                <th>Entreprise</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td>{{ entity.dateDebut|date('Y-m') }} - {{ entity.dateFin|date('Y-m') }}</td>
+                <td>
+                <a href="{{ path('candidat_profile_experience_show', { 'id': entity.id }) }}">
+                {{ entity.fonction }}
+                </a>
+                </td>
+                <td>{{ entity.entreprise }}</td>
+                <td>
+                    <a href="{{ path('candidat_profile_experience_show', { 'id': entity.id }) }}">Détails</a> |
+                    <a href="{{ path('candidat_profile_experience_edit', { 'id': entity.id }) }}">Modifier</a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+ No Experience Registered 
+{% endif %}
+	<div id="candidat_new_experience_form" class="collapse">
+	{{ render(controller( 'JobHubBundle:experience:new' )) }}
+	</div>
+</div> {# ---- END  class="bloc_info" ---- #}
+
+</div> {# ---- END  id="candidat_experience" ---- #}
+{# ------------------------ Fin Contenu Principal --------------------- #}
+{% endblock %} 
+
+{% block sidebar %}
+
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}

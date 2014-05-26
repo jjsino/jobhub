@@ -1,0 +1,19 @@
+{% extends "JobHubBundle::admin_layout.html.twig" %}
+
+{% block page_title %}
+<h2>Offre</h2>
+{% endblock %}
+
+{% block page_content %}
+
+    {{ form(edit_form) }}
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('administration_offre') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock %}

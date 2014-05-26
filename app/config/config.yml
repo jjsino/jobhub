@@ -55,12 +55,28 @@ doctrine:
 
     orm:
         auto_generate_proxy_classes: %kernel.debug%
-        auto_mapping: true
-
+        mappings:
+            model:
+                type: annotation
+                dir: %kernel.root_dir%/../src/JH_Project/JobHubBundle/Entity
+                prefix: JH_Project\JobHubBundle\Entity
+                alias: JobHubBundle
+                is_bundle: false
+                
 # Swiftmailer Configuration
 swiftmailer:
-    transport: %mailer_transport%
-    host:      %mailer_host%
-    username:  %mailer_user%
-    password:  %mailer_password%
-    spool:     { type: memory }
+    transport: smtp
+    encryption: ssl
+    auth_mode: login
+    host: smtp.126.com
+    port: 465
+    username: jasminj@126.com
+    password: 380658986
+    delivery_address: 380658986@qq.com
+    disable_delivery: false 
+
+# FOSUser Configuration
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: JH_Project\JobHubBundle\Entity\Utilisateur

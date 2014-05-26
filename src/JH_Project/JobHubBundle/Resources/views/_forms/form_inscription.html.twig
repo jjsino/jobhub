@@ -1,0 +1,30 @@
+<h3>Formulaire d'inscription</h3>
+{% if error %}
+<p class="alert alert-danger">{{ error }}</p>
+{% endif %}
+<form class="inscription_connexion_form" id="jh_project_jobhubbundle_inscription" action="{{ path('job_hub_inscription_check') }}" method="POST" {{ form_enctype(form) }}>
+    <div>
+    <label>login</label></br>
+    {{ form_widget(form.username) }}</br>
+    </div>
+    <div>
+    <label>Email</label></br>
+   	{{ form_widget(form.email) }}</br>
+    </div>
+    <div>
+    <label>Mot de passe</label></br>
+    {{ form_widget(form.plainPassword) }}</br>
+    </div>
+    <div>
+    <label>Confirmation</label></br>
+    <input type="password" name="_passwordconfirm" required></br>
+    </div>
+    <div>
+	<input type="radio" name="_role" value="ROLE_CANDIDAT" required>Je recherche des emplois</br>
+	<input type="radio" name="_role" value="ROLE_ENTREPRISE" required>Je suis recruteur</br>
+    </div>
+    <div>
+    <input class="btn btn-primary" type="submit" value="Valider" />
+    </div>
+    {{ form_rest(form) }}
+</form>

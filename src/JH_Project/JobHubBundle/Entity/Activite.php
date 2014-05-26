@@ -27,12 +27,6 @@ class Activite
      * @ORM\Column(name="libelle", type="string", length=255)
      */
     private $libelle;
-    
-    /**
-     * @ORM\ManyToOne(targetEntity="Domaine", inversedBy="activites", cascade={"remove"})
-     * @ORM\JoinColumn(nullable=false,name="domaine_id", referencedColumnName="id")
-     */
-    private $domaine;
 
     /**
      * @ORM\OneToMany(targetEntity="Offre", mappedBy="activite", cascade={"remove","persist"})
@@ -61,16 +55,6 @@ class Activite
     
         return $this;
     }
-    
-    /**
-     * Get domaine
-     *
-     * @return Domaine 
-     */
-    public function getDomaine()
-    {
-        return $this->domaine;
-    }  
 
     /**
      * Set libelle
@@ -103,5 +87,10 @@ class Activite
     public function getOffres()
     {
         return $this->offres;
+    }
+    
+    public function __toString()
+    {
+    	return $this->libelle;
     }
 }

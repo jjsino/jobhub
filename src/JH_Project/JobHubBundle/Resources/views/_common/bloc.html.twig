@@ -1,0 +1,15 @@
+
+	<div class="hide_bloc panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">{{ rubrique }}</h3>
+		 </div>
+		 <div class="panel-body">
+			 <ul>
+			  {% for article in articles %}
+				<li>{# <a href="{{ path('', {'id': article.id}) }}"> #}{{ article.titre }}{# </a> #}</li>
+			  {% endfor %}
+			 </ul>
+			 <p><a class="btn btn-mini btn-info" href="{{path('job_hub_index')}}{{rubrique}}" role="button">Voir plus</a></p>
+		</div>
+	</div>
+ 

@@ -1,0 +1,64 @@
+{% extends "JobHubBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Candidat{% endblock %}
+
+{% block navbar %}
+{{ parent() }}
+{% endblock %}
+
+{% block contenu %}
+<div class="bloc_info" id="candidat_cv">
+	<div class="clearfix contenu_header">
+		<h2 class="pull-left bloc_info_titre">Liste de vos CVs</h3>
+		<a class="bloc_info_right_link pull-right" data-toggle="collapse" data-parent="#candidat_cv" href="#candidat_new_cv_form">Ajouter</a>
+	</div>	
+	
+	<div>
+	{% if entities|length > 0 %}
+    <table class="table records_list">
+        <thead>
+            <tr>
+                <th>Titre du CV</th>
+                <th>Date de mise en ligne</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{asset(entity.path)}}">{{ entity.titre }}</a></td>
+                <td>{% if entity.maj %}{{ entity.maj|date('Y-m-d') }}{% endif %}</td>
+                
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('candidat_cv_delete', { 'id': entity.id }) }}">delete</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+		<p>Vous n'avez pas de CV enrgistré. </p>
+    {% endif %}
+	</div>
+	
+	<div id="candidat_new_cv_form" class="collapse">
+	{{ render(controller( 'JobHubBundle:CV:new' )) }}
+	</div>
+	
+</div>{# ---- END id="candidat_profile_cv" ---- #}
+
+
+{% endblock %} 
+
+{% block sidebar %}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'faq'} )) }}
+{{ render(controller( 'JobHubBundle:JobHub:bloc',  {'nom_rubrique': 'conseil'} )) }}
+{% endblock %} 
+
+{% block footer %}
+{{ parent() }}
+{% endblock %}

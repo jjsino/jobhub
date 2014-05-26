@@ -1,0 +1,25 @@
+
+<div class="hide_bloc panel panel-default user_bloc_side">
+	<div class="panel-heading">
+		<h3 class="panel-title">Accès Rapid</h3>
+	 </div>
+	 <div class="panel-body">
+	 {% if is_granted('ROLE_ENTREPRISE') %}
+		 <ul>
+			<li><a href="{{ path('job_hub_entreprise_show') }}">Tableau de bord</a></li>
+			<li><a href="#">Gérer mes offres</a></li>
+			<li><a href="{{ path('entreprise_profile_candidature') }}">Les candidatures</a></li>
+		 </ul>
+	 {% elseif is_granted('ROLE_CANDIDAT') %}
+		 <ul>
+			<li><a href="{{ path('job_hub_candidat') }}">Tableau de bord</a></li>
+			<li><a href="{{ path('job_hub_candidat_show') }}">Mon profil</a></li>
+			<li><a href="{{ path('candidat_profile_formation') }}">Mes formations</a></li>
+			<li><a href="{{ path('candidat_profile_experience') }}">Mes expériences</a></li>
+			<li><a href="{{ path('candidat_cv') }}">Gérer mes CVs</a></li>
+			<li><a href="{{ path('candidat_profile_candidature') }}">Mes candidatures</a></li>
+			<li><a href="#">Offres sauvegardées</a></li>
+		 </ul>
+	 {% endif %}
+	</div>
+</div>
