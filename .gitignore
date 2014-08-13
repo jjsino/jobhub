@@ -1,5 +1,13 @@
+# Symfony files
 app/cache/*
 app/config/parameters.yml
 app/logs/*
 vendor/*
+
+# keep
+!.gitkeep
+!**/.gitkeep
+
+# Pagoda files
 bin/*
+Boxfile
